@@ -1,11 +1,22 @@
 
 //  $Id: lab1_dtw.C,v 1.10 2009/09/18 02:12:13 stanchen Exp $
 
+#include <cassert>
 #include "util.H"
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+double EuclideanDistance(const matrix<double>& A, int idx1,
+                         const matrix<double>& B, int idx2) {
+  assert(A.size2() == B.size2());
+  double dist = 0.0;
+  for (size_t i = 0; i < A.size2(); ++i) {
+    dist += pow(A(idx1, i) - B(idx2, i), 2);
+  }
+  return sqrt(dist);
+}
 
 double ComputeDistance(const matrix<double>& mat_hyp,
                        const matrix<double>& mat_templ) {
@@ -28,6 +39,28 @@ double ComputeDistance(const matrix<double>& mat_hyp,
   //  Output:
   //      Set "dist" to the total distance between these two utterances.
 
+  // Init
+  matrix<double> dists;
+  int T1 = mat_hyp.size1(), T2 = mat_templ.size1();
+  dists.resize(T1, T2);
+  dists.clear();
+  for (int t1 = 0; t1 < T1; ++t1) {
+    dists(t1, 0) = EuclideanDistance(mat_hyp, t1, mat_templ, 0);
+  }
+  for (int t2 = 0; t2 < T2; ++t2) {
+    dists(0, t2) = EuclideanDistance(mat_hyp, 0, mat_templ, t2);
+  }
+  // Recursive
+  for (int t1 = 1; t1 < T1; ++t1) {
+    for (int t2 = 1; t2 < T2; ++t2) {
+      double min_dist = dists(t1 - 1, t2 - 1);
+      if (dists(t1 - 1, t2) < min_dist) min_dist = dists(t1 - 1, t2);
+      if (dists(t1, t2 - 1) < min_dist) min_dist = dists(t1, t2 - 1);
+      dists(t1, t2) = min_dist + EuclideanDistance(mat_hyp, t1, mat_templ, t2);
+    }
+  }
+  // Terminate
+  dist = dists(T1 - 1, T2 - 1);
   //  END_LAB
   return dist;
 }
