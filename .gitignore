@@ -1,5 +1,6 @@
 *.o
 tags
-lab1
-lab1_dtw
+lab1/lab1
+lab1/lab1_dtw
 temp
+resources

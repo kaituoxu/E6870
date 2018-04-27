@@ -1,0 +1,232 @@
+
+########################################################################
+#   Lab 1: My First Front End
+#   EECS E6870: Speech Recognition
+#   Due: February 12, 2016 at 6pm
+########################################################################
+
+* Name: Jingyi Yuan
+
+
+########################################################################
+#   Part 0
+########################################################################
+
+* Looking at how the performance of ASR systems have progressed
+  over time, what is your best guess of when machine performance
+  will reach human performance for unconstrained speech recognition?
+  How do you feel about this?
+
+->I guess that machine performance will still take decades to reach human performance. It is hard to define “reach” since in our daily life, we may sometimes also misunderstand others words, but it hard to calculate human performance. What is clear is that, ASR systems have made big progress during time last decades of years and it can perform really great for unconstrained speech recognition. For example, Siri can often does a good job (sometimes the grammar mistakes may occur). I feel that it still has a long way to go to improve the ASR system although it can perform pretty good these days.
+
+
+* Give some reasonable values for the first 3 formants on
+  the mel scale for the vowel "I" (as in "bit") for a male and
+  female speaker.  Do you see any obvious problems in using
+  mel frequency spectrum (not cepstrum) features during
+  recognition?  How might such problems be overcome?
+
+->The formant frequencies of the vowel "I" (as in "bit") is 400Hz, 2000Hz, 2550Hz for male, and 430Hz, 2500Hz, 3100Hz for female. The frequencies of a female are generally higher than that of a male. If we use spectrum, the result will be largely affected by the gender during recognition. The vowel “I” from a male may be recognized to be other vowels if the training set using a female for “I”. Thus we can use the cepstrum. Log algorithm compresses dynamic range of values and is less sensitive to slight variations in input level. The frequencies will be 6, 7.6, 7.84 for male, and 6.06, 7.82, 8.03 for female. This would overcome the problems since the value of a male formant is much more close to that of a female.
+
+
+* In discussing window length in lecture 2, we talked about how
+  short windows lead to good time resolution but poor frequency resolution,
+  while long windows lead to the reverse.  One idea for addressing this problem
+  is to compute cepstral coefficients using many different window lengths,
+  and to concatenate all of these to make an extra wide feature vector.
+  What is a possible problem with this scheme?
+
+->This scheme may cost too much to run. Each time we change the window length, all the following steps (FFT, mel binning, DCT and DTW) will be calculated again. As the window length grows, it may make the Euclidean distance between MFCC vectors to decreases first and then increases. Besides, the result for testing data may be confusing and hard to decide.
+
+
+* Optional: in DTW, the distance between two samples grows linearly
+  in the length of the samples.  For instance, the distance between two
+  instances of the word "no" will generally be much smaller than the
+  distance between two instances of the word "antidisestablishmentarianism".
+  One idea proposed to correct for this effect is to divide the
+  distance between two samples (given an alignment) by the number of
+  arcs in that alignment.  From the perspective of a shortest path problem,
+  this translates to looking for the path with the shortest *average*
+  distance per arc, rather than the shortest *total* distance.  Is it
+  possible to adapt the DP formula on the "Key Observation 1" slide
+  (slide ~100 in lecture 2):
+
+      d(S) = min_{S'->S} [d(S') + distance(S', S)]
+
+  to work for this new scenario?  Why or why not?
+
+->I don’t think this new scenario will work. Since the distance of the wrong answer may not differ a lot from the correct one. As in our project, the p2.out suggests the result of distance is pretty much smaller. Suppose that the correct answer is “1” and we have distance 2.0 for “1” and 2.1 for “9”. If we divided the arcs, the result may be 2/3 for “1” and 2.1/4 for “9” than we will regard “9” as the correct answer. This scenario will lead long words tend to have a small distance even if the input is short.
+
+
+########################################################################
+#   Part 1
+########################################################################
+
+* Create the file "p1submit.dat" by running:
+
+      lab1 --audio_file p1test.dat --feat_file p1submit.dat
+
+  Electronically submit the files "front_end.C" and "p1submit.dat" by typing
+  the following command (in the directory ~/e6870/lab1/):
+
+      submit-e6870.py lab1 front_end.C p1submit.dat
+
+  More generally, the usage of "submit-e6870.py" is as follows:
+
+      submit-e6870.py <lab#> <file1> <file2> <file3> ...
+
+  You can submit a file multiple times; later submissions
+  will overwrite earlier ones.  Submissions will fail
+  if the destination directory for you has not been created
+  for the given <lab#>; contact us if this happens.
+
+
+########################################################################
+#   Part 2 (Optional)
+########################################################################
+
+* If you implemented a version of DTW other than the one we advocated,
+  describe what version you did implement:
+
+->
+1.Use a distance matrix to record the Euclidean distance between the ith row of matHyp and jth row of matTempl in distance(i,j). These two vectors are all 12-dimensional vectors and the distance is sqrt((matHyp(i,0) - matTempl(i,0))^2 + (matHyp(i,1) - matTempl(i,1))^2 + … + (matHyp(i,11) - matTempl(i,11))^2).
+2.Since C language is 0 bases, I initialized output to be a (inRow + 1)*(outRow + 1) matrix and assign 0th row and 0th col to be a big number, which will not influence the result when using dynamic programming, and assigned output(0,0) to be 0 to ensure output(1,1) = distance(0,0).
+3.Using dynamic time warping to calculate output(i,j) = min(output(i - 1,j - 1),output(i,j - 1),output(i - 1,j)) + distance(i - 1,j - 1);
+4.Assign the value of output(inRow, outRow), the last number, to dist and return the value.
+
+* Create a file named "p2.submit" by running:
+
+      lab1_dtw --verbose true --template_file devtest.feats \
+        --feat_file template.feats --feat_label_list devtest.labels > p2.submit
+
+  Submit the files "lab1_dtw.C" and "p2.submit" like above:
+
+      submit-e6870.py lab1 lab1_dtw.C p2.submit
+
+
+########################################################################
+#   Part 3
+########################################################################
+
+Look at the contents of lab1p3.log and extract the following
+word accuracies:
+
+* Accuracy for windowing alone:
+
+->19.09%
+
+
+* Accuracy for windowing+FFT alone:
+
+->19.09%
+
+
+* Optional: If the above two accuracies are identical, can you give
+  an explanation of why this might be?
+
+->FFT computes the discrete Fourier transform in a faster way. It changes the signal from its original time domain to a representation in the frequency domain without changing the frequency of the signal. So after FFT the signal itself is not changed or modified thus the two accuracies are identical.
+
+
+* Accuracy for window+FFT+mel-bin (w/o log):
+
+->93.64%
+
+
+* Accuracy for window+FFT+mel-bin (w/ log):
+
+->96.36%
+
+
+* Accuracy for window+FFT+mel-bin+DCT:
+
+->100.00%
+
+
+* Accuracy for window+FFT+mel-bin+DCT (w/o Hamming):
+
+->100.00%
+
+
+* Accuracy for MFCC on speaker-dependent task:
+
+->100.00%
+
+
+* Accuracy for MFCC on gender+dialect-dependent task:
+
+->96.36%
+
+
+* Accuracy for MFCC on gender-dependent task:
+
+->88.18%
+
+
+* Accuracy for MFCC on speaker independent task:
+
+->81.82%
+
+
+* What did you learn in this part?
+
+->First, the accuracy sharply increases after mel binning and after DCT, it goes to 100% with the same speaker. This shows that mel scale, which makes frequencies equally spaced in mel scale are equally spaced according to human perception, increases the accuracy of ASR system. Second, by comparing the result of speaker-independent and gender+dialect-dependent, we know that the changing of speaker may slightly influences the result. Third, by comparing the result of gender+dialect-dependent and gender-dependent, we know that the dialect will also influence the result. Finally, we know that gender will also influence the result. Thus the result of MFCC will be affected by the speaker’s identity, gender and dialect, while gender and dialect may have a more significant influence.
+
+
+* Why would dynamic time warping on the raw waveform take
+  so much longer than these other runs?
+
+->Dynamic time warping needs to compute the distance between two vectors and the time that it spends depends on the length of these two vector. For the raw waveform, the length of two vectors are pretty large. As we can see in this experiment, the length of each frame after mel binning is 500, but the length after DCT is 12. When calculation the distance between the two vectors, the raw waveform vectors be even longer and will cost a lot to calculate. Besides, when using the DTW, the total distance of DTW will also be extremely large.
+
+
+########################################################################
+#   Part 4 (Optional)
+########################################################################
+
+* Describe what you tried, and why:
+
+->
+
+
+* Create the files "p4small.out" and "p4large.out" as follows:
+
+    cat si.10.list | b018t.run-set.py p018h1.run_dtw.sh %trn %tst > p4small.out
+    cat si.100.list | b018t.run-set.py p018h1.run_dtw.sh %trn %tst > p4large.out
+
+  Submit these files, all source files you modified, and the binary
+  "lab1" into "lab1ec" (not "lab1" !!), e.g.:
+
+      submit-e6870.py lab1ec p4small.out p4large.out lab1 front_end.C   etc.
+
+  NOTE: we will be running your code with no extra parameters, so if
+  you added any parameters, make sure their default values are set correctly!!!
+
+
+########################################################################
+#   Wrap Up
+########################################################################
+
+After filling in all of the fields in this file, submit this file
+using the following command:
+
+    submit-e6870.py lab1 lab1.txt
+
+The timestamp on the last submission of this file (if you submit
+multiple times) will be the one used to determine your official
+submission time (e.g., for figuring out if you handed in the
+assignment on time).
+
+To verify whether your files were submitted correctly, you can
+use the command:
+
+    check-e6870.py lab1
+
+This will list all of the files in your submission directory,
+along with file sizes and submission times.  (Use the argument
+"lab1ec" instead to check your Part 4 submissions.)
+
+
+########################################################################
+#
+########################################################################
+
+
