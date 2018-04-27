@@ -74,8 +74,8 @@ void FrontEnd::do_window(const matrix<double>& inFeats,
   cout << format("inSampCnt %d\n") %inSampCnt;
   if (doHamming) {
     // Hamming windows
-    for (size_t r = 0; r < outFrameCnt; ++r) {
-      for (size_t c = 0; c < sampPerWindow; ++c) {
+    for (int r = 0; r < outFrameCnt; ++r) {
+      for (int c = 0; c < sampPerWindow; ++c) {
         outFeats(r, c) =
             (0.54 - 0.46 * cos(2 * M_PI * c / (sampPerWindow - 1))) *
             inFeats(r * sampShift + c, 0);
@@ -83,8 +83,8 @@ void FrontEnd::do_window(const matrix<double>& inFeats,
     }
   } else {
     // Rectangular window
-    for (size_t r = 0; r < outFrameCnt; ++r) {
-      for (size_t c = 0; c < sampPerWindow; ++c) {
+    for (int r = 0; r < outFrameCnt; ++r) {
+      for (int c = 0; c < sampPerWindow; ++c) {
         outFeats(r, c) = inFeats(r * sampShift + c, 0);
       }
     }
@@ -176,27 +176,51 @@ void FrontEnd::do_melbin(const matrix<double>& in_feats,
   //  See "inFrameCnt", "inDimCnt", "outDimCnt", and "samplePeriod"
   //  above for quantities you will need for this computation.
   cout << format("sample_period %ls\n") % sample_period;
-  N = in_dim_cnt;
-  T = sample_period;
-  // r means row, c means column
-  for (size_t r = 0; r < in_frame_cnt; ++r) {
-    for (size_t c = 0; c < out_dim_cnt; ++c) {
-      // sum w.r.t f (frequency)
-      sum = 0;
-      for (size_t i = 0; i < N / 2; ++i) {
-        // translate i to f
-        f = i / (N * T)
-        mel_f = 1127 * log(1 + f / 700);
-        real = in_feats(r, 2*i);
-        img = in_feats(r, 2*i+1);
-        X_f = sqrt(real*real + img*img);
-        h = func(mel_f); // TODO: implement func()
+  cout << format("input dim %d\n") % in_dim_cnt;
 
+  // TODO: Optimize the compuatation order to avoid duplicate computation
+  int N = in_dim_cnt;
+  int M = out_dim_cnt;
+  double T = sample_period;
+  // r means row
+  for (int r = 0; r < in_frame_cnt; ++r) {
+    // for each Mel bin, m is 1-based
+    for (int m = 1; m <= M; ++m) {
+      double sum = 0;
+      // for each frequency (Hz)
+      for (int i = 0; i < N / 2; ++i) {
+        // BEGIN X(f)
+        double f = i / (N * T);
+        double real = in_feats(r, 2*i), img = in_feats(r, 2*i+1);  // S_2i, S_2i+1
+        double X_f = sqrt(real*real + img*img);  // |X(f)|
+        // END X(f)
+        // BEGIN Hm[Mel_f]
+        double Mel_f = 1127 * log(1 + f / 700);  // Mel(f)
+        double Mel_f_max = 1127 * log(1 + 1 / (700 * 2 * T));
+        double Mel_f_m = m * Mel_f_max / (M+1);  // Mel_f_min is 0
+        double Mel_f_mp = (m-1) * Mel_f_max / (M+1); // p means previous
+        double Mel_f_mn = (m+1) * Mel_f_max / (M+1); // n means next
+        double H;
+        if (Mel_f < Mel_f_mp || Mel_f > Mel_f_mn) {
+          H = 0;
+        } else if (Mel_f_mp <= Mel_f && Mel_f <= Mel_f_m) {
+          H = (Mel_f - Mel_f_mp) / (Mel_f_m - Mel_f_mp);
+        } else if (Mel_f_m <= Mel_f && Mel_f <= Mel_f_mn) {
+          H = (Mel_f - Mel_f_mn) / (Mel_f_m - Mel_f_mn);
+        } else {
+          std::cout << "Invalid Mel(f) value!!" << std::endl;
+        }
+        // END Hm[Mel_f]
+        sum += X_f * H;
+      } // end for i
+      // m is 1-based, but in out_feats, its position is 0-based
+      if (do_log) {
+        out_feats(r, m-1) = log(sum); // natrual logrithm
+      } else {
+        out_feats(r, m-1) = sum;
       }
-      out_feats(r, c) = ...
-    }
-  }
-
+    } // end for m
+  } // end for r
   //  END_LAB
 }
 
