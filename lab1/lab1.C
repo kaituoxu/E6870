@@ -8,32 +8,32 @@
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-void main_loop(const char** argv) {
+void MainLoop(const char** argv) {
   //  Process command line arguments.
   map<string, string> params;
   process_cmd_line(argv, params);
 
   //  Initialize front end.
-  FrontEnd frontEnd(params);
+  FrontEnd front_end(params);
 
   //  Main loop.
-  ifstream audioStrm(get_required_string_param(params, "audio_file").c_str());
-  ofstream featStrm(get_required_string_param(params, "feat_file").c_str());
-  matrix<double> inAudio, feats;
-  while (audioStrm.peek() != EOF) {
-    string idStr = read_float_matrix(audioStrm, inAudio);
-    cout << "Processing utterance ID: " << idStr << endl;
-    frontEnd.get_feats(inAudio, feats);
-    write_float_matrix(featStrm, feats, idStr);
+  ifstream audio_strm(get_required_string_param(params, "audio_file").c_str());
+  ofstream feat_strm(get_required_string_param(params, "feat_file").c_str());
+  matrix<double> in_audio, feats;
+  while (audio_strm.peek() != EOF) {
+    string id_str = read_float_matrix(audio_strm, in_audio);
+    cout << "Processing utterance ID: " << id_str << endl;
+    front_end.GetFeats(in_audio, feats);
+    write_float_matrix(feat_strm, feats, id_str);
   }
-  audioStrm.close();
-  featStrm.close();
+  audio_strm.close();
+  feat_strm.close();
 }
 
 int main(int argc, const char** argv) {
   //  Catch all exceptions; print error message if exception caught.
   try {
-    main_loop(argv);
+    MainLoop(argv);
   } catch (exception& xc) {
     cerr << "Error: " << xc.what() << endl;
     return -1;
