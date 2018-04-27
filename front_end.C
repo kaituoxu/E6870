@@ -68,11 +68,27 @@ void FrontEnd::do_window(const matrix<double>& inFeats,
   //  use a syntax like "inFeats(frmIdx, dimIdx)" to access elements;
   //  using square brackets as in normal C arrays won't work.
 
-  // cout << format("sampShift %d\n") % sampShift;
-  // cout << format("outFrameCnt %d\n") % outFrameCnt;
-  // cout << format("sampPerWindw %d\n") % sampPerWindow;
-  // cout << format("inSampCnt %d\n") %inSampCnt;
-
+  cout << format("sampShift %d\n") % sampShift;
+  cout << format("outFrameCnt %d\n") % outFrameCnt;
+  cout << format("sampPerWindw %d\n") % sampPerWindow;
+  cout << format("inSampCnt %d\n") %inSampCnt;
+  if (doHamming) {
+    // Hamming windows
+    for (size_t r = 0; r < outFrameCnt; ++r) {
+      for (size_t c = 0; c < sampPerWindow; ++c) {
+        outFeats(r, c) =
+            (0.54 - 0.46 * cos(2 * M_PI * c / (sampPerWindow - 1))) *
+            inFeats(r * sampShift + c, 0);
+      }
+    }
+  } else {
+    // Rectangular window
+    for (size_t r = 0; r < outFrameCnt; ++r) {
+      for (size_t c = 0; c < sampPerWindow; ++c) {
+        outFeats(r, c) = inFeats(r * sampShift + c, 0);
+      }
+    }
+  }
   //  END_LAB
 }
 
@@ -119,24 +135,25 @@ void FrontEnd::do_fft(const matrix<double>& inFeats,
 }
 
 /** Module for mel binning. **/
-void FrontEnd::do_melbin(const matrix<double>& inFeats,
-                         matrix<double>& outFeats) const {
+// change to google name style
+void FrontEnd::do_melbin(const matrix<double>& in_feats,
+                         matrix<double>& out_feats) const {
   //  Number of mel bins to make.
-  int numBins = get_int_param(m_params, "melbin.bins", 26);
+  int num_bins = get_int_param(m_params, "melbin.bins", 26);
   //  Whether to take log of output or not.
-  bool doLog = get_bool_param(m_params, "melbin.log", true);
+  bool do_log = get_bool_param(m_params, "melbin.log", true);
   //  Input samples per second.
-  double sampleRate = get_float_param(m_params, "window.sample_rate", 20000.0);
-  double samplePeriod = 1.0 / sampleRate;
+  double sample_rate = get_float_param(m_params, "window.sample_rate", 20000.0);
+  double sample_period = 1.0 / sample_rate;
 
   //  Retrieve number of frames and dimension of input feature vectors.
-  int inFrameCnt = inFeats.size1();
-  int inDimCnt = inFeats.size2();
-  int outDimCnt = numBins;
+  int in_frame_cnt = in_feats.size1();
+  int in_dim_cnt = in_feats.size2();
+  int out_dim_cnt = num_bins;
 
   //  Allocate output matrix and fill with zeros.
-  outFeats.resize(inFrameCnt, outDimCnt);
-  outFeats.clear();
+  out_feats.resize(in_frame_cnt, out_dim_cnt);
+  out_feats.clear();
 
   //  BEGIN_LAB
   //
@@ -158,7 +175,27 @@ void FrontEnd::do_melbin(const matrix<double>& inFeats,
   //
   //  See "inFrameCnt", "inDimCnt", "outDimCnt", and "samplePeriod"
   //  above for quantities you will need for this computation.
-  cout << format("samplePeriod %ls\n") % samplePeriod;
+  cout << format("sample_period %ls\n") % sample_period;
+  N = in_dim_cnt;
+  T = sample_period;
+  // r means row, c means column
+  for (size_t r = 0; r < in_frame_cnt; ++r) {
+    for (size_t c = 0; c < out_dim_cnt; ++c) {
+      // sum w.r.t f (frequency)
+      sum = 0;
+      for (size_t i = 0; i < N / 2; ++i) {
+        // translate i to f
+        f = i / (N * T)
+        mel_f = 1127 * log(1 + f / 700);
+        real = in_feats(r, 2*i);
+        img = in_feats(r, 2*i+1);
+        X_f = sqrt(real*real + img*img);
+        h = func(mel_f); // TODO: implement func()
+
+      }
+      out_feats(r, c) = ...
+    }
+  }
 
   //  END_LAB
 }

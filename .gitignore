@@ -1,4 +1,5 @@
 *.o
 tags
 lab1
+lab1_dtw
 temp
