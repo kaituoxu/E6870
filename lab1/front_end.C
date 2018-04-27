@@ -225,17 +225,18 @@ void FrontEnd::do_melbin(const matrix<double>& in_feats,
 }
 
 /** Module for doing discrete cosine transform. **/
-void FrontEnd::do_dct(const matrix<double>& inFeats,
-                      matrix<double>& outFeats) const {
+// change to google name style
+void FrontEnd::do_dct(const matrix<double>& in_feats,
+                      matrix<double>& out_feats) const {
   //  Number of DCT coefficients to output.
-  int numCoeffs = get_int_param(m_params, "dct.coeffs", 12);
-  int inFrameCnt = inFeats.size1();
-  int inDimCnt = inFeats.size2();
-  int outDimCnt = numCoeffs;
+  int num_coeffs = get_int_param(m_params, "dct.coeffs", 12);
+  int in_frame_cnt = in_feats.size1();
+  int in_dim_cnt = in_feats.size2();
+  int out_dim_cnt = num_coeffs;
 
   //  Allocate output matrix and fill with zeros.
-  outFeats.resize(inFrameCnt, outDimCnt);
-  outFeats.clear();
+  out_feats.resize(in_frame_cnt, out_dim_cnt);
+  out_feats.clear();
 
   //  BEGIN_LAB
   //
@@ -254,7 +255,17 @@ void FrontEnd::do_dct(const matrix<double>& inFeats,
   //
   //  See "inFrameCnt", "inDimCnt", and "outDimCnt" above
   //  for quantities you will need for this computation.
-
+  int N = in_dim_cnt;
+  for (int r = 0; r < in_frame_cnt; ++r) {
+    for (int j = 0; j < out_dim_cnt; ++j) {
+      double sum = 0;
+      for (int i = 0; i < N; ++i) {
+        sum += in_feats(r, i) * cos(M_PI * (j + 1) * (i + 0.5) / N);
+      }
+      sum *= sqrt(2.0 / N);
+      out_feats(r, j) = sum;
+    }
+  }
   //  END_LAB
 }
 
