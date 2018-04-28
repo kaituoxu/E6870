@@ -1,0 +1,2739 @@
+======================================================================
+Existing model trained on 300 sentences, isolated digit strings.
+======================================================================
+Decoding ...
+Processing utterance ID: rp:8b
+  Output: ~SIL EIGHT ~SIL
+Processing utterance ID: al:8a
+  Output: ~SIL EIGHT ~SIL TWO ~SIL
+Processing utterance ID: kd:o327645a
+  Output: ~SIL OH ~SIL THREE ~SIL TWO ~SIL SEVEN SIX FOUR ~SIL FIVE ~SIL
+Processing utterance ID: an:ob
+  Output: ~SIL OH ONE
+Processing utterance ID: ra:72oa
+  Output: SEVEN TWO ZERO
+Processing utterance ID: jc:72z16a
+  Output: ~SIL SEVEN TWO ZERO ONE SIX ~SIL
+Processing utterance ID: kh:7a
+  Output: ~SIL SEVEN ~SIL
+Processing utterance ID: hs:7o78a
+  Output: ~SIL SEVEN SEVEN FIVE ~SIL
+Processing utterance ID: pi:29z83a
+  Output: ~SIL TWO NINE ZERO EIGHT THREE ~SIL
+Processing utterance ID: kf:53a
+  Output: ~SIL FIVE ~SIL THREE ~SIL
+Processing utterance ID: kn:975a
+  Output: ~SIL NINE SEVEN FIVE ~SIL
+Processing utterance ID: kc:z6z1a
+  Output: ~SIL EIGHT ~SIL ZERO SIX ZERO ONE
+Processing utterance ID: pp:382989oa
+  Output: THREE EIGHT ~SIL TWO NINE NINE EIGHT NINE OH OH ~SIL
+Processing utterance ID: dc:zb
+  Output: ~SIL ZERO ~SIL
+Processing utterance ID: ih:2452a
+  Output: ~SIL TWO FOUR FIVE ~SIL TWO ~SIL
+Processing utterance ID: il:9a
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: il:46o2a
+  Output: ~SIL FOUR EIGHT SIX ~SIL OH ~SIL TWO ~SIL
+Processing utterance ID: ie:876o186a
+  Output: ~SIL EIGHT ~SIL EIGHT SEVEN SIX OH ONE EIGHT SIX ~SIL
+Processing utterance ID: rf:417a
+  Output: ~SIL FOUR ONE SEVEN
+Processing utterance ID: la:13o4o63a
+  Output: ~SIL ONE THREE OH ~SIL FOUR ~SIL OH OH SIX ~SIL NINE ~SIL
+Processing utterance ID: jn:o282a
+  Output: ~SIL OH SIX TWO ~SIL
+Processing utterance ID: kr:oo438a
+  Output: ~SIL OH OH OH ~SIL ONE THREE EIGHT ~SIL TWO ~SIL
+Processing utterance ID: ih:352z8a
+  Output: ~SIL THREE ~SIL FIVE ~SIL TWO ZERO OH EIGHT FIVE
+Processing utterance ID: pb:24oa
+  Output: ~SIL TWO ~SIL FOUR OH ONE ~SIL
+Processing utterance ID: kf:8z39za
+  Output: ~SIL EIGHT ZERO THREE NINE ZERO ~SIL
+Processing utterance ID: kh:zb
+  Output: ~SIL OH ~SIL ZERO ~SIL
+Processing utterance ID: fj:4o3a
+  Output: ~SIL FOUR OH OH ~SIL THREE ~SIL
+Processing utterance ID: in:6za
+  Output: ~SIL SIX ZERO OH ~SIL
+Processing utterance ID: kd:94zza
+  Output: ~SIL NINE ~SIL FOUR ZERO ZERO ~SIL
+Processing utterance ID: ac:o22o6ooa
+  Output: ~SIL OH ~SIL TWO ~SIL TWO ~SIL OH SIX OH ~SIL OH ~SIL OH ~SIL
+Processing utterance ID: an:z125a
+  Output: ~SIL ZERO ONE TWO ~SIL FIVE ~SIL
+Processing utterance ID: fj:2b
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: hs:3a
+  Output: ~SIL THREE ~SIL
+Processing utterance ID: pe:233a
+  Output: ~SIL TWO THREE THREE ~SIL
+Processing utterance ID: ih:2oa
+  Output: ~SIL TWO OH OH ~SIL
+Processing utterance ID: ek:798z913a
+  Output: SEVEN NINE ~SIL EIGHT ~SIL ZERO OH NINE ONE THREE ~SIL
+Processing utterance ID: ha:9b
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:8692oa
+  Output: ~SIL EIGHT ~SIL SIX NINE TWO NINE
+Processing utterance ID: ie:817a
+  Output: ~SIL EIGHT ONE SEVEN
+Processing utterance ID: jn:54a
+  Output: ~SIL FIVE ~SIL FOUR ~SIL
+Processing utterance ID: ha:o61oa
+  Output: ~SIL OH SIX ONE ~SIL
+Processing utterance ID: mh:5241577a
+  Output: ~SIL FIVE TWO FOUR ~SIL ONE ~SIL FIVE SEVEN SEVEN ~SIL
+Processing utterance ID: la:47oa
+  Output: ~SIL FOUR SEVEN OH ~SIL
+Processing utterance ID: pe:31z8178a
+  Output: ~SIL TWO ONE ZERO ~SIL EIGHT ONE SEVEN OH EIGHT ~SIL
+Processing utterance ID: jc:99oo1a
+  Output: ~SIL NINE NINE OH OH ONE ~SIL
+Processing utterance ID: fj:51a
+  Output: ~SIL FIVE FOUR
+Processing utterance ID: ec:113oa
+  Output: ~SIL ONE THREE ONE
+Processing utterance ID: fk:7945a
+  Output: ~SIL SEVEN NINE FOUR FIVE
+Processing utterance ID: gg:2o78a
+  Output: ~SIL TWO SEVEN EIGHT ~SIL
+Processing utterance ID: pm:21oa
+  Output: ~SIL TWO OH ZERO TWO
+Processing utterance ID: hn:82o34a
+  Output: ~SIL EIGHT ~SIL TWO OH OH ~SIL THREE ~SIL FOUR ~SIL
+Processing utterance ID: cl:8b
+  Output: ~SIL EIGHT ~SIL
+Processing utterance ID: kc:32641a
+  Output: ~SIL SIX ~SIL THREE ~SIL TWO SIX FOUR OH ONE
+Processing utterance ID: fk:z91a
+  Output: ~SIL ZERO NINE ONE ~SIL
+Processing utterance ID: kn:5195916a
+  Output: ~SIL FIVE OH NINE ~SIL FIVE NINE OH ONE SIX ~SIL
+Processing utterance ID: el:z7788a
+  Output: ~SIL TWO TWO SEVEN ~SIL EIGHT ~SIL EIGHT ~SIL
+Processing utterance ID: gt:z71a
+  Output: ~SIL ZERO SEVEN ONE ~SIL
+Processing utterance ID: kp:51a
+  Output: ~SIL EIGHT ~SIL FIVE ONE OH ~SIL
+Processing utterance ID: jn:1b
+  Output: ~SIL ONE ~SIL
+Processing utterance ID: la:58a
+  Output: ~SIL FIVE ~SIL EIGHT ~SIL
+Processing utterance ID: kn:1611712a
+  Output: ~SIL OH ~SIL ONE SIX ONE ~SIL ONE SEVEN ONE OH TWO
+Processing utterance ID: rd:4oa
+  Output: ~SIL FOUR OH OH ~SIL
+Processing utterance ID: ee:2a
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: mh:1b
+  Output: ~SIL ONE ~SIL
+Processing utterance ID: jj:87a
+  Output: ~SIL EIGHT SEVEN
+Processing utterance ID: hn:5332a
+  Output: FIVE THREE ~SIL THREE ~SIL TWO ~SIL
+Processing utterance ID: kd:7a
+  Output: ~SIL SEVEN ~SIL
+Processing utterance ID: hn:38342ooa
+  Output: ~SIL THREE ~SIL THREE OH FOUR ~SIL TWO OH OH ~SIL
+Processing utterance ID: ff:o14oa
+  Output: ~SIL OH ONE FOUR OH OH ~SIL
+Processing utterance ID: rp:65z99a
+  Output: ~SIL SIX ~SIL FIVE ZERO NINE ONE
+Processing utterance ID: el:6428a
+  Output: ~SIL SIX FOUR TWO OH EIGHT ~SIL
+Processing utterance ID: mh:2212775a
+  Output: ~SIL TWO TWO ONE ~SIL TWO TWO ONE SEVEN FIVE ~SIL
+Processing utterance ID: mm:9b
+  Output: ~SIL NINE
+Processing utterance ID: rp:5596a
+  Output: ~SIL FIVE ~SIL FIVE NINE SIX ~SIL
+Processing utterance ID: rr:o562o63a
+  Output: ~SIL OH FIVE SIX ZERO SIX ~SIL THREE ~SIL
+Processing utterance ID: dc:9o14a
+  Output: ~SIL NINE OH OH ONE FOUR ~SIL
+Processing utterance ID: ih:17441zza
+  Output: ~SIL OH ~SIL ONE SIX FOUR FOUR ONE ZERO ZERO ~SIL
+Processing utterance ID: ee:14a
+  Output: ~SIL ONE ~SIL FOUR ~SIL
+Processing utterance ID: al:38a
+  Output: ~SIL THREE ~SIL EIGHT ~SIL
+Processing utterance ID: in:4464229a
+  Output: ~SIL FOUR ~SIL FOUR SIX FOUR ~SIL TWO TWO NINE ~SIL
+Processing utterance ID: ff:973a
+  Output: ~SIL NINE SEVEN THREE ~SIL
+Processing utterance ID: pm:5281a
+  Output: ~SIL FIVE TWO ONE
+Processing utterance ID: cg:1o7oo14a
+  Output: ~SIL ONE SEVEN SEVEN ~SIL OH ~SIL OH ~SIL ONE OH FOUR ~SIL
+Processing utterance ID: mm:o55o5a
+  Output: ~SIL SIX ~SIL OH ~SIL FIVE FIVE OH ~SIL OH ~SIL FIVE ~SIL
+Processing utterance ID: mw:99136o4a
+  Output: ~SIL EIGHT ~SIL NINE NINE ONE THREE SIX OH FOUR ~SIL
+Processing utterance ID: ha:298a
+  Output: ~SIL TWO NINE
+Processing utterance ID: es:15a
+  Output: ~SIL ONE FIVE OH ~SIL
+Processing utterance ID: rd:9b
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: rp:z464za
+  Output: ~SIL ZERO FOUR SIX FOUR ZERO ~SIL
+Processing utterance ID: fl:82579a
+  Output: ~SIL EIGHT ~SIL TWO ~SIL ONE SEVEN ONE ~SIL
+Processing utterance ID: kf:695a
+  Output: ~SIL SIX NINE FIVE ~SIL
+Processing utterance ID: la:8a
+  Output: ~SIL EIGHT ~SIL EIGHT ~SIL
+Processing utterance ID: fl:z5a
+  Output: ~SIL ZERO ~SIL FIVE ~SIL
+Processing utterance ID: ek:8b
+  Output: ~SIL EIGHT ~SIL TWO
+Processing utterance ID: jc:2b
+  Output: ~SIL OH ~SIL TWO ~SIL
+Processing utterance ID: hn:3b
+  Output: ~SIL THREE ~SIL
+Processing utterance ID: ek:8221324a
+  Output: ~SIL EIGHT EIGHT TWO ONE THREE TWO FOUR ~SIL
+Processing utterance ID: ff:83628a
+  Output: ~SIL EIGHT THREE SIX TWO EIGHT ~SIL
+Processing utterance ID: gg:381oa
+  Output: ~SIL THREE EIGHT ONE OH TWO ~SIL
+Processing utterance ID: ek:311a
+  Output: ~SIL THREE ONE ONE
+-12.598313 logprob/frame (18500 frames).
+Computing WER ...
+Loading web/control file ...
+
+Processing cell 1 (id rp:8b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1 wds, 1 C, 0 D, 0 I, 0 S, 0.00% wer)
+
+Processing cell 2 (id al:8a) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 2 wds, 2 C, 0 D, 1 I, 0 S, 50.00% wer)
+
+Processing cell 3 (id kd:o327645a) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 9 wds, 9 C, 0 D, 1 I, 0 S, 11.11% wer)
+
+Processing cell 4 (id an:ob) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 10 wds, 10 C, 0 D, 2 I, 0 S, 20.00% wer)
+
+Processing cell 5 (id ra:72oa) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 13 wds, 12 C, 0 D, 2 I, 1 S, 23.08% wer)
+
+Processing cell 6 (id jc:72z16a) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 18 wds, 17 C, 0 D, 2 I, 1 S, 16.67% wer)
+
+Processing cell 7 (id kh:7a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 19 wds, 18 C, 0 D, 2 I, 1 S, 15.79% wer)
+
+Processing cell 8 (id hs:7o78a) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 23 wds, 20 C, 1 D, 2 I, 2 S, 21.74% wer)
+
+Processing cell 9 (id pi:29z83a) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 28 wds, 25 C, 1 D, 2 I, 2 S, 17.86% wer)
+
+Processing cell 10 (id kf:53a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 30 wds, 27 C, 1 D, 2 I, 2 S, 16.67% wer)
+
+Processing cell 11 (id kn:975a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 33 wds, 30 C, 1 D, 2 I, 2 S, 15.15% wer)
+
+Processing cell 12 (id kc:z6z1a) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 37 wds, 34 C, 1 D, 3 I, 2 S, 16.22% wer)
+
+Processing cell 13 (id pp:382989oa) ...
+  7 ref words, 7 corr, 0 del, 2 ins, 0 sub
+  (cum: 44 wds, 41 C, 1 D, 5 I, 2 S, 18.18% wer)
+
+Processing cell 14 (id dc:zb) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 42 C, 1 D, 5 I, 2 S, 17.78% wer)
+
+Processing cell 15 (id ih:2452a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 49 wds, 46 C, 1 D, 5 I, 2 S, 16.33% wer)
+
+Processing cell 16 (id il:9a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 50 wds, 47 C, 1 D, 5 I, 2 S, 16.00% wer)
+
+Processing cell 17 (id il:46o2a) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 54 wds, 51 C, 1 D, 6 I, 2 S, 16.67% wer)
+
+Processing cell 18 (id ie:876o186a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 61 wds, 58 C, 1 D, 7 I, 2 S, 16.39% wer)
+
+Processing cell 19 (id rf:417a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 61 C, 1 D, 7 I, 2 S, 15.62% wer)
+
+Processing cell 20 (id la:13o4o63a) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 71 wds, 67 C, 1 D, 8 I, 3 S, 16.90% wer)
+
+Processing cell 21 (id jn:o282a) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 75 wds, 69 C, 2 D, 8 I, 4 S, 18.67% wer)
+
+Processing cell 22 (id kr:oo438a) ...
+  5 ref words, 4 corr, 0 del, 2 ins, 1 sub
+  (cum: 80 wds, 73 C, 2 D, 10 I, 5 S, 21.25% wer)
+
+Processing cell 23 (id ih:352z8a) ...
+  5 ref words, 5 corr, 0 del, 2 ins, 0 sub
+  (cum: 85 wds, 78 C, 2 D, 12 I, 5 S, 22.35% wer)
+
+Processing cell 24 (id pb:24oa) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 88 wds, 81 C, 2 D, 13 I, 5 S, 22.73% wer)
+
+Processing cell 25 (id kf:8z39za) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 93 wds, 86 C, 2 D, 13 I, 5 S, 21.51% wer)
+
+Processing cell 26 (id kh:zb) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 94 wds, 87 C, 2 D, 14 I, 5 S, 22.34% wer)
+
+Processing cell 27 (id fj:4o3a) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 97 wds, 90 C, 2 D, 15 I, 5 S, 22.68% wer)
+
+Processing cell 28 (id in:6za) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 99 wds, 92 C, 2 D, 16 I, 5 S, 23.23% wer)
+
+Processing cell 29 (id kd:94zza) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 103 wds, 96 C, 2 D, 16 I, 5 S, 22.33% wer)
+
+Processing cell 30 (id ac:o22o6ooa) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 110 wds, 103 C, 2 D, 17 I, 5 S, 21.82% wer)
+
+Processing cell 31 (id an:z125a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 114 wds, 107 C, 2 D, 17 I, 5 S, 21.05% wer)
+
+Processing cell 32 (id fj:2b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 115 wds, 108 C, 2 D, 17 I, 5 S, 20.87% wer)
+
+Processing cell 33 (id hs:3a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 116 wds, 109 C, 2 D, 17 I, 5 S, 20.69% wer)
+
+Processing cell 34 (id pe:233a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 119 wds, 112 C, 2 D, 17 I, 5 S, 20.17% wer)
+
+Processing cell 35 (id ih:2oa) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 121 wds, 114 C, 2 D, 18 I, 5 S, 20.66% wer)
+
+Processing cell 36 (id ek:798z913a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 128 wds, 121 C, 2 D, 19 I, 5 S, 20.31% wer)
+
+Processing cell 37 (id ha:9b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 129 wds, 122 C, 2 D, 19 I, 5 S, 20.16% wer)
+
+Processing cell 38 (id es:8692oa) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 134 wds, 126 C, 2 D, 19 I, 6 S, 20.15% wer)
+
+Processing cell 39 (id ie:817a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 137 wds, 129 C, 2 D, 19 I, 6 S, 19.71% wer)
+
+Processing cell 40 (id jn:54a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 139 wds, 131 C, 2 D, 19 I, 6 S, 19.42% wer)
+
+Processing cell 41 (id ha:o61oa) ...
+  4 ref words, 3 corr, 0 del, 0 ins, 1 sub
+  (cum: 143 wds, 134 C, 2 D, 19 I, 7 S, 19.58% wer)
+
+Processing cell 42 (id mh:5241577a) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 150 wds, 141 C, 2 D, 19 I, 7 S, 18.67% wer)
+
+Processing cell 43 (id la:47oa) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 153 wds, 144 C, 2 D, 19 I, 7 S, 18.30% wer)
+
+Processing cell 44 (id pe:31z8178a) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 160 wds, 150 C, 2 D, 20 I, 8 S, 18.75% wer)
+
+Processing cell 45 (id jc:99oo1a) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 165 wds, 155 C, 2 D, 20 I, 8 S, 18.18% wer)
+
+Processing cell 46 (id fj:51a) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 167 wds, 156 C, 2 D, 20 I, 9 S, 18.56% wer)
+
+Processing cell 47 (id ec:113oa) ...
+  4 ref words, 2 corr, 0 del, 0 ins, 2 sub
+  (cum: 171 wds, 158 C, 2 D, 20 I, 11 S, 19.30% wer)
+
+Processing cell 48 (id fk:7945a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 175 wds, 162 C, 2 D, 20 I, 11 S, 18.86% wer)
+
+Processing cell 49 (id gg:2o78a) ...
+  4 ref words, 3 corr, 1 del, 0 ins, 0 sub
+  (cum: 179 wds, 165 C, 3 D, 20 I, 11 S, 18.99% wer)
+
+Processing cell 50 (id pm:21oa) ...
+  3 ref words, 1 corr, 0 del, 1 ins, 2 sub
+  (cum: 182 wds, 166 C, 3 D, 21 I, 13 S, 20.33% wer)
+
+Processing cell 51 (id hn:82o34a) ...
+  5 ref words, 5 corr, 0 del, 1 ins, 0 sub
+  (cum: 187 wds, 171 C, 3 D, 22 I, 13 S, 20.32% wer)
+
+Processing cell 52 (id cl:8b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 188 wds, 172 C, 3 D, 22 I, 13 S, 20.21% wer)
+
+Processing cell 53 (id kc:32641a) ...
+  5 ref words, 5 corr, 0 del, 2 ins, 0 sub
+  (cum: 193 wds, 177 C, 3 D, 24 I, 13 S, 20.73% wer)
+
+Processing cell 54 (id fk:z91a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 196 wds, 180 C, 3 D, 24 I, 13 S, 20.41% wer)
+
+Processing cell 55 (id kn:5195916a) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 203 wds, 186 C, 3 D, 25 I, 14 S, 20.69% wer)
+
+Processing cell 56 (id el:z7788a) ...
+  5 ref words, 3 corr, 0 del, 0 ins, 2 sub
+  (cum: 208 wds, 189 C, 3 D, 25 I, 16 S, 21.15% wer)
+
+Processing cell 57 (id gt:z71a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 192 C, 3 D, 25 I, 16 S, 20.85% wer)
+
+Processing cell 58 (id kp:51a) ...
+  2 ref words, 2 corr, 0 del, 2 ins, 0 sub
+  (cum: 213 wds, 194 C, 3 D, 27 I, 16 S, 21.60% wer)
+
+Processing cell 59 (id jn:1b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 214 wds, 195 C, 3 D, 27 I, 16 S, 21.50% wer)
+
+Processing cell 60 (id la:58a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 216 wds, 197 C, 3 D, 27 I, 16 S, 21.30% wer)
+
+Processing cell 61 (id kn:1611712a) ...
+  7 ref words, 7 corr, 0 del, 2 ins, 0 sub
+  (cum: 223 wds, 204 C, 3 D, 29 I, 16 S, 21.52% wer)
+
+Processing cell 62 (id rd:4oa) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 225 wds, 206 C, 3 D, 30 I, 16 S, 21.78% wer)
+
+Processing cell 63 (id ee:2a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 226 wds, 207 C, 3 D, 30 I, 16 S, 21.68% wer)
+
+Processing cell 64 (id mh:1b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 227 wds, 208 C, 3 D, 30 I, 16 S, 21.59% wer)
+
+Processing cell 65 (id jj:87a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 229 wds, 210 C, 3 D, 30 I, 16 S, 21.40% wer)
+
+Processing cell 66 (id hn:5332a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 233 wds, 214 C, 3 D, 30 I, 16 S, 21.03% wer)
+
+Processing cell 67 (id kd:7a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 234 wds, 215 C, 3 D, 30 I, 16 S, 20.94% wer)
+
+Processing cell 68 (id hn:38342ooa) ...
+  7 ref words, 5 corr, 0 del, 0 ins, 2 sub
+  (cum: 241 wds, 220 C, 3 D, 30 I, 18 S, 21.16% wer)
+
+Processing cell 69 (id ff:o14oa) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 245 wds, 224 C, 3 D, 31 I, 18 S, 21.22% wer)
+
+Processing cell 70 (id rp:65z99a) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 250 wds, 228 C, 3 D, 31 I, 19 S, 21.20% wer)
+
+Processing cell 71 (id el:6428a) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 254 wds, 232 C, 3 D, 32 I, 19 S, 21.26% wer)
+
+Processing cell 72 (id mh:2212775a) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 261 wds, 238 C, 3 D, 33 I, 20 S, 21.46% wer)
+
+Processing cell 73 (id mm:9b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 262 wds, 239 C, 3 D, 33 I, 20 S, 21.37% wer)
+
+Processing cell 74 (id rp:5596a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 266 wds, 243 C, 3 D, 33 I, 20 S, 21.05% wer)
+
+Processing cell 75 (id rr:o562o63a) ...
+  7 ref words, 5 corr, 1 del, 0 ins, 1 sub
+  (cum: 273 wds, 248 C, 4 D, 33 I, 21 S, 21.25% wer)
+
+Processing cell 76 (id dc:9o14a) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 277 wds, 252 C, 4 D, 34 I, 21 S, 21.30% wer)
+
+Processing cell 77 (id ih:17441zza) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 284 wds, 258 C, 4 D, 35 I, 22 S, 21.48% wer)
+
+Processing cell 78 (id ee:14a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 286 wds, 260 C, 4 D, 35 I, 22 S, 21.33% wer)
+
+Processing cell 79 (id al:38a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 288 wds, 262 C, 4 D, 35 I, 22 S, 21.18% wer)
+
+Processing cell 80 (id in:4464229a) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 295 wds, 269 C, 4 D, 35 I, 22 S, 20.68% wer)
+
+Processing cell 81 (id ff:973a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 298 wds, 272 C, 4 D, 35 I, 22 S, 20.47% wer)
+
+Processing cell 82 (id pm:5281a) ...
+  4 ref words, 3 corr, 1 del, 0 ins, 0 sub
+  (cum: 302 wds, 275 C, 5 D, 35 I, 22 S, 20.53% wer)
+
+Processing cell 83 (id cg:1o7oo14a) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 309 wds, 281 C, 5 D, 36 I, 23 S, 20.71% wer)
+
+Processing cell 84 (id mm:o55o5a) ...
+  5 ref words, 5 corr, 0 del, 2 ins, 0 sub
+  (cum: 314 wds, 286 C, 5 D, 38 I, 23 S, 21.02% wer)
+
+Processing cell 85 (id mw:99136o4a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 321 wds, 293 C, 5 D, 39 I, 23 S, 20.87% wer)
+
+Processing cell 86 (id ha:298a) ...
+  3 ref words, 2 corr, 1 del, 0 ins, 0 sub
+  (cum: 324 wds, 295 C, 6 D, 39 I, 23 S, 20.99% wer)
+
+Processing cell 87 (id es:15a) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 326 wds, 297 C, 6 D, 40 I, 23 S, 21.17% wer)
+
+Processing cell 88 (id rd:9b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 327 wds, 298 C, 6 D, 40 I, 23 S, 21.10% wer)
+
+Processing cell 89 (id rp:z464za) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 332 wds, 303 C, 6 D, 40 I, 23 S, 20.78% wer)
+
+Processing cell 90 (id fl:82579a) ...
+  5 ref words, 3 corr, 0 del, 0 ins, 2 sub
+  (cum: 337 wds, 306 C, 6 D, 40 I, 25 S, 21.07% wer)
+
+Processing cell 91 (id kf:695a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 340 wds, 309 C, 6 D, 40 I, 25 S, 20.88% wer)
+
+Processing cell 92 (id la:8a) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 341 wds, 310 C, 6 D, 41 I, 25 S, 21.11% wer)
+
+Processing cell 93 (id fl:z5a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 343 wds, 312 C, 6 D, 41 I, 25 S, 20.99% wer)
+
+Processing cell 94 (id ek:8b) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 344 wds, 313 C, 6 D, 42 I, 25 S, 21.22% wer)
+
+Processing cell 95 (id jc:2b) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 345 wds, 314 C, 6 D, 43 I, 25 S, 21.45% wer)
+
+Processing cell 96 (id hn:3b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 346 wds, 315 C, 6 D, 43 I, 25 S, 21.39% wer)
+
+Processing cell 97 (id ek:8221324a) ...
+  7 ref words, 6 corr, 0 del, 0 ins, 1 sub
+  (cum: 353 wds, 321 C, 6 D, 43 I, 26 S, 21.25% wer)
+
+Processing cell 98 (id ff:83628a) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 358 wds, 326 C, 6 D, 43 I, 26 S, 20.95% wer)
+
+Processing cell 99 (id gg:381oa) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 362 wds, 330 C, 6 D, 44 I, 26 S, 20.99% wer)
+
+Processing cell 100 (id ek:311a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 365 wds, 333 C, 6 D, 44 I, 26 S, 20.82% wer)
+
+OK cell(s) 100/100
+
+365 ref words.
+91.23% corr (333/365 wds)
+1.64% del (6/365 wds)
+12.05% ins (44/365 wds)
+7.12% sub (26/365 wds)
+20.82% WER (76/365 wds)
+Elapsed time: 0 sec
+======================================================================
+Training: 300 sentences, continuous digit strings.
+======================================================================
+Processing utterance ID: hh:4394a
+Processing utterance ID: gj:1z633a
+Processing utterance ID: nh:63z4638a
+Processing utterance ID: gj:o174a
+Processing utterance ID: fc:2a
+Processing utterance ID: bi:71a
+Processing utterance ID: ni:9b
+Processing utterance ID: nc:oooa
+Processing utterance ID: mp:1475457a
+Processing utterance ID: ag:95a
+Processing utterance ID: ng:331oa
+Processing utterance ID: ei:4596a
+Processing utterance ID: jp:81za
+Processing utterance ID: fi:7961443a
+Processing utterance ID: ae:6851243a
+Processing utterance ID: bi:36oo964a
+Processing utterance ID: nr:4a
+Processing utterance ID: rn:9a
+Processing utterance ID: nh:6oa
+Processing utterance ID: gr:9oo1a
+Processing utterance ID: it:6a
+Processing utterance ID: ls:8765za
+Processing utterance ID: aw:59523a
+Processing utterance ID: cr:2z61858a
+Processing utterance ID: bd:83a
+Processing utterance ID: ig:378ooa
+Processing utterance ID: sp:7b
+Processing utterance ID: aw:z78z1a
+Processing utterance ID: if:51oa
+Processing utterance ID: mb:za
+Processing utterance ID: ne:397a
+Processing utterance ID: dn:51a
+Processing utterance ID: ld:1b
+Processing utterance ID: dn:453z533a
+Processing utterance ID: dg:74oa
+Processing utterance ID: fi:6a
+Processing utterance ID: ji:o6o3a
+Processing utterance ID: cf:5966a
+Processing utterance ID: ls:612a
+Processing utterance ID: ai:4o57a
+Processing utterance ID: ni:7414a
+Processing utterance ID: jt:7b
+Processing utterance ID: sp:oo16o4oa
+Processing utterance ID: mb:1b
+Processing utterance ID: kk:38za
+Processing utterance ID: pd:5b
+Processing utterance ID: ai:435a
+Processing utterance ID: bd:1b
+Processing utterance ID: re:o9o11a
+Processing utterance ID: fi:69936a
+Processing utterance ID: fc:517z995a
+Processing utterance ID: ea:426a
+Processing utterance ID: ne:8a
+Processing utterance ID: jt:z5z645za
+Processing utterance ID: eh:9785a
+Processing utterance ID: fi:29a
+Processing utterance ID: gj:85za
+Processing utterance ID: nc:z79za
+Processing utterance ID: jt:6a
+Processing utterance ID: lt:22758a
+Processing utterance ID: ji:223za
+Processing utterance ID: pd:78zz821a
+Processing utterance ID: ig:89a
+Processing utterance ID: ms:7782za
+Processing utterance ID: jr:1a
+Processing utterance ID: re:766a
+Processing utterance ID: ei:3oa
+Processing utterance ID: aw:56a
+Processing utterance ID: ai:7o6a
+Processing utterance ID: ig:o15oa
+Processing utterance ID: fi:77194a
+Processing utterance ID: cf:z477a
+Processing utterance ID: ei:2b
+Processing utterance ID: lt:o727a
+Processing utterance ID: eh:z64a
+Processing utterance ID: bi:1556za
+Processing utterance ID: ld:969a
+Processing utterance ID: sj:9b
+Processing utterance ID: ae:161a
+Processing utterance ID: cb:67o4a
+Processing utterance ID: mk:4b
+Processing utterance ID: ca:7465o61a
+Processing utterance ID: br:4a
+Processing utterance ID: lt:7b
+Processing utterance ID: hp:z673a
+Processing utterance ID: ms:za
+Processing utterance ID: fd:8a
+Processing utterance ID: it:37a
+Processing utterance ID: jr:8a
+Processing utterance ID: aw:oo753a
+Processing utterance ID: ms:834za
+Processing utterance ID: fi:1a
+Processing utterance ID: ai:6a
+Processing utterance ID: pd:46z4a
+Processing utterance ID: ei:z2a
+Processing utterance ID: hl:1347a
+Processing utterance ID: gj:5a
+Processing utterance ID: nw:5b
+Processing utterance ID: ai:69o721oa
+Processing utterance ID: ne:3b
+Processing utterance ID: fc:817a
+Processing utterance ID: pd:o35a
+Processing utterance ID: ae:2a
+Processing utterance ID: br:7a
+Processing utterance ID: cr:o8a
+Processing utterance ID: cr:o1a
+Processing utterance ID: gj:9b
+Processing utterance ID: dl:33a
+Processing utterance ID: ea:474oa
+Processing utterance ID: lt:53a
+Processing utterance ID: ne:8z3a
+Processing utterance ID: sj:8b
+Processing utterance ID: jt:9a
+Processing utterance ID: lt:77a
+Processing utterance ID: hh:658o2a
+Processing utterance ID: mk:91b
+Processing utterance ID: cr:1577391a
+Processing utterance ID: re:1oa
+Processing utterance ID: cf:8b
+Processing utterance ID: nw:4b
+Processing utterance ID: jp:13a
+Processing utterance ID: mr:1497za
+Processing utterance ID: if:852a
+Processing utterance ID: sp:85a
+Processing utterance ID: gj:8a
+Processing utterance ID: ei:5b
+Processing utterance ID: cf:3ooa
+Processing utterance ID: gr:za
+Processing utterance ID: pk:o398o44a
+Processing utterance ID: ms:59126o9a
+Processing utterance ID: ne:o59o1a
+Processing utterance ID: fc:5241a
+Processing utterance ID: dg:z4528a
+Processing utterance ID: nh:26z245za
+Processing utterance ID: ea:618z6a
+Processing utterance ID: ji:3b
+Processing utterance ID: dn:6151a
+Processing utterance ID: ms:7443a
+Processing utterance ID: eh:9b
+Processing utterance ID: ld:4a
+Processing utterance ID: re:17a
+Processing utterance ID: sj:2b
+Processing utterance ID: mk:4a
+Processing utterance ID: cm:8a
+Processing utterance ID: re:ob
+Processing utterance ID: ng:14396a
+Processing utterance ID: re:5b
+Processing utterance ID: dg:zb
+Processing utterance ID: mb:79665a
+Processing utterance ID: nr:39a
+Processing utterance ID: jp:54434a
+Processing utterance ID: ld:929a
+Processing utterance ID: lh:19o4a
+Processing utterance ID: dn:5a
+Processing utterance ID: nw:942a
+Processing utterance ID: mr:4379zz7a
+Processing utterance ID: ae:6b
+Processing utterance ID: br:98a
+Processing utterance ID: if:zzz22a
+Processing utterance ID: mr:4o2a
+Processing utterance ID: ag:o8448a
+Processing utterance ID: nh:1a
+Processing utterance ID: sj:o645a
+Processing utterance ID: mp:9z22492a
+Processing utterance ID: ms:1a
+Processing utterance ID: ms:2996911a
+Processing utterance ID: sj:2353327a
+Processing utterance ID: ng:61624a
+Processing utterance ID: nh:61a
+Processing utterance ID: mk:z8298a
+Processing utterance ID: cf:24z2243a
+Processing utterance ID: dl:6574a
+Processing utterance ID: bd:3b
+Processing utterance ID: aw:o32ooa
+Processing utterance ID: pd:29o7a
+Processing utterance ID: nh:2168a
+Processing utterance ID: pk:oa
+Processing utterance ID: ae:8z1a
+Processing utterance ID: mp:o68a
+Processing utterance ID: lh:45oa
+Processing utterance ID: gj:zb
+Processing utterance ID: ea:894a
+Processing utterance ID: bi:5z77a
+Processing utterance ID: jp:2b
+Processing utterance ID: pd:2a
+Processing utterance ID: ca:o8359a
+Processing utterance ID: ne:914a
+Processing utterance ID: dg:181z6a
+Processing utterance ID: mb:21o4o94a
+Processing utterance ID: lt:74514zza
+Processing utterance ID: pk:1755z79a
+Processing utterance ID: ae:3a
+Processing utterance ID: ji:16a
+Processing utterance ID: sj:48b
+Processing utterance ID: gj:78a
+Processing utterance ID: fd:4za
+Processing utterance ID: mk:219zz9za
+Processing utterance ID: nc:o113a
+Processing utterance ID: nw:786a
+Processing utterance ID: ae:8397261a
+Processing utterance ID: hl:o2163a
+Processing utterance ID: sj:2oo3946a
+Processing utterance ID: br:1249267a
+Processing utterance ID: hp:7844za
+Processing utterance ID: rn:95za
+Processing utterance ID: cr:2b
+Processing utterance ID: ae:1b
+Processing utterance ID: pk:o2942a
+Processing utterance ID: cm:2b
+Processing utterance ID: gr:9a
+Processing utterance ID: re:2b
+Processing utterance ID: gr:27a
+Processing utterance ID: mk:9754a
+Processing utterance ID: fd:2a
+Processing utterance ID: bi:7b
+Processing utterance ID: ld:9a
+Processing utterance ID: hp:oa
+Processing utterance ID: if:4a
+Processing utterance ID: sp:2b
+Processing utterance ID: gj:58a
+Processing utterance ID: ae:345a
+Processing utterance ID: gr:o45a
+Processing utterance ID: mr:643a
+Processing utterance ID: pd:37a
+Processing utterance ID: ig:8a
+Processing utterance ID: ae:z9z6531a
+Processing utterance ID: bd:1198a
+Processing utterance ID: nc:7419za
+Processing utterance ID: ne:oa
+Processing utterance ID: rn:28o77a
+Processing utterance ID: ld:2957o91a
+Processing utterance ID: lt:81a
+Processing utterance ID: cb:2a
+Processing utterance ID: ea:11oo9a
+Processing utterance ID: sp:o7ooa
+Processing utterance ID: eh:47oa
+Processing utterance ID: cb:2778575a
+Processing utterance ID: bd:631a
+Processing utterance ID: ei:35o23a
+Processing utterance ID: kk:o597oa
+Processing utterance ID: gj:589a
+Processing utterance ID: dn:7716668a
+Processing utterance ID: hh:4a
+Processing utterance ID: dn:654ooa
+Processing utterance ID: mr:z635221a
+Processing utterance ID: br:44a
+Processing utterance ID: nw:239a
+Processing utterance ID: lh:84a
+Processing utterance ID: ng:2a
+Processing utterance ID: gj:6z9z1a
+Processing utterance ID: bd:8567a
+Processing utterance ID: ls:34943a
+Processing utterance ID: re:17oa
+Processing utterance ID: dn:46a
+Processing utterance ID: kk:ob
+Processing utterance ID: pd:7a
+Processing utterance ID: hh:254o7a
+Processing utterance ID: hp:92165z1a
+Processing utterance ID: lh:3b
+Processing utterance ID: ld:z54982za
+Processing utterance ID: ni:5b
+Processing utterance ID: rn:7o465a
+Processing utterance ID: ld:33a
+Processing utterance ID: mr:764a
+Processing utterance ID: if:za
+Processing utterance ID: nc:1a
+Processing utterance ID: sj:89z9a
+Processing utterance ID: gr:4696474a
+Processing utterance ID: ig:5a
+Processing utterance ID: ms:7b
+Processing utterance ID: fi:2125227a
+Processing utterance ID: sp:517a
+Processing utterance ID: aw:9a
+Processing utterance ID: sp:5913a
+Processing utterance ID: ag:251o4a
+Processing utterance ID: jp:91a
+Processing utterance ID: sp:36a
+Processing utterance ID: gj:31o4oa
+Processing utterance ID: fd:ooa
+Processing utterance ID: gj:146a
+Processing utterance ID: ai:47o6oa
+Processing utterance ID: rn:169a
+Processing utterance ID: ji:795o2a
+Processing utterance ID: ni:782z845a
+Processing utterance ID: bi:2z62a
+Processing utterance ID: hl:14a
+Processing utterance ID: jr:5z31a
+Processing utterance ID: ae:z541a
+Processing utterance ID: ls:73951a
+Processing utterance ID: mp:5o964a
+Processing utterance ID: ea:4a
+Processing utterance ID: jr:ob
+Processing utterance ID: mr:79a
+Processing utterance ID: sp:5b
+Processing utterance ID: cr:7o7a
+Processing utterance ID: rn:57494a
+Processing utterance ID: jt:18a
+Processing utterance ID: ng:427a
+Processing utterance ID: aw:82a
+Processing utterance ID: nh:17oa
+Iteration 1: -28.624568 logprob/frame (50679 frames)
+Processing utterance ID: hh:4394a
+Processing utterance ID: gj:1z633a
+Processing utterance ID: nh:63z4638a
+Processing utterance ID: gj:o174a
+Processing utterance ID: fc:2a
+Processing utterance ID: bi:71a
+Processing utterance ID: ni:9b
+Processing utterance ID: nc:oooa
+Processing utterance ID: mp:1475457a
+Processing utterance ID: ag:95a
+Processing utterance ID: ng:331oa
+Processing utterance ID: ei:4596a
+Processing utterance ID: jp:81za
+Processing utterance ID: fi:7961443a
+Processing utterance ID: ae:6851243a
+Processing utterance ID: bi:36oo964a
+Processing utterance ID: nr:4a
+Processing utterance ID: rn:9a
+Processing utterance ID: nh:6oa
+Processing utterance ID: gr:9oo1a
+Processing utterance ID: it:6a
+Processing utterance ID: ls:8765za
+Processing utterance ID: aw:59523a
+Processing utterance ID: cr:2z61858a
+Processing utterance ID: bd:83a
+Processing utterance ID: ig:378ooa
+Processing utterance ID: sp:7b
+Processing utterance ID: aw:z78z1a
+Processing utterance ID: if:51oa
+Processing utterance ID: mb:za
+Processing utterance ID: ne:397a
+Processing utterance ID: dn:51a
+Processing utterance ID: ld:1b
+Processing utterance ID: dn:453z533a
+Processing utterance ID: dg:74oa
+Processing utterance ID: fi:6a
+Processing utterance ID: ji:o6o3a
+Processing utterance ID: cf:5966a
+Processing utterance ID: ls:612a
+Processing utterance ID: ai:4o57a
+Processing utterance ID: ni:7414a
+Processing utterance ID: jt:7b
+Processing utterance ID: sp:oo16o4oa
+Processing utterance ID: mb:1b
+Processing utterance ID: kk:38za
+Processing utterance ID: pd:5b
+Processing utterance ID: ai:435a
+Processing utterance ID: bd:1b
+Processing utterance ID: re:o9o11a
+Processing utterance ID: fi:69936a
+Processing utterance ID: fc:517z995a
+Processing utterance ID: ea:426a
+Processing utterance ID: ne:8a
+Processing utterance ID: jt:z5z645za
+Processing utterance ID: eh:9785a
+Processing utterance ID: fi:29a
+Processing utterance ID: gj:85za
+Processing utterance ID: nc:z79za
+Processing utterance ID: jt:6a
+Processing utterance ID: lt:22758a
+Processing utterance ID: ji:223za
+Processing utterance ID: pd:78zz821a
+Processing utterance ID: ig:89a
+Processing utterance ID: ms:7782za
+Processing utterance ID: jr:1a
+Processing utterance ID: re:766a
+Processing utterance ID: ei:3oa
+Processing utterance ID: aw:56a
+Processing utterance ID: ai:7o6a
+Processing utterance ID: ig:o15oa
+Processing utterance ID: fi:77194a
+Processing utterance ID: cf:z477a
+Processing utterance ID: ei:2b
+Processing utterance ID: lt:o727a
+Processing utterance ID: eh:z64a
+Processing utterance ID: bi:1556za
+Processing utterance ID: ld:969a
+Processing utterance ID: sj:9b
+Processing utterance ID: ae:161a
+Processing utterance ID: cb:67o4a
+Processing utterance ID: mk:4b
+Processing utterance ID: ca:7465o61a
+Processing utterance ID: br:4a
+Processing utterance ID: lt:7b
+Processing utterance ID: hp:z673a
+Processing utterance ID: ms:za
+Processing utterance ID: fd:8a
+Processing utterance ID: it:37a
+Processing utterance ID: jr:8a
+Processing utterance ID: aw:oo753a
+Processing utterance ID: ms:834za
+Processing utterance ID: fi:1a
+Processing utterance ID: ai:6a
+Processing utterance ID: pd:46z4a
+Processing utterance ID: ei:z2a
+Processing utterance ID: hl:1347a
+Processing utterance ID: gj:5a
+Processing utterance ID: nw:5b
+Processing utterance ID: ai:69o721oa
+Processing utterance ID: ne:3b
+Processing utterance ID: fc:817a
+Processing utterance ID: pd:o35a
+Processing utterance ID: ae:2a
+Processing utterance ID: br:7a
+Processing utterance ID: cr:o8a
+Processing utterance ID: cr:o1a
+Processing utterance ID: gj:9b
+Processing utterance ID: dl:33a
+Processing utterance ID: ea:474oa
+Processing utterance ID: lt:53a
+Processing utterance ID: ne:8z3a
+Processing utterance ID: sj:8b
+Processing utterance ID: jt:9a
+Processing utterance ID: lt:77a
+Processing utterance ID: hh:658o2a
+Processing utterance ID: mk:91b
+Processing utterance ID: cr:1577391a
+Processing utterance ID: re:1oa
+Processing utterance ID: cf:8b
+Processing utterance ID: nw:4b
+Processing utterance ID: jp:13a
+Processing utterance ID: mr:1497za
+Processing utterance ID: if:852a
+Processing utterance ID: sp:85a
+Processing utterance ID: gj:8a
+Processing utterance ID: ei:5b
+Processing utterance ID: cf:3ooa
+Processing utterance ID: gr:za
+Processing utterance ID: pk:o398o44a
+Processing utterance ID: ms:59126o9a
+Processing utterance ID: ne:o59o1a
+Processing utterance ID: fc:5241a
+Processing utterance ID: dg:z4528a
+Processing utterance ID: nh:26z245za
+Processing utterance ID: ea:618z6a
+Processing utterance ID: ji:3b
+Processing utterance ID: dn:6151a
+Processing utterance ID: ms:7443a
+Processing utterance ID: eh:9b
+Processing utterance ID: ld:4a
+Processing utterance ID: re:17a
+Processing utterance ID: sj:2b
+Processing utterance ID: mk:4a
+Processing utterance ID: cm:8a
+Processing utterance ID: re:ob
+Processing utterance ID: ng:14396a
+Processing utterance ID: re:5b
+Processing utterance ID: dg:zb
+Processing utterance ID: mb:79665a
+Processing utterance ID: nr:39a
+Processing utterance ID: jp:54434a
+Processing utterance ID: ld:929a
+Processing utterance ID: lh:19o4a
+Processing utterance ID: dn:5a
+Processing utterance ID: nw:942a
+Processing utterance ID: mr:4379zz7a
+Processing utterance ID: ae:6b
+Processing utterance ID: br:98a
+Processing utterance ID: if:zzz22a
+Processing utterance ID: mr:4o2a
+Processing utterance ID: ag:o8448a
+Processing utterance ID: nh:1a
+Processing utterance ID: sj:o645a
+Processing utterance ID: mp:9z22492a
+Processing utterance ID: ms:1a
+Processing utterance ID: ms:2996911a
+Processing utterance ID: sj:2353327a
+Processing utterance ID: ng:61624a
+Processing utterance ID: nh:61a
+Processing utterance ID: mk:z8298a
+Processing utterance ID: cf:24z2243a
+Processing utterance ID: dl:6574a
+Processing utterance ID: bd:3b
+Processing utterance ID: aw:o32ooa
+Processing utterance ID: pd:29o7a
+Processing utterance ID: nh:2168a
+Processing utterance ID: pk:oa
+Processing utterance ID: ae:8z1a
+Processing utterance ID: mp:o68a
+Processing utterance ID: lh:45oa
+Processing utterance ID: gj:zb
+Processing utterance ID: ea:894a
+Processing utterance ID: bi:5z77a
+Processing utterance ID: jp:2b
+Processing utterance ID: pd:2a
+Processing utterance ID: ca:o8359a
+Processing utterance ID: ne:914a
+Processing utterance ID: dg:181z6a
+Processing utterance ID: mb:21o4o94a
+Processing utterance ID: lt:74514zza
+Processing utterance ID: pk:1755z79a
+Processing utterance ID: ae:3a
+Processing utterance ID: ji:16a
+Processing utterance ID: sj:48b
+Processing utterance ID: gj:78a
+Processing utterance ID: fd:4za
+Processing utterance ID: mk:219zz9za
+Processing utterance ID: nc:o113a
+Processing utterance ID: nw:786a
+Processing utterance ID: ae:8397261a
+Processing utterance ID: hl:o2163a
+Processing utterance ID: sj:2oo3946a
+Processing utterance ID: br:1249267a
+Processing utterance ID: hp:7844za
+Processing utterance ID: rn:95za
+Processing utterance ID: cr:2b
+Processing utterance ID: ae:1b
+Processing utterance ID: pk:o2942a
+Processing utterance ID: cm:2b
+Processing utterance ID: gr:9a
+Processing utterance ID: re:2b
+Processing utterance ID: gr:27a
+Processing utterance ID: mk:9754a
+Processing utterance ID: fd:2a
+Processing utterance ID: bi:7b
+Processing utterance ID: ld:9a
+Processing utterance ID: hp:oa
+Processing utterance ID: if:4a
+Processing utterance ID: sp:2b
+Processing utterance ID: gj:58a
+Processing utterance ID: ae:345a
+Processing utterance ID: gr:o45a
+Processing utterance ID: mr:643a
+Processing utterance ID: pd:37a
+Processing utterance ID: ig:8a
+Processing utterance ID: ae:z9z6531a
+Processing utterance ID: bd:1198a
+Processing utterance ID: nc:7419za
+Processing utterance ID: ne:oa
+Processing utterance ID: rn:28o77a
+Processing utterance ID: ld:2957o91a
+Processing utterance ID: lt:81a
+Processing utterance ID: cb:2a
+Processing utterance ID: ea:11oo9a
+Processing utterance ID: sp:o7ooa
+Processing utterance ID: eh:47oa
+Processing utterance ID: cb:2778575a
+Processing utterance ID: bd:631a
+Processing utterance ID: ei:35o23a
+Processing utterance ID: kk:o597oa
+Processing utterance ID: gj:589a
+Processing utterance ID: dn:7716668a
+Processing utterance ID: hh:4a
+Processing utterance ID: dn:654ooa
+Processing utterance ID: mr:z635221a
+Processing utterance ID: br:44a
+Processing utterance ID: nw:239a
+Processing utterance ID: lh:84a
+Processing utterance ID: ng:2a
+Processing utterance ID: gj:6z9z1a
+Processing utterance ID: bd:8567a
+Processing utterance ID: ls:34943a
+Processing utterance ID: re:17oa
+Processing utterance ID: dn:46a
+Processing utterance ID: kk:ob
+Processing utterance ID: pd:7a
+Processing utterance ID: hh:254o7a
+Processing utterance ID: hp:92165z1a
+Processing utterance ID: lh:3b
+Processing utterance ID: ld:z54982za
+Processing utterance ID: ni:5b
+Processing utterance ID: rn:7o465a
+Processing utterance ID: ld:33a
+Processing utterance ID: mr:764a
+Processing utterance ID: if:za
+Processing utterance ID: nc:1a
+Processing utterance ID: sj:89z9a
+Processing utterance ID: gr:4696474a
+Processing utterance ID: ig:5a
+Processing utterance ID: ms:7b
+Processing utterance ID: fi:2125227a
+Processing utterance ID: sp:517a
+Processing utterance ID: aw:9a
+Processing utterance ID: sp:5913a
+Processing utterance ID: ag:251o4a
+Processing utterance ID: jp:91a
+Processing utterance ID: sp:36a
+Processing utterance ID: gj:31o4oa
+Processing utterance ID: fd:ooa
+Processing utterance ID: gj:146a
+Processing utterance ID: ai:47o6oa
+Processing utterance ID: rn:169a
+Processing utterance ID: ji:795o2a
+Processing utterance ID: ni:782z845a
+Processing utterance ID: bi:2z62a
+Processing utterance ID: hl:14a
+Processing utterance ID: jr:5z31a
+Processing utterance ID: ae:z541a
+Processing utterance ID: ls:73951a
+Processing utterance ID: mp:5o964a
+Processing utterance ID: ea:4a
+Processing utterance ID: jr:ob
+Processing utterance ID: mr:79a
+Processing utterance ID: sp:5b
+Processing utterance ID: cr:7o7a
+Processing utterance ID: rn:57494a
+Processing utterance ID: jt:18a
+Processing utterance ID: ng:427a
+Processing utterance ID: aw:82a
+Processing utterance ID: nh:17oa
+Iteration 2: -15.522933 logprob/frame (50679 frames)
+Processing utterance ID: hh:4394a
+Processing utterance ID: gj:1z633a
+Processing utterance ID: nh:63z4638a
+Processing utterance ID: gj:o174a
+Processing utterance ID: fc:2a
+Processing utterance ID: bi:71a
+Processing utterance ID: ni:9b
+Processing utterance ID: nc:oooa
+Processing utterance ID: mp:1475457a
+Processing utterance ID: ag:95a
+Processing utterance ID: ng:331oa
+Processing utterance ID: ei:4596a
+Processing utterance ID: jp:81za
+Processing utterance ID: fi:7961443a
+Processing utterance ID: ae:6851243a
+Processing utterance ID: bi:36oo964a
+Processing utterance ID: nr:4a
+Processing utterance ID: rn:9a
+Processing utterance ID: nh:6oa
+Processing utterance ID: gr:9oo1a
+Processing utterance ID: it:6a
+Processing utterance ID: ls:8765za
+Processing utterance ID: aw:59523a
+Processing utterance ID: cr:2z61858a
+Processing utterance ID: bd:83a
+Processing utterance ID: ig:378ooa
+Processing utterance ID: sp:7b
+Processing utterance ID: aw:z78z1a
+Processing utterance ID: if:51oa
+Processing utterance ID: mb:za
+Processing utterance ID: ne:397a
+Processing utterance ID: dn:51a
+Processing utterance ID: ld:1b
+Processing utterance ID: dn:453z533a
+Processing utterance ID: dg:74oa
+Processing utterance ID: fi:6a
+Processing utterance ID: ji:o6o3a
+Processing utterance ID: cf:5966a
+Processing utterance ID: ls:612a
+Processing utterance ID: ai:4o57a
+Processing utterance ID: ni:7414a
+Processing utterance ID: jt:7b
+Processing utterance ID: sp:oo16o4oa
+Processing utterance ID: mb:1b
+Processing utterance ID: kk:38za
+Processing utterance ID: pd:5b
+Processing utterance ID: ai:435a
+Processing utterance ID: bd:1b
+Processing utterance ID: re:o9o11a
+Processing utterance ID: fi:69936a
+Processing utterance ID: fc:517z995a
+Processing utterance ID: ea:426a
+Processing utterance ID: ne:8a
+Processing utterance ID: jt:z5z645za
+Processing utterance ID: eh:9785a
+Processing utterance ID: fi:29a
+Processing utterance ID: gj:85za
+Processing utterance ID: nc:z79za
+Processing utterance ID: jt:6a
+Processing utterance ID: lt:22758a
+Processing utterance ID: ji:223za
+Processing utterance ID: pd:78zz821a
+Processing utterance ID: ig:89a
+Processing utterance ID: ms:7782za
+Processing utterance ID: jr:1a
+Processing utterance ID: re:766a
+Processing utterance ID: ei:3oa
+Processing utterance ID: aw:56a
+Processing utterance ID: ai:7o6a
+Processing utterance ID: ig:o15oa
+Processing utterance ID: fi:77194a
+Processing utterance ID: cf:z477a
+Processing utterance ID: ei:2b
+Processing utterance ID: lt:o727a
+Processing utterance ID: eh:z64a
+Processing utterance ID: bi:1556za
+Processing utterance ID: ld:969a
+Processing utterance ID: sj:9b
+Processing utterance ID: ae:161a
+Processing utterance ID: cb:67o4a
+Processing utterance ID: mk:4b
+Processing utterance ID: ca:7465o61a
+Processing utterance ID: br:4a
+Processing utterance ID: lt:7b
+Processing utterance ID: hp:z673a
+Processing utterance ID: ms:za
+Processing utterance ID: fd:8a
+Processing utterance ID: it:37a
+Processing utterance ID: jr:8a
+Processing utterance ID: aw:oo753a
+Processing utterance ID: ms:834za
+Processing utterance ID: fi:1a
+Processing utterance ID: ai:6a
+Processing utterance ID: pd:46z4a
+Processing utterance ID: ei:z2a
+Processing utterance ID: hl:1347a
+Processing utterance ID: gj:5a
+Processing utterance ID: nw:5b
+Processing utterance ID: ai:69o721oa
+Processing utterance ID: ne:3b
+Processing utterance ID: fc:817a
+Processing utterance ID: pd:o35a
+Processing utterance ID: ae:2a
+Processing utterance ID: br:7a
+Processing utterance ID: cr:o8a
+Processing utterance ID: cr:o1a
+Processing utterance ID: gj:9b
+Processing utterance ID: dl:33a
+Processing utterance ID: ea:474oa
+Processing utterance ID: lt:53a
+Processing utterance ID: ne:8z3a
+Processing utterance ID: sj:8b
+Processing utterance ID: jt:9a
+Processing utterance ID: lt:77a
+Processing utterance ID: hh:658o2a
+Processing utterance ID: mk:91b
+Processing utterance ID: cr:1577391a
+Processing utterance ID: re:1oa
+Processing utterance ID: cf:8b
+Processing utterance ID: nw:4b
+Processing utterance ID: jp:13a
+Processing utterance ID: mr:1497za
+Processing utterance ID: if:852a
+Processing utterance ID: sp:85a
+Processing utterance ID: gj:8a
+Processing utterance ID: ei:5b
+Processing utterance ID: cf:3ooa
+Processing utterance ID: gr:za
+Processing utterance ID: pk:o398o44a
+Processing utterance ID: ms:59126o9a
+Processing utterance ID: ne:o59o1a
+Processing utterance ID: fc:5241a
+Processing utterance ID: dg:z4528a
+Processing utterance ID: nh:26z245za
+Processing utterance ID: ea:618z6a
+Processing utterance ID: ji:3b
+Processing utterance ID: dn:6151a
+Processing utterance ID: ms:7443a
+Processing utterance ID: eh:9b
+Processing utterance ID: ld:4a
+Processing utterance ID: re:17a
+Processing utterance ID: sj:2b
+Processing utterance ID: mk:4a
+Processing utterance ID: cm:8a
+Processing utterance ID: re:ob
+Processing utterance ID: ng:14396a
+Processing utterance ID: re:5b
+Processing utterance ID: dg:zb
+Processing utterance ID: mb:79665a
+Processing utterance ID: nr:39a
+Processing utterance ID: jp:54434a
+Processing utterance ID: ld:929a
+Processing utterance ID: lh:19o4a
+Processing utterance ID: dn:5a
+Processing utterance ID: nw:942a
+Processing utterance ID: mr:4379zz7a
+Processing utterance ID: ae:6b
+Processing utterance ID: br:98a
+Processing utterance ID: if:zzz22a
+Processing utterance ID: mr:4o2a
+Processing utterance ID: ag:o8448a
+Processing utterance ID: nh:1a
+Processing utterance ID: sj:o645a
+Processing utterance ID: mp:9z22492a
+Processing utterance ID: ms:1a
+Processing utterance ID: ms:2996911a
+Processing utterance ID: sj:2353327a
+Processing utterance ID: ng:61624a
+Processing utterance ID: nh:61a
+Processing utterance ID: mk:z8298a
+Processing utterance ID: cf:24z2243a
+Processing utterance ID: dl:6574a
+Processing utterance ID: bd:3b
+Processing utterance ID: aw:o32ooa
+Processing utterance ID: pd:29o7a
+Processing utterance ID: nh:2168a
+Processing utterance ID: pk:oa
+Processing utterance ID: ae:8z1a
+Processing utterance ID: mp:o68a
+Processing utterance ID: lh:45oa
+Processing utterance ID: gj:zb
+Processing utterance ID: ea:894a
+Processing utterance ID: bi:5z77a
+Processing utterance ID: jp:2b
+Processing utterance ID: pd:2a
+Processing utterance ID: ca:o8359a
+Processing utterance ID: ne:914a
+Processing utterance ID: dg:181z6a
+Processing utterance ID: mb:21o4o94a
+Processing utterance ID: lt:74514zza
+Processing utterance ID: pk:1755z79a
+Processing utterance ID: ae:3a
+Processing utterance ID: ji:16a
+Processing utterance ID: sj:48b
+Processing utterance ID: gj:78a
+Processing utterance ID: fd:4za
+Processing utterance ID: mk:219zz9za
+Processing utterance ID: nc:o113a
+Processing utterance ID: nw:786a
+Processing utterance ID: ae:8397261a
+Processing utterance ID: hl:o2163a
+Processing utterance ID: sj:2oo3946a
+Processing utterance ID: br:1249267a
+Processing utterance ID: hp:7844za
+Processing utterance ID: rn:95za
+Processing utterance ID: cr:2b
+Processing utterance ID: ae:1b
+Processing utterance ID: pk:o2942a
+Processing utterance ID: cm:2b
+Processing utterance ID: gr:9a
+Processing utterance ID: re:2b
+Processing utterance ID: gr:27a
+Processing utterance ID: mk:9754a
+Processing utterance ID: fd:2a
+Processing utterance ID: bi:7b
+Processing utterance ID: ld:9a
+Processing utterance ID: hp:oa
+Processing utterance ID: if:4a
+Processing utterance ID: sp:2b
+Processing utterance ID: gj:58a
+Processing utterance ID: ae:345a
+Processing utterance ID: gr:o45a
+Processing utterance ID: mr:643a
+Processing utterance ID: pd:37a
+Processing utterance ID: ig:8a
+Processing utterance ID: ae:z9z6531a
+Processing utterance ID: bd:1198a
+Processing utterance ID: nc:7419za
+Processing utterance ID: ne:oa
+Processing utterance ID: rn:28o77a
+Processing utterance ID: ld:2957o91a
+Processing utterance ID: lt:81a
+Processing utterance ID: cb:2a
+Processing utterance ID: ea:11oo9a
+Processing utterance ID: sp:o7ooa
+Processing utterance ID: eh:47oa
+Processing utterance ID: cb:2778575a
+Processing utterance ID: bd:631a
+Processing utterance ID: ei:35o23a
+Processing utterance ID: kk:o597oa
+Processing utterance ID: gj:589a
+Processing utterance ID: dn:7716668a
+Processing utterance ID: hh:4a
+Processing utterance ID: dn:654ooa
+Processing utterance ID: mr:z635221a
+Processing utterance ID: br:44a
+Processing utterance ID: nw:239a
+Processing utterance ID: lh:84a
+Processing utterance ID: ng:2a
+Processing utterance ID: gj:6z9z1a
+Processing utterance ID: bd:8567a
+Processing utterance ID: ls:34943a
+Processing utterance ID: re:17oa
+Processing utterance ID: dn:46a
+Processing utterance ID: kk:ob
+Processing utterance ID: pd:7a
+Processing utterance ID: hh:254o7a
+Processing utterance ID: hp:92165z1a
+Processing utterance ID: lh:3b
+Processing utterance ID: ld:z54982za
+Processing utterance ID: ni:5b
+Processing utterance ID: rn:7o465a
+Processing utterance ID: ld:33a
+Processing utterance ID: mr:764a
+Processing utterance ID: if:za
+Processing utterance ID: nc:1a
+Processing utterance ID: sj:89z9a
+Processing utterance ID: gr:4696474a
+Processing utterance ID: ig:5a
+Processing utterance ID: ms:7b
+Processing utterance ID: fi:2125227a
+Processing utterance ID: sp:517a
+Processing utterance ID: aw:9a
+Processing utterance ID: sp:5913a
+Processing utterance ID: ag:251o4a
+Processing utterance ID: jp:91a
+Processing utterance ID: sp:36a
+Processing utterance ID: gj:31o4oa
+Processing utterance ID: fd:ooa
+Processing utterance ID: gj:146a
+Processing utterance ID: ai:47o6oa
+Processing utterance ID: rn:169a
+Processing utterance ID: ji:795o2a
+Processing utterance ID: ni:782z845a
+Processing utterance ID: bi:2z62a
+Processing utterance ID: hl:14a
+Processing utterance ID: jr:5z31a
+Processing utterance ID: ae:z541a
+Processing utterance ID: ls:73951a
+Processing utterance ID: mp:5o964a
+Processing utterance ID: ea:4a
+Processing utterance ID: jr:ob
+Processing utterance ID: mr:79a
+Processing utterance ID: sp:5b
+Processing utterance ID: cr:7o7a
+Processing utterance ID: rn:57494a
+Processing utterance ID: jt:18a
+Processing utterance ID: ng:427a
+Processing utterance ID: aw:82a
+Processing utterance ID: nh:17oa
+Iteration 3: -12.777107 logprob/frame (50679 frames)
+Processing utterance ID: hh:4394a
+Processing utterance ID: gj:1z633a
+Processing utterance ID: nh:63z4638a
+Processing utterance ID: gj:o174a
+Processing utterance ID: fc:2a
+Processing utterance ID: bi:71a
+Processing utterance ID: ni:9b
+Processing utterance ID: nc:oooa
+Processing utterance ID: mp:1475457a
+Processing utterance ID: ag:95a
+Processing utterance ID: ng:331oa
+Processing utterance ID: ei:4596a
+Processing utterance ID: jp:81za
+Processing utterance ID: fi:7961443a
+Processing utterance ID: ae:6851243a
+Processing utterance ID: bi:36oo964a
+Processing utterance ID: nr:4a
+Processing utterance ID: rn:9a
+Processing utterance ID: nh:6oa
+Processing utterance ID: gr:9oo1a
+Processing utterance ID: it:6a
+Processing utterance ID: ls:8765za
+Processing utterance ID: aw:59523a
+Processing utterance ID: cr:2z61858a
+Processing utterance ID: bd:83a
+Processing utterance ID: ig:378ooa
+Processing utterance ID: sp:7b
+Processing utterance ID: aw:z78z1a
+Processing utterance ID: if:51oa
+Processing utterance ID: mb:za
+Processing utterance ID: ne:397a
+Processing utterance ID: dn:51a
+Processing utterance ID: ld:1b
+Processing utterance ID: dn:453z533a
+Processing utterance ID: dg:74oa
+Processing utterance ID: fi:6a
+Processing utterance ID: ji:o6o3a
+Processing utterance ID: cf:5966a
+Processing utterance ID: ls:612a
+Processing utterance ID: ai:4o57a
+Processing utterance ID: ni:7414a
+Processing utterance ID: jt:7b
+Processing utterance ID: sp:oo16o4oa
+Processing utterance ID: mb:1b
+Processing utterance ID: kk:38za
+Processing utterance ID: pd:5b
+Processing utterance ID: ai:435a
+Processing utterance ID: bd:1b
+Processing utterance ID: re:o9o11a
+Processing utterance ID: fi:69936a
+Processing utterance ID: fc:517z995a
+Processing utterance ID: ea:426a
+Processing utterance ID: ne:8a
+Processing utterance ID: jt:z5z645za
+Processing utterance ID: eh:9785a
+Processing utterance ID: fi:29a
+Processing utterance ID: gj:85za
+Processing utterance ID: nc:z79za
+Processing utterance ID: jt:6a
+Processing utterance ID: lt:22758a
+Processing utterance ID: ji:223za
+Processing utterance ID: pd:78zz821a
+Processing utterance ID: ig:89a
+Processing utterance ID: ms:7782za
+Processing utterance ID: jr:1a
+Processing utterance ID: re:766a
+Processing utterance ID: ei:3oa
+Processing utterance ID: aw:56a
+Processing utterance ID: ai:7o6a
+Processing utterance ID: ig:o15oa
+Processing utterance ID: fi:77194a
+Processing utterance ID: cf:z477a
+Processing utterance ID: ei:2b
+Processing utterance ID: lt:o727a
+Processing utterance ID: eh:z64a
+Processing utterance ID: bi:1556za
+Processing utterance ID: ld:969a
+Processing utterance ID: sj:9b
+Processing utterance ID: ae:161a
+Processing utterance ID: cb:67o4a
+Processing utterance ID: mk:4b
+Processing utterance ID: ca:7465o61a
+Processing utterance ID: br:4a
+Processing utterance ID: lt:7b
+Processing utterance ID: hp:z673a
+Processing utterance ID: ms:za
+Processing utterance ID: fd:8a
+Processing utterance ID: it:37a
+Processing utterance ID: jr:8a
+Processing utterance ID: aw:oo753a
+Processing utterance ID: ms:834za
+Processing utterance ID: fi:1a
+Processing utterance ID: ai:6a
+Processing utterance ID: pd:46z4a
+Processing utterance ID: ei:z2a
+Processing utterance ID: hl:1347a
+Processing utterance ID: gj:5a
+Processing utterance ID: nw:5b
+Processing utterance ID: ai:69o721oa
+Processing utterance ID: ne:3b
+Processing utterance ID: fc:817a
+Processing utterance ID: pd:o35a
+Processing utterance ID: ae:2a
+Processing utterance ID: br:7a
+Processing utterance ID: cr:o8a
+Processing utterance ID: cr:o1a
+Processing utterance ID: gj:9b
+Processing utterance ID: dl:33a
+Processing utterance ID: ea:474oa
+Processing utterance ID: lt:53a
+Processing utterance ID: ne:8z3a
+Processing utterance ID: sj:8b
+Processing utterance ID: jt:9a
+Processing utterance ID: lt:77a
+Processing utterance ID: hh:658o2a
+Processing utterance ID: mk:91b
+Processing utterance ID: cr:1577391a
+Processing utterance ID: re:1oa
+Processing utterance ID: cf:8b
+Processing utterance ID: nw:4b
+Processing utterance ID: jp:13a
+Processing utterance ID: mr:1497za
+Processing utterance ID: if:852a
+Processing utterance ID: sp:85a
+Processing utterance ID: gj:8a
+Processing utterance ID: ei:5b
+Processing utterance ID: cf:3ooa
+Processing utterance ID: gr:za
+Processing utterance ID: pk:o398o44a
+Processing utterance ID: ms:59126o9a
+Processing utterance ID: ne:o59o1a
+Processing utterance ID: fc:5241a
+Processing utterance ID: dg:z4528a
+Processing utterance ID: nh:26z245za
+Processing utterance ID: ea:618z6a
+Processing utterance ID: ji:3b
+Processing utterance ID: dn:6151a
+Processing utterance ID: ms:7443a
+Processing utterance ID: eh:9b
+Processing utterance ID: ld:4a
+Processing utterance ID: re:17a
+Processing utterance ID: sj:2b
+Processing utterance ID: mk:4a
+Processing utterance ID: cm:8a
+Processing utterance ID: re:ob
+Processing utterance ID: ng:14396a
+Processing utterance ID: re:5b
+Processing utterance ID: dg:zb
+Processing utterance ID: mb:79665a
+Processing utterance ID: nr:39a
+Processing utterance ID: jp:54434a
+Processing utterance ID: ld:929a
+Processing utterance ID: lh:19o4a
+Processing utterance ID: dn:5a
+Processing utterance ID: nw:942a
+Processing utterance ID: mr:4379zz7a
+Processing utterance ID: ae:6b
+Processing utterance ID: br:98a
+Processing utterance ID: if:zzz22a
+Processing utterance ID: mr:4o2a
+Processing utterance ID: ag:o8448a
+Processing utterance ID: nh:1a
+Processing utterance ID: sj:o645a
+Processing utterance ID: mp:9z22492a
+Processing utterance ID: ms:1a
+Processing utterance ID: ms:2996911a
+Processing utterance ID: sj:2353327a
+Processing utterance ID: ng:61624a
+Processing utterance ID: nh:61a
+Processing utterance ID: mk:z8298a
+Processing utterance ID: cf:24z2243a
+Processing utterance ID: dl:6574a
+Processing utterance ID: bd:3b
+Processing utterance ID: aw:o32ooa
+Processing utterance ID: pd:29o7a
+Processing utterance ID: nh:2168a
+Processing utterance ID: pk:oa
+Processing utterance ID: ae:8z1a
+Processing utterance ID: mp:o68a
+Processing utterance ID: lh:45oa
+Processing utterance ID: gj:zb
+Processing utterance ID: ea:894a
+Processing utterance ID: bi:5z77a
+Processing utterance ID: jp:2b
+Processing utterance ID: pd:2a
+Processing utterance ID: ca:o8359a
+Processing utterance ID: ne:914a
+Processing utterance ID: dg:181z6a
+Processing utterance ID: mb:21o4o94a
+Processing utterance ID: lt:74514zza
+Processing utterance ID: pk:1755z79a
+Processing utterance ID: ae:3a
+Processing utterance ID: ji:16a
+Processing utterance ID: sj:48b
+Processing utterance ID: gj:78a
+Processing utterance ID: fd:4za
+Processing utterance ID: mk:219zz9za
+Processing utterance ID: nc:o113a
+Processing utterance ID: nw:786a
+Processing utterance ID: ae:8397261a
+Processing utterance ID: hl:o2163a
+Processing utterance ID: sj:2oo3946a
+Processing utterance ID: br:1249267a
+Processing utterance ID: hp:7844za
+Processing utterance ID: rn:95za
+Processing utterance ID: cr:2b
+Processing utterance ID: ae:1b
+Processing utterance ID: pk:o2942a
+Processing utterance ID: cm:2b
+Processing utterance ID: gr:9a
+Processing utterance ID: re:2b
+Processing utterance ID: gr:27a
+Processing utterance ID: mk:9754a
+Processing utterance ID: fd:2a
+Processing utterance ID: bi:7b
+Processing utterance ID: ld:9a
+Processing utterance ID: hp:oa
+Processing utterance ID: if:4a
+Processing utterance ID: sp:2b
+Processing utterance ID: gj:58a
+Processing utterance ID: ae:345a
+Processing utterance ID: gr:o45a
+Processing utterance ID: mr:643a
+Processing utterance ID: pd:37a
+Processing utterance ID: ig:8a
+Processing utterance ID: ae:z9z6531a
+Processing utterance ID: bd:1198a
+Processing utterance ID: nc:7419za
+Processing utterance ID: ne:oa
+Processing utterance ID: rn:28o77a
+Processing utterance ID: ld:2957o91a
+Processing utterance ID: lt:81a
+Processing utterance ID: cb:2a
+Processing utterance ID: ea:11oo9a
+Processing utterance ID: sp:o7ooa
+Processing utterance ID: eh:47oa
+Processing utterance ID: cb:2778575a
+Processing utterance ID: bd:631a
+Processing utterance ID: ei:35o23a
+Processing utterance ID: kk:o597oa
+Processing utterance ID: gj:589a
+Processing utterance ID: dn:7716668a
+Processing utterance ID: hh:4a
+Processing utterance ID: dn:654ooa
+Processing utterance ID: mr:z635221a
+Processing utterance ID: br:44a
+Processing utterance ID: nw:239a
+Processing utterance ID: lh:84a
+Processing utterance ID: ng:2a
+Processing utterance ID: gj:6z9z1a
+Processing utterance ID: bd:8567a
+Processing utterance ID: ls:34943a
+Processing utterance ID: re:17oa
+Processing utterance ID: dn:46a
+Processing utterance ID: kk:ob
+Processing utterance ID: pd:7a
+Processing utterance ID: hh:254o7a
+Processing utterance ID: hp:92165z1a
+Processing utterance ID: lh:3b
+Processing utterance ID: ld:z54982za
+Processing utterance ID: ni:5b
+Processing utterance ID: rn:7o465a
+Processing utterance ID: ld:33a
+Processing utterance ID: mr:764a
+Processing utterance ID: if:za
+Processing utterance ID: nc:1a
+Processing utterance ID: sj:89z9a
+Processing utterance ID: gr:4696474a
+Processing utterance ID: ig:5a
+Processing utterance ID: ms:7b
+Processing utterance ID: fi:2125227a
+Processing utterance ID: sp:517a
+Processing utterance ID: aw:9a
+Processing utterance ID: sp:5913a
+Processing utterance ID: ag:251o4a
+Processing utterance ID: jp:91a
+Processing utterance ID: sp:36a
+Processing utterance ID: gj:31o4oa
+Processing utterance ID: fd:ooa
+Processing utterance ID: gj:146a
+Processing utterance ID: ai:47o6oa
+Processing utterance ID: rn:169a
+Processing utterance ID: ji:795o2a
+Processing utterance ID: ni:782z845a
+Processing utterance ID: bi:2z62a
+Processing utterance ID: hl:14a
+Processing utterance ID: jr:5z31a
+Processing utterance ID: ae:z541a
+Processing utterance ID: ls:73951a
+Processing utterance ID: mp:5o964a
+Processing utterance ID: ea:4a
+Processing utterance ID: jr:ob
+Processing utterance ID: mr:79a
+Processing utterance ID: sp:5b
+Processing utterance ID: cr:7o7a
+Processing utterance ID: rn:57494a
+Processing utterance ID: jt:18a
+Processing utterance ID: ng:427a
+Processing utterance ID: aw:82a
+Processing utterance ID: nh:17oa
+Iteration 4: -12.025682 logprob/frame (50679 frames)
+Processing utterance ID: hh:4394a
+Processing utterance ID: gj:1z633a
+Processing utterance ID: nh:63z4638a
+Processing utterance ID: gj:o174a
+Processing utterance ID: fc:2a
+Processing utterance ID: bi:71a
+Processing utterance ID: ni:9b
+Processing utterance ID: nc:oooa
+Processing utterance ID: mp:1475457a
+Processing utterance ID: ag:95a
+Processing utterance ID: ng:331oa
+Processing utterance ID: ei:4596a
+Processing utterance ID: jp:81za
+Processing utterance ID: fi:7961443a
+Processing utterance ID: ae:6851243a
+Processing utterance ID: bi:36oo964a
+Processing utterance ID: nr:4a
+Processing utterance ID: rn:9a
+Processing utterance ID: nh:6oa
+Processing utterance ID: gr:9oo1a
+Processing utterance ID: it:6a
+Processing utterance ID: ls:8765za
+Processing utterance ID: aw:59523a
+Processing utterance ID: cr:2z61858a
+Processing utterance ID: bd:83a
+Processing utterance ID: ig:378ooa
+Processing utterance ID: sp:7b
+Processing utterance ID: aw:z78z1a
+Processing utterance ID: if:51oa
+Processing utterance ID: mb:za
+Processing utterance ID: ne:397a
+Processing utterance ID: dn:51a
+Processing utterance ID: ld:1b
+Processing utterance ID: dn:453z533a
+Processing utterance ID: dg:74oa
+Processing utterance ID: fi:6a
+Processing utterance ID: ji:o6o3a
+Processing utterance ID: cf:5966a
+Processing utterance ID: ls:612a
+Processing utterance ID: ai:4o57a
+Processing utterance ID: ni:7414a
+Processing utterance ID: jt:7b
+Processing utterance ID: sp:oo16o4oa
+Processing utterance ID: mb:1b
+Processing utterance ID: kk:38za
+Processing utterance ID: pd:5b
+Processing utterance ID: ai:435a
+Processing utterance ID: bd:1b
+Processing utterance ID: re:o9o11a
+Processing utterance ID: fi:69936a
+Processing utterance ID: fc:517z995a
+Processing utterance ID: ea:426a
+Processing utterance ID: ne:8a
+Processing utterance ID: jt:z5z645za
+Processing utterance ID: eh:9785a
+Processing utterance ID: fi:29a
+Processing utterance ID: gj:85za
+Processing utterance ID: nc:z79za
+Processing utterance ID: jt:6a
+Processing utterance ID: lt:22758a
+Processing utterance ID: ji:223za
+Processing utterance ID: pd:78zz821a
+Processing utterance ID: ig:89a
+Processing utterance ID: ms:7782za
+Processing utterance ID: jr:1a
+Processing utterance ID: re:766a
+Processing utterance ID: ei:3oa
+Processing utterance ID: aw:56a
+Processing utterance ID: ai:7o6a
+Processing utterance ID: ig:o15oa
+Processing utterance ID: fi:77194a
+Processing utterance ID: cf:z477a
+Processing utterance ID: ei:2b
+Processing utterance ID: lt:o727a
+Processing utterance ID: eh:z64a
+Processing utterance ID: bi:1556za
+Processing utterance ID: ld:969a
+Processing utterance ID: sj:9b
+Processing utterance ID: ae:161a
+Processing utterance ID: cb:67o4a
+Processing utterance ID: mk:4b
+Processing utterance ID: ca:7465o61a
+Processing utterance ID: br:4a
+Processing utterance ID: lt:7b
+Processing utterance ID: hp:z673a
+Processing utterance ID: ms:za
+Processing utterance ID: fd:8a
+Processing utterance ID: it:37a
+Processing utterance ID: jr:8a
+Processing utterance ID: aw:oo753a
+Processing utterance ID: ms:834za
+Processing utterance ID: fi:1a
+Processing utterance ID: ai:6a
+Processing utterance ID: pd:46z4a
+Processing utterance ID: ei:z2a
+Processing utterance ID: hl:1347a
+Processing utterance ID: gj:5a
+Processing utterance ID: nw:5b
+Processing utterance ID: ai:69o721oa
+Processing utterance ID: ne:3b
+Processing utterance ID: fc:817a
+Processing utterance ID: pd:o35a
+Processing utterance ID: ae:2a
+Processing utterance ID: br:7a
+Processing utterance ID: cr:o8a
+Processing utterance ID: cr:o1a
+Processing utterance ID: gj:9b
+Processing utterance ID: dl:33a
+Processing utterance ID: ea:474oa
+Processing utterance ID: lt:53a
+Processing utterance ID: ne:8z3a
+Processing utterance ID: sj:8b
+Processing utterance ID: jt:9a
+Processing utterance ID: lt:77a
+Processing utterance ID: hh:658o2a
+Processing utterance ID: mk:91b
+Processing utterance ID: cr:1577391a
+Processing utterance ID: re:1oa
+Processing utterance ID: cf:8b
+Processing utterance ID: nw:4b
+Processing utterance ID: jp:13a
+Processing utterance ID: mr:1497za
+Processing utterance ID: if:852a
+Processing utterance ID: sp:85a
+Processing utterance ID: gj:8a
+Processing utterance ID: ei:5b
+Processing utterance ID: cf:3ooa
+Processing utterance ID: gr:za
+Processing utterance ID: pk:o398o44a
+Processing utterance ID: ms:59126o9a
+Processing utterance ID: ne:o59o1a
+Processing utterance ID: fc:5241a
+Processing utterance ID: dg:z4528a
+Processing utterance ID: nh:26z245za
+Processing utterance ID: ea:618z6a
+Processing utterance ID: ji:3b
+Processing utterance ID: dn:6151a
+Processing utterance ID: ms:7443a
+Processing utterance ID: eh:9b
+Processing utterance ID: ld:4a
+Processing utterance ID: re:17a
+Processing utterance ID: sj:2b
+Processing utterance ID: mk:4a
+Processing utterance ID: cm:8a
+Processing utterance ID: re:ob
+Processing utterance ID: ng:14396a
+Processing utterance ID: re:5b
+Processing utterance ID: dg:zb
+Processing utterance ID: mb:79665a
+Processing utterance ID: nr:39a
+Processing utterance ID: jp:54434a
+Processing utterance ID: ld:929a
+Processing utterance ID: lh:19o4a
+Processing utterance ID: dn:5a
+Processing utterance ID: nw:942a
+Processing utterance ID: mr:4379zz7a
+Processing utterance ID: ae:6b
+Processing utterance ID: br:98a
+Processing utterance ID: if:zzz22a
+Processing utterance ID: mr:4o2a
+Processing utterance ID: ag:o8448a
+Processing utterance ID: nh:1a
+Processing utterance ID: sj:o645a
+Processing utterance ID: mp:9z22492a
+Processing utterance ID: ms:1a
+Processing utterance ID: ms:2996911a
+Processing utterance ID: sj:2353327a
+Processing utterance ID: ng:61624a
+Processing utterance ID: nh:61a
+Processing utterance ID: mk:z8298a
+Processing utterance ID: cf:24z2243a
+Processing utterance ID: dl:6574a
+Processing utterance ID: bd:3b
+Processing utterance ID: aw:o32ooa
+Processing utterance ID: pd:29o7a
+Processing utterance ID: nh:2168a
+Processing utterance ID: pk:oa
+Processing utterance ID: ae:8z1a
+Processing utterance ID: mp:o68a
+Processing utterance ID: lh:45oa
+Processing utterance ID: gj:zb
+Processing utterance ID: ea:894a
+Processing utterance ID: bi:5z77a
+Processing utterance ID: jp:2b
+Processing utterance ID: pd:2a
+Processing utterance ID: ca:o8359a
+Processing utterance ID: ne:914a
+Processing utterance ID: dg:181z6a
+Processing utterance ID: mb:21o4o94a
+Processing utterance ID: lt:74514zza
+Processing utterance ID: pk:1755z79a
+Processing utterance ID: ae:3a
+Processing utterance ID: ji:16a
+Processing utterance ID: sj:48b
+Processing utterance ID: gj:78a
+Processing utterance ID: fd:4za
+Processing utterance ID: mk:219zz9za
+Processing utterance ID: nc:o113a
+Processing utterance ID: nw:786a
+Processing utterance ID: ae:8397261a
+Processing utterance ID: hl:o2163a
+Processing utterance ID: sj:2oo3946a
+Processing utterance ID: br:1249267a
+Processing utterance ID: hp:7844za
+Processing utterance ID: rn:95za
+Processing utterance ID: cr:2b
+Processing utterance ID: ae:1b
+Processing utterance ID: pk:o2942a
+Processing utterance ID: cm:2b
+Processing utterance ID: gr:9a
+Processing utterance ID: re:2b
+Processing utterance ID: gr:27a
+Processing utterance ID: mk:9754a
+Processing utterance ID: fd:2a
+Processing utterance ID: bi:7b
+Processing utterance ID: ld:9a
+Processing utterance ID: hp:oa
+Processing utterance ID: if:4a
+Processing utterance ID: sp:2b
+Processing utterance ID: gj:58a
+Processing utterance ID: ae:345a
+Processing utterance ID: gr:o45a
+Processing utterance ID: mr:643a
+Processing utterance ID: pd:37a
+Processing utterance ID: ig:8a
+Processing utterance ID: ae:z9z6531a
+Processing utterance ID: bd:1198a
+Processing utterance ID: nc:7419za
+Processing utterance ID: ne:oa
+Processing utterance ID: rn:28o77a
+Processing utterance ID: ld:2957o91a
+Processing utterance ID: lt:81a
+Processing utterance ID: cb:2a
+Processing utterance ID: ea:11oo9a
+Processing utterance ID: sp:o7ooa
+Processing utterance ID: eh:47oa
+Processing utterance ID: cb:2778575a
+Processing utterance ID: bd:631a
+Processing utterance ID: ei:35o23a
+Processing utterance ID: kk:o597oa
+Processing utterance ID: gj:589a
+Processing utterance ID: dn:7716668a
+Processing utterance ID: hh:4a
+Processing utterance ID: dn:654ooa
+Processing utterance ID: mr:z635221a
+Processing utterance ID: br:44a
+Processing utterance ID: nw:239a
+Processing utterance ID: lh:84a
+Processing utterance ID: ng:2a
+Processing utterance ID: gj:6z9z1a
+Processing utterance ID: bd:8567a
+Processing utterance ID: ls:34943a
+Processing utterance ID: re:17oa
+Processing utterance ID: dn:46a
+Processing utterance ID: kk:ob
+Processing utterance ID: pd:7a
+Processing utterance ID: hh:254o7a
+Processing utterance ID: hp:92165z1a
+Processing utterance ID: lh:3b
+Processing utterance ID: ld:z54982za
+Processing utterance ID: ni:5b
+Processing utterance ID: rn:7o465a
+Processing utterance ID: ld:33a
+Processing utterance ID: mr:764a
+Processing utterance ID: if:za
+Processing utterance ID: nc:1a
+Processing utterance ID: sj:89z9a
+Processing utterance ID: gr:4696474a
+Processing utterance ID: ig:5a
+Processing utterance ID: ms:7b
+Processing utterance ID: fi:2125227a
+Processing utterance ID: sp:517a
+Processing utterance ID: aw:9a
+Processing utterance ID: sp:5913a
+Processing utterance ID: ag:251o4a
+Processing utterance ID: jp:91a
+Processing utterance ID: sp:36a
+Processing utterance ID: gj:31o4oa
+Processing utterance ID: fd:ooa
+Processing utterance ID: gj:146a
+Processing utterance ID: ai:47o6oa
+Processing utterance ID: rn:169a
+Processing utterance ID: ji:795o2a
+Processing utterance ID: ni:782z845a
+Processing utterance ID: bi:2z62a
+Processing utterance ID: hl:14a
+Processing utterance ID: jr:5z31a
+Processing utterance ID: ae:z541a
+Processing utterance ID: ls:73951a
+Processing utterance ID: mp:5o964a
+Processing utterance ID: ea:4a
+Processing utterance ID: jr:ob
+Processing utterance ID: mr:79a
+Processing utterance ID: sp:5b
+Processing utterance ID: cr:7o7a
+Processing utterance ID: rn:57494a
+Processing utterance ID: jt:18a
+Processing utterance ID: ng:427a
+Processing utterance ID: aw:82a
+Processing utterance ID: nh:17oa
+Iteration 5: -11.787652 logprob/frame (50679 frames)
+Decoding ...
+Processing utterance ID: rp:8b
+  Output: ~SIL EIGHT ~SIL TWO ~SIL
+Processing utterance ID: al:8a
+  Output: ~SIL EIGHT ~SIL TWO ~SIL
+Processing utterance ID: kd:o327645a
+  Output: ~SIL OH ~SIL THREE ~SIL TWO ~SIL SEVEN SIX FOUR ~SIL FIVE ~SIL
+Processing utterance ID: an:ob
+  Output: ~SIL OH OH ONE ~SIL
+Processing utterance ID: ra:72oa
+  Output: ~SIL SEVEN TWO OH ~SIL
+Processing utterance ID: jc:72z16a
+  Output: ~SIL SEVEN TWO ZERO ONE SIX ~SIL
+Processing utterance ID: kh:7a
+  Output: ~SIL SEVEN ~SIL
+Processing utterance ID: hs:7o78a
+  Output: ~SIL SEVEN SEVEN EIGHT ~SIL
+Processing utterance ID: pi:29z83a
+  Output: ~SIL TWO NINE ZERO OH EIGHT ~SIL THREE ~SIL
+Processing utterance ID: kf:53a
+  Output: ~SIL FIVE ~SIL THREE ~SIL
+Processing utterance ID: kn:975a
+  Output: ~SIL NINE SEVEN FIVE ~SIL
+Processing utterance ID: kc:z6z1a
+  Output: ~SIL TWO ~SIL ZERO ~SIL EIGHT ~SIL ZERO OH ONE
+Processing utterance ID: pp:382989oa
+  Output: ~SIL THREE ~SIL TWO OH NINE EIGHT NINE OH OH ~SIL
+Processing utterance ID: dc:zb
+  Output: ~SIL ZERO ~SIL
+Processing utterance ID: ih:2452a
+  Output: ~SIL TWO FOUR FIVE ~SIL TWO ~SIL
+Processing utterance ID: il:9a
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: il:46o2a
+  Output: ~SIL FOUR OH SIX ~SIL OH ~SIL TWO ~SIL
+Processing utterance ID: ie:876o186a
+  Output: ~SIL EIGHT SEVEN SIX OH ONE EIGHT SIX ~SIL
+Processing utterance ID: rf:417a
+  Output: ~SIL FOUR ONE SEVEN ~SIL
+Processing utterance ID: la:13o4o63a
+  Output: ~SIL ONE THREE OH ~SIL FOUR ~SIL OH OH SIX ~SIL THREE ~SIL
+Processing utterance ID: jn:o282a
+  Output: ~SIL OH TWO EIGHT ~SIL ZERO ~SIL
+Processing utterance ID: kr:oo438a
+  Output: ~SIL OH OH ONE ~SIL FOUR ~SIL OH THREE EIGHT ~SIL TWO ~SIL
+Processing utterance ID: ih:352z8a
+  Output: ~SIL THREE ~SIL FIVE ~SIL EIGHT ZERO OH EIGHT
+Processing utterance ID: pb:24oa
+  Output: ~SIL TWO ~SIL FOUR OH ONE ~SIL
+Processing utterance ID: kf:8z39za
+  Output: ~SIL EIGHT ~SIL ZERO ~SIL THREE NINE ZERO ~SIL
+Processing utterance ID: kh:zb
+  Output: ~SIL OH ~SIL ZERO ~SIL
+Processing utterance ID: fj:4o3a
+  Output: ~SIL FOUR OH OH ~SIL THREE ~SIL
+Processing utterance ID: in:6za
+  Output: ~SIL SIX ZERO OH ~SIL
+Processing utterance ID: kd:94zza
+  Output: ~SIL NINE ~SIL FOUR ZERO ZERO ~SIL
+Processing utterance ID: ac:o22o6ooa
+  Output: ~SIL OH ~SIL TWO ~SIL TWO OH OH ~SIL OH OH SIX ~SIL OH ~SIL OH ~SIL
+Processing utterance ID: an:z125a
+  Output: ~SIL ZERO ONE TWO ~SIL FIVE ~SIL
+Processing utterance ID: fj:2b
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: hs:3a
+  Output: ~SIL THREE ~SIL
+Processing utterance ID: pe:233a
+  Output: ~SIL TWO ~SIL THREE ~SIL THREE ~SIL
+Processing utterance ID: ih:2oa
+  Output: ~SIL TWO OH FOUR ~SIL
+Processing utterance ID: ek:798z913a
+  Output: ~SIL SEVEN NINE EIGHT ~SIL ZERO OH NINE ONE THREE ~SIL
+Processing utterance ID: ha:9b
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:8692oa
+  Output: ~SIL EIGHT ~SIL SIX NINE TWO OH ONE
+Processing utterance ID: ie:817a
+  Output: ~SIL EIGHT ONE SEVEN
+Processing utterance ID: jn:54a
+  Output: ~SIL FIVE ~SIL OH OH OH ~SIL
+Processing utterance ID: ha:o61oa
+  Output: ~SIL OH SIX ONE ~SIL
+Processing utterance ID: mh:5241577a
+  Output: ~SIL FIVE ~SIL TWO ~SIL FOUR ~SIL ONE ~SIL FIVE SEVEN SEVEN ~SIL
+Processing utterance ID: la:47oa
+  Output: ~SIL FOUR SEVEN OH ~SIL
+Processing utterance ID: pe:31z8178a
+  Output: ~SIL THREE ONE ZERO ~SIL EIGHT ~SIL ONE SEVEN EIGHT ~SIL OH ~SIL
+Processing utterance ID: jc:99oo1a
+  Output: ~SIL NINE OH NINE ~SIL OH OH ONE ~SIL
+Processing utterance ID: fj:51a
+  Output: ~SIL FIVE ~SIL FOUR
+Processing utterance ID: ec:113oa
+  Output: ~SIL ONE ~SIL THREE OH ONE
+Processing utterance ID: fk:7945a
+  Output: ~SIL SEVEN NINE FOUR ~SIL FIVE ~SIL
+Processing utterance ID: gg:2o78a
+  Output: ~SIL TWO SEVEN EIGHT ~SIL
+Processing utterance ID: pm:21oa
+  Output: ~SIL TWO OH NINE OH ONE
+Processing utterance ID: hn:82o34a
+  Output: ~SIL EIGHT ~SIL TWO OH OH ~SIL THREE ~SIL FOUR ~SIL
+Processing utterance ID: cl:8b
+  Output: ~SIL SIX ~SIL EIGHT ~SIL
+Processing utterance ID: kc:32641a
+  Output: ~SIL SIX ~SIL THREE ~SIL TWO SIX FOUR ONE
+Processing utterance ID: fk:z91a
+  Output: ~SIL ZERO NINE ONE ~SIL
+Processing utterance ID: kn:5195916a
+  Output: ~SIL FIVE ONE ONE ~SIL FIVE NINE OH ONE SIX ~SIL
+Processing utterance ID: el:z7788a
+  Output: ~SIL TWO SEVEN SEVEN ~SIL EIGHT ~SIL EIGHT ~SIL
+Processing utterance ID: gt:z71a
+  Output: ~SIL ZERO SEVEN ONE ~SIL
+Processing utterance ID: kp:51a
+  Output: ~SIL FIVE ~SIL ONE ~SIL
+Processing utterance ID: jn:1b
+  Output: ~SIL ONE ~SIL
+Processing utterance ID: la:58a
+  Output: ~SIL FIVE ~SIL OH ~SIL EIGHT ~SIL
+Processing utterance ID: kn:1611712a
+  Output: ~SIL OH ~SIL ONE SIX ONE ~SIL ONE SEVEN ONE SEVEN
+Processing utterance ID: rd:4oa
+  Output: ~SIL FOUR OH OH ~SIL
+Processing utterance ID: ee:2a
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: mh:1b
+  Output: ~SIL ONE ~SIL
+Processing utterance ID: jj:87a
+  Output: ~SIL EIGHT ~SIL SEVEN ~SIL
+Processing utterance ID: hn:5332a
+  Output: ~SIL FIVE ~SIL THREE ~SIL THREE ~SIL TWO ~SIL
+Processing utterance ID: kd:7a
+  Output: ~SIL SEVEN ~SIL
+Processing utterance ID: hn:38342ooa
+  Output: ~SIL THREE ~SIL THREE OH FOUR ~SIL TWO OH OH ~SIL
+Processing utterance ID: ff:o14oa
+  Output: ~SIL OH ONE FOUR OH OH ~SIL
+Processing utterance ID: rp:65z99a
+  Output: ~SIL SIX ~SIL FIVE ZERO ONE
+Processing utterance ID: el:6428a
+  Output: ~SIL SIX FOUR TWO OH EIGHT ~SIL
+Processing utterance ID: mh:2212775a
+  Output: ~SIL TWO ~SIL TWO OH ONE ~SIL TWO SEVEN SEVEN ~SIL FIVE ~SIL
+Processing utterance ID: mm:9b
+  Output: ~SIL NINE
+Processing utterance ID: rp:5596a
+  Output: ~SIL FIVE ~SIL FIVE NINE SIX ~SIL
+Processing utterance ID: rr:o562o63a
+  Output: ~SIL OH FIVE SIX ZERO SIX ~SIL THREE ~SIL
+Processing utterance ID: dc:9o14a
+  Output: ~SIL NINE OH ONE ~SIL FOUR ~SIL
+Processing utterance ID: ih:17441zza
+  Output: ~SIL OH ~SIL ONE SEVEN FOUR ~SIL FOUR OH ONE ZERO ZERO ~SIL
+Processing utterance ID: ee:14a
+  Output: ~SIL ONE ~SIL FOUR ~SIL
+Processing utterance ID: al:38a
+  Output: ~SIL THREE ~SIL EIGHT ~SIL TWO ~SIL
+Processing utterance ID: in:4464229a
+  Output: ~SIL FOUR ~SIL FOUR SIX FOUR ~SIL TWO ~SIL TWO NINE OH ~SIL
+Processing utterance ID: ff:973a
+  Output: ~SIL NINE SEVEN THREE ~SIL
+Processing utterance ID: pm:5281a
+  Output: ~SIL FIVE TWO EIGHT ONE
+Processing utterance ID: cg:1o7oo14a
+  Output: ~SIL ONE ~SIL OH OH SEVEN ~SIL OH ~SIL OH ~SIL ONE OH FOUR ~SIL
+Processing utterance ID: mm:o55o5a
+  Output: ~SIL SIX ~SIL OH ~SIL FIVE FIVE OH ~SIL OH FIVE ONE ~SIL
+Processing utterance ID: mw:99136o4a
+  Output: ~SIL NINE NINE ONE ~SIL THREE SIX OH ~SIL FOUR ~SIL
+Processing utterance ID: ha:298a
+  Output: ~SIL TWO NINE EIGHT ~SIL
+Processing utterance ID: es:15a
+  Output: ~SIL OH ONE FIVE ~SIL
+Processing utterance ID: rd:9b
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: rp:z464za
+  Output: ~SIL ZERO FOUR SIX FOUR ZERO ~SIL
+Processing utterance ID: fl:82579a
+  Output: ~SIL EIGHT ~SIL TWO ~SIL FIVE ~SIL SEVEN ~SIL
+Processing utterance ID: kf:695a
+  Output: ~SIL SIX NINE FIVE ~SIL
+Processing utterance ID: la:8a
+  Output: ~SIL TWO ~SIL EIGHT ~SIL
+Processing utterance ID: fl:z5a
+  Output: ~SIL ZERO ~SIL FIVE ~SIL
+Processing utterance ID: ek:8b
+  Output: ~SIL EIGHT ~SIL OH ~SIL
+Processing utterance ID: jc:2b
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: hn:3b
+  Output: ~SIL THREE ~SIL
+Processing utterance ID: ek:8221324a
+  Output: ~SIL EIGHT ~SIL TWO TWO ONE THREE TWO TWO FOUR ~SIL
+Processing utterance ID: ff:83628a
+  Output: ~SIL EIGHT THREE SIX TWO EIGHT ~SIL
+Processing utterance ID: gg:381oa
+  Output: ~SIL THREE EIGHT ONE OH TWO ~SIL
+Processing utterance ID: ek:311a
+  Output: ~SIL THREE ONE ONE
+-12.195231 logprob/frame (18500 frames).
+Computing WER ...
+Loading web/control file ...
+
+Processing cell 1 (id rp:8b) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 1 wds, 1 C, 0 D, 1 I, 0 S, 100.00% wer)
+
+Processing cell 2 (id al:8a) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 2 wds, 2 C, 0 D, 2 I, 0 S, 100.00% wer)
+
+Processing cell 3 (id kd:o327645a) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 9 wds, 9 C, 0 D, 2 I, 0 S, 22.22% wer)
+
+Processing cell 4 (id an:ob) ...
+  1 ref words, 1 corr, 0 del, 2 ins, 0 sub
+  (cum: 10 wds, 10 C, 0 D, 4 I, 0 S, 40.00% wer)
+
+Processing cell 5 (id ra:72oa) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 13 wds, 13 C, 0 D, 4 I, 0 S, 30.77% wer)
+
+Processing cell 6 (id jc:72z16a) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 18 wds, 18 C, 0 D, 4 I, 0 S, 22.22% wer)
+
+Processing cell 7 (id kh:7a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 19 wds, 19 C, 0 D, 4 I, 0 S, 21.05% wer)
+
+Processing cell 8 (id hs:7o78a) ...
+  4 ref words, 3 corr, 1 del, 0 ins, 0 sub
+  (cum: 23 wds, 22 C, 1 D, 4 I, 0 S, 21.74% wer)
+
+Processing cell 9 (id pi:29z83a) ...
+  5 ref words, 5 corr, 0 del, 1 ins, 0 sub
+  (cum: 28 wds, 27 C, 1 D, 5 I, 0 S, 21.43% wer)
+
+Processing cell 10 (id kf:53a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 30 wds, 29 C, 1 D, 5 I, 0 S, 20.00% wer)
+
+Processing cell 11 (id kn:975a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 33 wds, 32 C, 1 D, 5 I, 0 S, 18.18% wer)
+
+Processing cell 12 (id kc:z6z1a) ...
+  4 ref words, 3 corr, 0 del, 2 ins, 1 sub
+  (cum: 37 wds, 35 C, 1 D, 7 I, 1 S, 24.32% wer)
+
+Processing cell 13 (id pp:382989oa) ...
+  7 ref words, 5 corr, 0 del, 1 ins, 2 sub
+  (cum: 44 wds, 40 C, 1 D, 8 I, 3 S, 27.27% wer)
+
+Processing cell 14 (id dc:zb) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 41 C, 1 D, 8 I, 3 S, 26.67% wer)
+
+Processing cell 15 (id ih:2452a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 49 wds, 45 C, 1 D, 8 I, 3 S, 24.49% wer)
+
+Processing cell 16 (id il:9a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 50 wds, 46 C, 1 D, 8 I, 3 S, 24.00% wer)
+
+Processing cell 17 (id il:46o2a) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 54 wds, 50 C, 1 D, 9 I, 3 S, 24.07% wer)
+
+Processing cell 18 (id ie:876o186a) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 57 C, 1 D, 9 I, 3 S, 21.31% wer)
+
+Processing cell 19 (id rf:417a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 60 C, 1 D, 9 I, 3 S, 20.31% wer)
+
+Processing cell 20 (id la:13o4o63a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 71 wds, 67 C, 1 D, 10 I, 3 S, 19.72% wer)
+
+Processing cell 21 (id jn:o282a) ...
+  4 ref words, 3 corr, 0 del, 0 ins, 1 sub
+  (cum: 75 wds, 70 C, 1 D, 10 I, 4 S, 20.00% wer)
+
+Processing cell 22 (id kr:oo438a) ...
+  5 ref words, 5 corr, 0 del, 3 ins, 0 sub
+  (cum: 80 wds, 75 C, 1 D, 13 I, 4 S, 22.50% wer)
+
+Processing cell 23 (id ih:352z8a) ...
+  5 ref words, 4 corr, 0 del, 1 ins, 1 sub
+  (cum: 85 wds, 79 C, 1 D, 14 I, 5 S, 23.53% wer)
+
+Processing cell 24 (id pb:24oa) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 88 wds, 82 C, 1 D, 15 I, 5 S, 23.86% wer)
+
+Processing cell 25 (id kf:8z39za) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 93 wds, 87 C, 1 D, 15 I, 5 S, 22.58% wer)
+
+Processing cell 26 (id kh:zb) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 94 wds, 88 C, 1 D, 16 I, 5 S, 23.40% wer)
+
+Processing cell 27 (id fj:4o3a) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 97 wds, 91 C, 1 D, 17 I, 5 S, 23.71% wer)
+
+Processing cell 28 (id in:6za) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 99 wds, 93 C, 1 D, 18 I, 5 S, 24.24% wer)
+
+Processing cell 29 (id kd:94zza) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 103 wds, 97 C, 1 D, 18 I, 5 S, 23.30% wer)
+
+Processing cell 30 (id ac:o22o6ooa) ...
+  7 ref words, 7 corr, 0 del, 3 ins, 0 sub
+  (cum: 110 wds, 104 C, 1 D, 21 I, 5 S, 24.55% wer)
+
+Processing cell 31 (id an:z125a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 114 wds, 108 C, 1 D, 21 I, 5 S, 23.68% wer)
+
+Processing cell 32 (id fj:2b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 115 wds, 109 C, 1 D, 21 I, 5 S, 23.48% wer)
+
+Processing cell 33 (id hs:3a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 116 wds, 110 C, 1 D, 21 I, 5 S, 23.28% wer)
+
+Processing cell 34 (id pe:233a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 119 wds, 113 C, 1 D, 21 I, 5 S, 22.69% wer)
+
+Processing cell 35 (id ih:2oa) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 121 wds, 115 C, 1 D, 22 I, 5 S, 23.14% wer)
+
+Processing cell 36 (id ek:798z913a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 128 wds, 122 C, 1 D, 23 I, 5 S, 22.66% wer)
+
+Processing cell 37 (id ha:9b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 129 wds, 123 C, 1 D, 23 I, 5 S, 22.48% wer)
+
+Processing cell 38 (id es:8692oa) ...
+  5 ref words, 5 corr, 0 del, 1 ins, 0 sub
+  (cum: 134 wds, 128 C, 1 D, 24 I, 5 S, 22.39% wer)
+
+Processing cell 39 (id ie:817a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 137 wds, 131 C, 1 D, 24 I, 5 S, 21.90% wer)
+
+Processing cell 40 (id jn:54a) ...
+  2 ref words, 1 corr, 0 del, 2 ins, 1 sub
+  (cum: 139 wds, 132 C, 1 D, 26 I, 6 S, 23.74% wer)
+
+Processing cell 41 (id ha:o61oa) ...
+  4 ref words, 3 corr, 0 del, 0 ins, 1 sub
+  (cum: 143 wds, 135 C, 1 D, 26 I, 7 S, 23.78% wer)
+
+Processing cell 42 (id mh:5241577a) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 150 wds, 142 C, 1 D, 26 I, 7 S, 22.67% wer)
+
+Processing cell 43 (id la:47oa) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 153 wds, 145 C, 1 D, 26 I, 7 S, 22.22% wer)
+
+Processing cell 44 (id pe:31z8178a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 160 wds, 152 C, 1 D, 27 I, 7 S, 21.88% wer)
+
+Processing cell 45 (id jc:99oo1a) ...
+  5 ref words, 5 corr, 0 del, 1 ins, 0 sub
+  (cum: 165 wds, 157 C, 1 D, 28 I, 7 S, 21.82% wer)
+
+Processing cell 46 (id fj:51a) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 167 wds, 158 C, 1 D, 28 I, 8 S, 22.16% wer)
+
+Processing cell 47 (id ec:113oa) ...
+  4 ref words, 3 corr, 0 del, 1 ins, 1 sub
+  (cum: 171 wds, 161 C, 1 D, 29 I, 9 S, 22.81% wer)
+
+Processing cell 48 (id fk:7945a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 175 wds, 165 C, 1 D, 29 I, 9 S, 22.29% wer)
+
+Processing cell 49 (id gg:2o78a) ...
+  4 ref words, 3 corr, 1 del, 0 ins, 0 sub
+  (cum: 179 wds, 168 C, 2 D, 29 I, 9 S, 22.35% wer)
+
+Processing cell 50 (id pm:21oa) ...
+  3 ref words, 2 corr, 0 del, 2 ins, 1 sub
+  (cum: 182 wds, 170 C, 2 D, 31 I, 10 S, 23.63% wer)
+
+Processing cell 51 (id hn:82o34a) ...
+  5 ref words, 5 corr, 0 del, 1 ins, 0 sub
+  (cum: 187 wds, 175 C, 2 D, 32 I, 10 S, 23.53% wer)
+
+Processing cell 52 (id cl:8b) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 188 wds, 176 C, 2 D, 33 I, 10 S, 23.94% wer)
+
+Processing cell 53 (id kc:32641a) ...
+  5 ref words, 5 corr, 0 del, 1 ins, 0 sub
+  (cum: 193 wds, 181 C, 2 D, 34 I, 10 S, 23.83% wer)
+
+Processing cell 54 (id fk:z91a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 196 wds, 184 C, 2 D, 34 I, 10 S, 23.47% wer)
+
+Processing cell 55 (id kn:5195916a) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 203 wds, 190 C, 2 D, 35 I, 11 S, 23.65% wer)
+
+Processing cell 56 (id el:z7788a) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 208 wds, 194 C, 2 D, 35 I, 12 S, 23.56% wer)
+
+Processing cell 57 (id gt:z71a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 197 C, 2 D, 35 I, 12 S, 23.22% wer)
+
+Processing cell 58 (id kp:51a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 213 wds, 199 C, 2 D, 35 I, 12 S, 23.00% wer)
+
+Processing cell 59 (id jn:1b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 214 wds, 200 C, 2 D, 35 I, 12 S, 22.90% wer)
+
+Processing cell 60 (id la:58a) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 216 wds, 202 C, 2 D, 36 I, 12 S, 23.15% wer)
+
+Processing cell 61 (id kn:1611712a) ...
+  7 ref words, 6 corr, 0 del, 1 ins, 1 sub
+  (cum: 223 wds, 208 C, 2 D, 37 I, 13 S, 23.32% wer)
+
+Processing cell 62 (id rd:4oa) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 225 wds, 210 C, 2 D, 38 I, 13 S, 23.56% wer)
+
+Processing cell 63 (id ee:2a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 226 wds, 211 C, 2 D, 38 I, 13 S, 23.45% wer)
+
+Processing cell 64 (id mh:1b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 227 wds, 212 C, 2 D, 38 I, 13 S, 23.35% wer)
+
+Processing cell 65 (id jj:87a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 229 wds, 214 C, 2 D, 38 I, 13 S, 23.14% wer)
+
+Processing cell 66 (id hn:5332a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 233 wds, 218 C, 2 D, 38 I, 13 S, 22.75% wer)
+
+Processing cell 67 (id kd:7a) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 234 wds, 219 C, 2 D, 38 I, 13 S, 22.65% wer)
+
+Processing cell 68 (id hn:38342ooa) ...
+  7 ref words, 5 corr, 0 del, 0 ins, 2 sub
+  (cum: 241 wds, 224 C, 2 D, 38 I, 15 S, 22.82% wer)
+
+Processing cell 69 (id ff:o14oa) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 245 wds, 228 C, 2 D, 39 I, 15 S, 22.86% wer)
+
+Processing cell 70 (id rp:65z99a) ...
+  5 ref words, 3 corr, 1 del, 0 ins, 1 sub
+  (cum: 250 wds, 231 C, 3 D, 39 I, 16 S, 23.20% wer)
+
+Processing cell 71 (id el:6428a) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 254 wds, 235 C, 3 D, 40 I, 16 S, 23.23% wer)
+
+Processing cell 72 (id mh:2212775a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 261 wds, 242 C, 3 D, 41 I, 16 S, 22.99% wer)
+
+Processing cell 73 (id mm:9b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 262 wds, 243 C, 3 D, 41 I, 16 S, 22.90% wer)
+
+Processing cell 74 (id rp:5596a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 266 wds, 247 C, 3 D, 41 I, 16 S, 22.56% wer)
+
+Processing cell 75 (id rr:o562o63a) ...
+  7 ref words, 5 corr, 1 del, 0 ins, 1 sub
+  (cum: 273 wds, 252 C, 4 D, 41 I, 17 S, 22.71% wer)
+
+Processing cell 76 (id dc:9o14a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 277 wds, 256 C, 4 D, 41 I, 17 S, 22.38% wer)
+
+Processing cell 77 (id ih:17441zza) ...
+  7 ref words, 7 corr, 0 del, 2 ins, 0 sub
+  (cum: 284 wds, 263 C, 4 D, 43 I, 17 S, 22.54% wer)
+
+Processing cell 78 (id ee:14a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 286 wds, 265 C, 4 D, 43 I, 17 S, 22.38% wer)
+
+Processing cell 79 (id al:38a) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 288 wds, 267 C, 4 D, 44 I, 17 S, 22.57% wer)
+
+Processing cell 80 (id in:4464229a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 295 wds, 274 C, 4 D, 45 I, 17 S, 22.37% wer)
+
+Processing cell 81 (id ff:973a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 298 wds, 277 C, 4 D, 45 I, 17 S, 22.15% wer)
+
+Processing cell 82 (id pm:5281a) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 302 wds, 281 C, 4 D, 45 I, 17 S, 21.85% wer)
+
+Processing cell 83 (id cg:1o7oo14a) ...
+  7 ref words, 7 corr, 0 del, 2 ins, 0 sub
+  (cum: 309 wds, 288 C, 4 D, 47 I, 17 S, 22.01% wer)
+
+Processing cell 84 (id mm:o55o5a) ...
+  5 ref words, 5 corr, 0 del, 3 ins, 0 sub
+  (cum: 314 wds, 293 C, 4 D, 50 I, 17 S, 22.61% wer)
+
+Processing cell 85 (id mw:99136o4a) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 321 wds, 300 C, 4 D, 50 I, 17 S, 22.12% wer)
+
+Processing cell 86 (id ha:298a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 324 wds, 303 C, 4 D, 50 I, 17 S, 21.91% wer)
+
+Processing cell 87 (id es:15a) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 326 wds, 305 C, 4 D, 51 I, 17 S, 22.09% wer)
+
+Processing cell 88 (id rd:9b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 327 wds, 306 C, 4 D, 51 I, 17 S, 22.02% wer)
+
+Processing cell 89 (id rp:z464za) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 332 wds, 311 C, 4 D, 51 I, 17 S, 21.69% wer)
+
+Processing cell 90 (id fl:82579a) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 337 wds, 315 C, 4 D, 51 I, 18 S, 21.66% wer)
+
+Processing cell 91 (id kf:695a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 340 wds, 318 C, 4 D, 51 I, 18 S, 21.47% wer)
+
+Processing cell 92 (id la:8a) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 341 wds, 319 C, 4 D, 52 I, 18 S, 21.70% wer)
+
+Processing cell 93 (id fl:z5a) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 343 wds, 321 C, 4 D, 52 I, 18 S, 21.57% wer)
+
+Processing cell 94 (id ek:8b) ...
+  1 ref words, 1 corr, 0 del, 1 ins, 0 sub
+  (cum: 344 wds, 322 C, 4 D, 53 I, 18 S, 21.80% wer)
+
+Processing cell 95 (id jc:2b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 345 wds, 323 C, 4 D, 53 I, 18 S, 21.74% wer)
+
+Processing cell 96 (id hn:3b) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 346 wds, 324 C, 4 D, 53 I, 18 S, 21.68% wer)
+
+Processing cell 97 (id ek:8221324a) ...
+  7 ref words, 7 corr, 0 del, 1 ins, 0 sub
+  (cum: 353 wds, 331 C, 4 D, 54 I, 18 S, 21.53% wer)
+
+Processing cell 98 (id ff:83628a) ...
+  5 ref words, 5 corr, 0 del, 0 ins, 0 sub
+  (cum: 358 wds, 336 C, 4 D, 54 I, 18 S, 21.23% wer)
+
+Processing cell 99 (id gg:381oa) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 362 wds, 340 C, 4 D, 55 I, 18 S, 21.27% wer)
+
+Processing cell 100 (id ek:311a) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 365 wds, 343 C, 4 D, 55 I, 18 S, 21.10% wer)
+
+OK cell(s) 100/100
+
+365 ref words.
+93.97% corr (343/365 wds)
+1.10% del (4/365 wds)
+15.07% ins (55/365 wds)
+4.93% sub (18/365 wds)
+21.10% WER (77/365 wds)
+Elapsed time: 0 sec
