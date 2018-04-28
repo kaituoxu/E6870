@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 
-if [[ -e lab2_vit ]] ; then
-    binStr="lab2_vit"
+if [[ -e ./src/lab2_vit ]] ; then
+    binStr="./src/lab2_vit"
 elif [[ -e Lab2Vit.class ]] ; then
     binStr="java Lab2Vit"
 else

@@ -17,6 +17,7 @@
  *       reference transcript for that utterance.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+#include <cassert>
 #include "front_end.H"
 #include "lab2_vit.H"
 #include "util.H"
@@ -92,6 +93,105 @@ double viterbi(const Graph& graph, const matrix<double>& gmmProbs,
   //
   //  The code for calculating the final probability and
   //  the best path is provided for you below.
+  // assert(graph.get_state_count() == stateCnt);
+
+  // Init chart
+  {
+    for (size_t frmIdx = 0; frmIdx < chart.size1(); ++frmIdx) {
+      for (size_t stateIdx = 0; stateIdx < chart.size2(); ++stateIdx) {
+        chart(frmIdx, stateIdx).assign(g_zeroLogProb, -1);
+      }
+    }
+    int startState = graph.get_start_state();
+    // when t = 0, the probability located at start state is 1 (log1 = 0)
+    chart(0, startState).assign(0, -1);
+  }
+
+  // Init
+  int frmIdx = 1;  // t = 1;
+  auto startState = graph.get_start_state();
+  int arcCnt = graph.get_arc_count(startState);
+  int arcId = graph.get_first_arc_id(startState);
+  // cout << format("start State index: %d\n") % startState;
+  // cout << format("start state outting #arc: %d\n") % arcCnt;
+  for (int arcIdx = 0; arcIdx < arcCnt; ++arcIdx) {
+    Arc arc;
+    int curArcId = arcId;
+    arcId = graph.get_arc(arcId, arc);
+    int dstState = arc.get_dst_state();
+    double transition_prob = arc.get_log_prob();
+    double log_prob =
+        transition_prob + gmmProbs(frmIdx - 1, arc.get_gmm());  // NOTE
+    log_prob += chart(frmIdx - 1, startState).get_log_prob();
+    chart(frmIdx, dstState).assign(log_prob, curArcId);
+  }
+
+  // Recursive
+  // cout << format("frmCnt %d\n") % frmCnt;
+  // cout << format("gmmProbs size1() %d\n") % gmmProbs.size1();
+  // cout << format("stateCnt %d\n") % stateCnt;
+  for (int frmIdx = 2; frmIdx <= frmCnt; ++frmIdx) {
+    // cout << format("frmIdx %d\n") % frmIdx;
+    for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
+      // cout << format("stateIdx %d\n") % stateIdx;
+      int arcCnt = graph.get_arc_count(stateIdx);
+      int arcId = graph.get_first_arc_id(stateIdx);
+      // cout << format("arcCnt %d\n") % arcCnt;
+      for (int arcIdx = 0; arcIdx < arcCnt; ++arcIdx) {
+        // cout << format("arcIdx %d\n") % arcIdx;
+        Arc arc;
+        int curArcId = arcId;
+        arcId = graph.get_arc(arcId, arc);
+        int dstState = arc.get_dst_state();
+        double transition_prob = arc.get_log_prob();
+        // cout << format("%d %d\n") % gmmProbs.size2() % dstState;
+        double log_prob = chart(frmIdx - 1, stateIdx).get_log_prob() +
+                          transition_prob +
+                          gmmProbs(frmIdx - 1, arc.get_gmm());  // NOTE
+        if (log_prob > chart(frmIdx, dstState).get_log_prob()) {
+          chart(frmIdx, dstState).assign(log_prob, curArcId);
+        }
+      }
+    }
+  }
+
+  // Terminate
+  // for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
+  //   cout << format("stateIdx %d\n") % stateIdx;
+  //   int arcCnt = graph.get_arc_count(stateIdx);
+  //   int arcId = graph.get_first_arc_id(stateIdx);
+  //   cout << format("arcCnt %d\n") % arcCnt;
+  //   for (int arcIdx = 0; arcIdx < arcCnt; ++arcIdx) {
+  //     cout << format("arcIdx %d\n") % arcIdx;
+  //     Arc arc;
+  //     int curArcId = arcId;
+  //     // cout << format("%d\n") % arcId;
+  //     arcId = graph.get_arc(arcId, arc);
+  //     int dstState = arc.get_dst_state();
+  //     if (graph.is_final_state(dstState)) {
+  //       chart(frmCnt, dstState).assign(arc.get_log_prob(), curArcId);
+  //     }
+  //   }
+  // }
+
+  // DEBUG chart BEGIN
+  int frmMax = frmCnt + 1;
+  for (int frmIdx = 0; frmIdx < frmMax; ++frmIdx) {
+    // log prob
+    for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
+      cout << format(" %d") % chart(frmIdx, stateIdx).get_log_prob();
+    }
+    cout << endl;
+  }
+  // arc id
+  for (int frmIdx = 0; frmIdx < frmMax; ++frmIdx) {
+    for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
+      cout << format(" %d") % chart(frmIdx, stateIdx).get_arc_id();
+    }
+    cout << endl;
+  }
+  // DEBUG chart END
+  // return 0.0;
 
   //  END_LAB
   //
@@ -127,12 +227,15 @@ double viterbi_backtrace(const Graph& graph, matrix<VitCell>& chart,
   //  Do backtrace, collect appropriate labels.
   outLabelList.clear();
   int stateIdx = bestFinalState;
+  // cout << format("frmCnt %d\n") % frmCnt;
   for (int frmIdx = frmCnt; --frmIdx >= 0;) {
     assert((stateIdx >= 0) && (stateIdx < stateCnt));
     int arcId = chart(frmIdx + 1, stateIdx).get_arc_id();
     Arc arc;
+    // cout << format("frmIdx: %d arcId: %d") % frmIdx % arcId << endl;
     graph.get_arc(arcId, arc);
     assert((int)arc.get_dst_state() == stateIdx);
+    // cout << "HERE" << endl;
     if (doAlign) {
       if (arc.get_gmm() < 0)
         throw runtime_error("Expect all arcs to have GMM.");
