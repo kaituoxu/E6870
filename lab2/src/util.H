@@ -22,7 +22,7 @@
 #include <vector>
 #include <boost/format.hpp>
 #include <boost/numeric/ublas/matrix.hpp>
-#include <boost/shared_ptr.hpp>
+// #include <boost/shared_ptr.hpp>
 
 
 using namespace std;
@@ -31,8 +31,9 @@ using namespace std;
 using boost::format;
 using boost::str;
 using boost::numeric::ublas::matrix;
-using boost::shared_ptr;
+// using boost::shared_ptr;
 #endif
+using std::shared_ptr;
 
 
 /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * **

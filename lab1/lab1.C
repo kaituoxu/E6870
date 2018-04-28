@@ -23,7 +23,7 @@ void MainLoop(const char** argv) {
   while (audio_strm.peek() != EOF) {
     string id_str = read_float_matrix(audio_strm, in_audio);
     cout << "Processing utterance ID: " << id_str << endl;
-    front_end.GetFeats(in_audio, feats);
+    front_end.get_feats(in_audio, feats);
     write_float_matrix(feat_strm, feats, id_str);
   }
   audio_strm.close();

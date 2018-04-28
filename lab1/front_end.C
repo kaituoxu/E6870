@@ -8,7 +8,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /** Module for doing windowing. **/
-void FrontEnd::DoWindow(const matrix<double>& in_feats,
+void FrontEnd::do_window(const matrix<double>& in_feats,
                          matrix<double>& out_feats) const {
   //  Get parameters.
   //  Input samples per second.
@@ -93,7 +93,7 @@ void FrontEnd::DoWindow(const matrix<double>& in_feats,
 }
 
 /** Module for doing FFT. **/
-void FrontEnd::DoFft(const matrix<double>& in_feats,
+void FrontEnd::do_fft(const matrix<double>& in_feats,
                       matrix<double>& out_feats) const {
   //  Make output dimension the smallest power of 2 at least as
   //  large as input dimension.
@@ -136,7 +136,7 @@ void FrontEnd::DoFft(const matrix<double>& in_feats,
 
 /** Module for mel binning. **/
 // change to google name style
-void FrontEnd::DoMelbin(const matrix<double>& in_feats,
+void FrontEnd::do_melbin(const matrix<double>& in_feats,
                          matrix<double>& out_feats) const {
   //  Number of mel bins to make.
   int num_bins = get_int_param(params_, "melbin.bins", 26);
@@ -226,7 +226,7 @@ void FrontEnd::DoMelbin(const matrix<double>& in_feats,
 
 /** Module for doing discrete cosine transform. **/
 // change to google name style
-void FrontEnd::DoDct(const matrix<double>& in_feats,
+void FrontEnd::do_dct(const matrix<double>& in_feats,
                       matrix<double>& out_feats) const {
   //  Number of DCT coefficients to output.
   int num_coeffs = get_int_param(params_, "dct.coeffs", 12);
@@ -273,7 +273,7 @@ void FrontEnd::DoDct(const matrix<double>& in_feats,
  *   Calls each signal processing module in turn, unless
  *   parameter says not to.
  **/
-void FrontEnd::GetFeats(const matrix<double>& inAudio,
+void FrontEnd::get_feats(const matrix<double>& inAudio,
                          matrix<double>& out_feats) const {
   if (get_bool_param(params_, "frontend.null", false)) {
     out_feats = inAudio;
@@ -281,19 +281,19 @@ void FrontEnd::GetFeats(const matrix<double>& inAudio,
   }
   matrix<double> curFeats(inAudio);
   if (get_bool_param(params_, "frontend.window", true)) {
-    DoWindow(curFeats, out_feats);
+    do_window(curFeats, out_feats);
     out_feats.swap(curFeats);
   }
   if (get_bool_param(params_, "frontend.fft", true)) {
-    DoFft(curFeats, out_feats);
+    do_fft(curFeats, out_feats);
     out_feats.swap(curFeats);
   }
   if (get_bool_param(params_, "frontend.melbin", true)) {
-    DoMelbin(curFeats, out_feats);
+    do_melbin(curFeats, out_feats);
     out_feats.swap(curFeats);
   }
   if (get_bool_param(params_, "frontend.dct", true)) {
-    DoDct(curFeats, out_feats);
+    do_dct(curFeats, out_feats);
     out_feats.swap(curFeats);
   }
   out_feats.swap(curFeats);

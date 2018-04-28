@@ -10,7 +10,7 @@ endif
 CXX = g++
 JAVAC = javac
 CPPFLAGS = -I/user1/faculty/stanchen/pub/boost
-CXXFLAGS = -Wall
+CXXFLAGS = -Wall -std=c++11
 LDFLAGS = $(OPTFLAGS)
 LDLIBS = -lm
 
@@ -19,7 +19,8 @@ CXXFLAGS += $(OPTFLAGS)
 #   GNU make's default rule uses $(CC) for linking
 LINK.o = $(CXX) $(LDFLAGS) $(TARGET_ARCH)
 
-FRONT_END_OBJ = /user1/faculty/stanchen/e6870/lab2data/front_end.o
+#FRONT_END_OBJ = /user1/faculty/stanchen/e6870/lab2data/front_end.o
+FRONT_END_OBJ = /home/t-kax/workspace/e6870/lab1/front_end.o
 
 
 ########################################################################

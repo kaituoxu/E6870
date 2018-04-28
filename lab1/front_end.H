@@ -23,20 +23,20 @@ class FrontEnd {
   /** Process input signal from @p inAudio; place acoustic
    *   feature vectors in @p out_feats.
    **/
-  void GetFeats(const matrix<double>& inAudio, matrix<double>& out_feats) const;
+  void get_feats(const matrix<double>& inAudio, matrix<double>& out_feats) const;
 
  private:
   /** Do windowing. **/
-  void DoWindow(const matrix<double>& in_feats, matrix<double>& out_feats) const;
+  void do_window(const matrix<double>& in_feats, matrix<double>& out_feats) const;
 
   /** Do FFT. **/
-  void DoFft(const matrix<double>& in_feats, matrix<double>& out_feats) const;
+  void do_fft(const matrix<double>& in_feats, matrix<double>& out_feats) const;
 
   /** Do Mel binning. **/
-  void DoMelbin(const matrix<double>& in_feats, matrix<double>& out_feats) const;
+  void do_melbin(const matrix<double>& in_feats, matrix<double>& out_feats) const;
 
   /** Do discrete cosine transform. **/
-  void DoDct(const matrix<double>& in_feats, matrix<double>& out_feats) const;
+  void do_dct(const matrix<double>& in_feats, matrix<double>& out_feats) const;
 
  private:
   /** Stores copy of input parameters. **/
