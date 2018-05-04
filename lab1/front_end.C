@@ -68,10 +68,10 @@ void FrontEnd::do_window(const matrix<double>& in_feats,
   //  use a syntax like "in_feats(frm_idx, dim_idx)" to access elements;
   //  using square brackets as in normal C arrays won't work.
 
-  cout << format("samp_shift %d\n") % samp_shift;
-  cout << format("out_frame_cnt %d\n") % out_frame_cnt;
-  cout << format("samp_perWindw %d\n") % samp_per_window;
-  cout << format("in_samp_cnt %d\n") %in_samp_cnt;
+  // cout << format("samp_shift %d\n") % samp_shift;
+  // cout << format("out_frame_cnt %d\n") % out_frame_cnt;
+  // cout << format("samp_perWindw %d\n") % samp_per_window;
+  // cout << format("in_samp_cnt %d\n") % in_samp_cnt;
   if (do_Hamming) {
     // Hamming windows
     for (int r = 0; r < out_frame_cnt; ++r) {
@@ -175,8 +175,9 @@ void FrontEnd::do_melbin(const matrix<double>& in_feats,
   //
   //  See "in_frame_cnt", "in_dim_cnt", "out_dim_cnt", and "sample_period"
   //  above for quantities you will need for this computation.
-  cout << format("sample_period %ls\n") % sample_period;
-  cout << format("input dim %d\n") % in_dim_cnt;
+
+  // cout << format("sample_period %ls\n") % sample_period;
+  // cout << format("input dim %d\n") % in_dim_cnt;
 
   // TODO: Optimize the compuatation order to avoid duplicate computation
   int N = in_dim_cnt;
@@ -191,15 +192,16 @@ void FrontEnd::do_melbin(const matrix<double>& in_feats,
       for (int i = 0; i < N / 2; ++i) {
         // BEGIN X(f)
         double f = i / (N * T);
-        double real = in_feats(r, 2*i), img = in_feats(r, 2*i+1);  // S_2i, S_2i+1
-        double X_f = sqrt(real*real + img*img);  // |X(f)|
+        double real = in_feats(r, 2 * i),
+               img = in_feats(r, 2 * i + 1);         // S_2i, S_2i+1
+        double X_f = sqrt(real * real + img * img);  // |X(f)|
         // END X(f)
         // BEGIN Hm[Mel_f]
         double Mel_f = 1127 * log(1 + f / 700);  // Mel(f)
         double Mel_f_max = 1127 * log(1 + 1 / (700 * 2 * T));
-        double Mel_f_m = m * Mel_f_max / (M+1);  // Mel_f_min is 0
-        double Mel_f_mp = (m-1) * Mel_f_max / (M+1); // p means previous
-        double Mel_f_mn = (m+1) * Mel_f_max / (M+1); // n means next
+        double Mel_f_m = m * Mel_f_max / (M + 1);         // Mel_f_min is 0
+        double Mel_f_mp = (m - 1) * Mel_f_max / (M + 1);  // p means previous
+        double Mel_f_mn = (m + 1) * Mel_f_max / (M + 1);  // n means next
         double H;
         if (Mel_f < Mel_f_mp || Mel_f > Mel_f_mn) {
           H = 0;
@@ -212,15 +214,15 @@ void FrontEnd::do_melbin(const matrix<double>& in_feats,
         }
         // END Hm[Mel_f]
         sum += X_f * H;
-      } // end for i
+      }  // end for i
       // m is 1-based, but in out_feats, its position is 0-based
       if (do_log) {
-        out_feats(r, m-1) = log(sum); // natrual logrithm
+        out_feats(r, m - 1) = log(sum);  // natrual logrithm
       } else {
-        out_feats(r, m-1) = sum;
+        out_feats(r, m - 1) = sum;
       }
-    } // end for m
-  } // end for r
+    }  // end for m
+  }    // end for r
   //  END_LAB
 }
 

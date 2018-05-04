@@ -97,6 +97,7 @@ double viterbi(const Graph& graph, const matrix<double>& gmmProbs,
 
   // Init chart
   {
+    // this two for can be omitted
     for (size_t frmIdx = 0; frmIdx < chart.size1(); ++frmIdx) {
       for (size_t stateIdx = 0; stateIdx < chart.size2(); ++stateIdx) {
         chart(frmIdx, stateIdx).assign(g_zeroLogProb, -1);
@@ -145,9 +146,10 @@ double viterbi(const Graph& graph, const matrix<double>& gmmProbs,
         int dstState = arc.get_dst_state();
         double transition_prob = arc.get_log_prob();
         // cout << format("%d %d\n") % gmmProbs.size2() % dstState;
-        double log_prob = chart(frmIdx - 1, stateIdx).get_log_prob() +
-                          transition_prob +
-                          gmmProbs(frmIdx - 1, arc.get_gmm());  // NOTE
+        double log_prob =
+            chart(frmIdx - 1, stateIdx).get_log_prob() +  // Remember add this
+            transition_prob +
+            gmmProbs(frmIdx - 1, arc.get_gmm());  // NOTE frmIdx should - 1
         if (log_prob > chart(frmIdx, dstState).get_log_prob()) {
           chart(frmIdx, dstState).assign(log_prob, curArcId);
         }
@@ -155,41 +157,22 @@ double viterbi(const Graph& graph, const matrix<double>& gmmProbs,
     }
   }
 
-  // Terminate
-  // for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
-  //   cout << format("stateIdx %d\n") % stateIdx;
-  //   int arcCnt = graph.get_arc_count(stateIdx);
-  //   int arcId = graph.get_first_arc_id(stateIdx);
-  //   cout << format("arcCnt %d\n") % arcCnt;
-  //   for (int arcIdx = 0; arcIdx < arcCnt; ++arcIdx) {
-  //     cout << format("arcIdx %d\n") % arcIdx;
-  //     Arc arc;
-  //     int curArcId = arcId;
-  //     // cout << format("%d\n") % arcId;
-  //     arcId = graph.get_arc(arcId, arc);
-  //     int dstState = arc.get_dst_state();
-  //     if (graph.is_final_state(dstState)) {
-  //       chart(frmCnt, dstState).assign(arc.get_log_prob(), curArcId);
-  //     }
-  //   }
-  // }
-
   // DEBUG chart BEGIN
-  int frmMax = frmCnt + 1;
-  for (int frmIdx = 0; frmIdx < frmMax; ++frmIdx) {
-    // log prob
-    for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
-      cout << format(" %d") % chart(frmIdx, stateIdx).get_log_prob();
-    }
-    cout << endl;
-  }
-  // arc id
-  for (int frmIdx = 0; frmIdx < frmMax; ++frmIdx) {
-    for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
-      cout << format(" %d") % chart(frmIdx, stateIdx).get_arc_id();
-    }
-    cout << endl;
-  }
+  // int frmMax = frmCnt + 1;
+  // for (int frmIdx = 0; frmIdx < frmMax; ++frmIdx) {
+  //   // log prob
+  //   for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
+  //     cout << format(" %d") % chart(frmIdx, stateIdx).get_log_prob();
+  //   }
+  //   cout << endl;
+  // }
+  // // arc id
+  // for (int frmIdx = 0; frmIdx < frmMax; ++frmIdx) {
+  //   for (int stateIdx = 0; stateIdx < stateCnt; ++stateIdx) {
+  //     cout << format(" %d") % chart(frmIdx, stateIdx).get_arc_id();
+  //   }
+  //   cout << endl;
+  // }
   // DEBUG chart END
   // return 0.0;
 
