@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 
-if [[ -e lab2_fb ]] ; then
-    binStr="lab2_fb"
+if [[ -e ./src/lab2_fb ]] ; then
+    binStr="./src/lab2_fb"
 elif [[ -e Lab2Fb.class ]] ; then
     binStr="java Lab2Fb"
 else
