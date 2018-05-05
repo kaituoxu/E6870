@@ -60,6 +60,7 @@ bool Lab2TrainMain::init_utt() {
     int gmmIdx = m_gmmList[frmIdx];
     if ((gmmIdx < 0) || (gmmIdx >= gmmCnt))
       throw runtime_error("Out of range GMM index.");
+    // posterior is 1.0 in Viterbi Training and 1-component GMM
     m_gmmCountList.push_back(GmmCount(gmmIdx, frmIdx, 1.0));
   }
   return true;

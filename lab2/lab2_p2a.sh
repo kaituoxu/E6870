@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 
-if [[ -e lab2_train ]] ; then
-    binStr="lab2_train"
+if [[ -e ./src/lab2_train ]] ; then
+    binStr="./src/lab2_train"
 elif [[ -e Lab2Train.class ]] ; then
     binStr="java Lab2Train"
 else
