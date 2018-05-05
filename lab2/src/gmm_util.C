@@ -60,15 +60,6 @@ double GmmStats::add_gmm_count(unsigned gmmIdx, double posterior,
   //
   //      These counts have all been initialized to zero
   //      somewhere else at the appropriate time.
-  // cout << dimCnt << "dimCnt" << endl;
-  // cout << gaussIdx << "gaussIdx" << endl;
-  // cout << m_gaussStats1.size1() << "m" << endl;
-
-  m_gaussCounts[gaussIdx] += posterior;
-  for (int i = 0; i < dimCnt; i++) {
-    m_gaussStats1(gaussIdx, i) += feats[i] * posterior;
-    m_gaussStats2(gaussIdx, i) += pow(feats[i], 2) * posterior;
-  }
 
   //  END_LAB
   //
@@ -124,20 +115,6 @@ void GmmStats::reestimate() const {
   //
   //      for each dimension of each Gaussian with the reestimated
   //      values of the means and variances.
-
-  // cout << gaussCnt << "gaussCnt" << endl;//102
-  // cout << dimCnt << "dimCnt" << endl;
-  double newMean = 0;
-  double newVar = 0;
-  for (int gaussIdx = 0; gaussIdx < gaussCnt; gaussIdx++) {
-    for (int i = 0; i < dimCnt; i++) {
-      newMean = m_gaussStats1(gaussIdx, i) / m_gaussCounts[gaussIdx];
-      newVar = m_gaussStats2(gaussIdx, i) / m_gaussCounts[gaussIdx] -
-               pow(newMean, 2);
-      m_gmmSet.set_gaussian_mean(gaussIdx, i, newMean);
-      m_gmmSet.set_gaussian_var(gaussIdx, i, newVar);
-    }
-  }
 
   //  END_LAB
   //
