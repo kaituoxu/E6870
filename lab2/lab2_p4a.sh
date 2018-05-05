@@ -8,8 +8,8 @@ echo "======================================================================"
 echo "Training: $d sentences."
 echo "======================================================================"
 
-if [[ -e lab2_fb ]] ; then
-    binStr="lab2_fb"
+if [[ -e ./src/lab2_fb ]] ; then
+    binStr="./src/lab2_fb"
 elif [[ -e Lab2Fb.class ]] ; then
     binStr="java Lab2Fb"
 else
@@ -20,8 +20,8 @@ fi
 $binStr --audio_file p018k7.$d.dat --graph_file p018k7.$d.fsm --iters 5 \
     --in_gmm p018k1.gmm.dat --out_gmm p4a.$d.gmm
 
-if [[ -e lab2_vit ]] ; then
-    binStr="lab2_vit"
+if [[ -e ./src/lab2_vit ]] ; then
+    binStr="./src/lab2_vit"
 elif [[ -e Lab2Vit.class ]] ; then
     binStr="java Lab2Vit"
 else
