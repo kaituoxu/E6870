@@ -67,32 +67,6 @@ void LangModel::count_sentence_ngrams(const vector<int>& wordList)
     //      the value of the incremented count.
     //
     //      Your code should work for any value of m_n (larger than zero).
-    for(int n = 1; n <= m_n; n++){
-        for(int i = m_n - n; i <= wordCnt-n; i++){
-            vector<int> ngram(n);
-            for(int j = 0; j < n ; j++){
-                ngram[j] = wordList[i + j];
-            }
-            if(m_predCounts.incr_count(ngram) == 1){
-                ngram.pop_back();
-                m_histOnePlusCounts.incr_count(ngram);
-            }
-        } 
-    }
-     
-
-    for(int n = 0; n < m_n; n++){
-        for(int i = m_n - n - 1; i < wordCnt - n; i++){
-            vector <int> ngram(n);
-            for (int j = 0; j < n ; j++){
-                ngram[j] = wordList[i + j];
-            }
-            m_histCounts.incr_count(ngram);
-        } 
-    }
-
-
-
 
     //  END_LAB
     //
@@ -164,12 +138,6 @@ double LangModel::get_prob_plus_delta(const vector<int>& ngram) const
     //          of the last word in the n-gram given the previous words.
     //
     
-    double prob1 = (m_predCounts.get_count(ngram) + m_delta);
-    vector <int> temp = ngram;
-    temp.pop_back();
-    double prob2 = (m_histCounts.get_count(temp) + m_delta*vocSize);
-    retProb = prob1/prob2;
-
     //  END_LAB
     //
 
