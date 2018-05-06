@@ -1,0 +1,3807 @@
+
+======================================================================
+1-gram model (WB smoothing; full SWB corpus)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.txt --test p4.tmp.txt --n 1 \
+  --sent_log_probs p4.tmp.probs
+298.3315 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 0 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 0 I, 5 S, 26.32% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 2 I, 15 S, 40.91% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 2 I, 15 S, 40.00% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 5 corr, 1 del, 0 ins, 4 sub
+  (cum: 55 wds, 34 C, 2 D, 2 I, 19 S, 41.82% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 58 wds, 36 C, 2 D, 3 I, 20 S, 43.10% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 39 C, 2 D, 3 I, 20 S, 40.98% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 42 C, 2 D, 3 I, 20 S, 39.06% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 43 C, 2 D, 3 I, 20 S, 38.46% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 23 corr, 1 del, 2 ins, 1 sub
+  (cum: 90 wds, 66 C, 3 D, 5 I, 21 S, 32.22% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 100 wds, 72 C, 4 D, 5 I, 24 S, 33.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 8 corr, 1 del, 0 ins, 10 sub
+  (cum: 119 wds, 80 C, 5 D, 5 I, 34 S, 36.97% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 81 C, 5 D, 5 I, 34 S, 36.67% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 82 C, 5 D, 5 I, 34 S, 36.36% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 132 wds, 86 C, 7 D, 5 I, 39 S, 38.64% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 13 corr, 3 del, 0 ins, 2 sub
+  (cum: 150 wds, 99 C, 10 D, 5 I, 41 S, 37.33% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 5 corr, 1 del, 0 ins, 3 sub
+  (cum: 159 wds, 104 C, 11 D, 5 I, 44 S, 37.74% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 3 corr, 1 del, 0 ins, 2 sub
+  (cum: 165 wds, 107 C, 12 D, 5 I, 46 S, 38.18% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 109 C, 12 D, 6 I, 47 S, 38.69% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 110 C, 12 D, 6 I, 48 S, 38.82% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 181 wds, 118 C, 12 D, 7 I, 51 S, 38.67% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 119 C, 12 D, 7 I, 51 S, 38.46% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 1 del, 0 ins, 4 sub
+  (cum: 199 wds, 131 C, 13 D, 7 I, 55 S, 37.69% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 7 corr, 1 del, 0 ins, 3 sub
+  (cum: 210 wds, 138 C, 14 D, 7 I, 58 S, 37.62% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 139 C, 14 D, 7 I, 58 S, 37.44% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 9 corr, 1 del, 1 ins, 3 sub
+  (cum: 224 wds, 148 C, 15 D, 8 I, 61 S, 37.50% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 148 C, 15 D, 8 I, 62 S, 37.78% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 6 corr, 0 del, 0 ins, 7 sub
+  (cum: 238 wds, 154 C, 15 D, 8 I, 69 S, 38.66% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 155 C, 15 D, 8 I, 69 S, 38.49% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 248 wds, 162 C, 16 D, 8 I, 70 S, 37.90% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 253 wds, 166 C, 16 D, 8 I, 71 S, 37.55% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 3 corr, 4 del, 0 ins, 3 sub
+  (cum: 263 wds, 169 C, 20 D, 8 I, 74 S, 38.78% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 267 wds, 173 C, 20 D, 8 I, 74 S, 38.20% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 16 corr, 1 del, 0 ins, 5 sub
+  (cum: 289 wds, 189 C, 21 D, 8 I, 79 S, 37.37% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 190 C, 21 D, 8 I, 79 S, 37.24% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 3 corr, 1 del, 0 ins, 5 sub
+  (cum: 299 wds, 193 C, 22 D, 8 I, 84 S, 38.13% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 195 C, 23 D, 8 I, 85 S, 38.28% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 6 corr, 0 del, 0 ins, 6 sub
+  (cum: 315 wds, 201 C, 23 D, 8 I, 91 S, 38.73% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 202 C, 23 D, 8 I, 91 S, 38.61% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 1 del, 0 ins, 2 sub
+  (cum: 324 wds, 207 C, 24 D, 8 I, 93 S, 38.58% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 5 corr, 2 del, 0 ins, 4 sub
+  (cum: 335 wds, 212 C, 26 D, 8 I, 97 S, 39.10% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 337 wds, 214 C, 26 D, 8 I, 97 S, 38.87% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 220 C, 28 D, 8 I, 101 S, 39.26% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 222 C, 28 D, 8 I, 101 S, 39.03% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 16 corr, 0 del, 1 ins, 1 sub
+  (cum: 368 wds, 238 C, 28 D, 9 I, 102 S, 37.77% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 13 corr, 0 del, 2 ins, 2 sub
+  (cum: 383 wds, 251 C, 28 D, 11 I, 104 S, 37.34% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 261 C, 29 D, 12 I, 120 S, 39.27% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 16 corr, 0 del, 1 ins, 5 sub
+  (cum: 431 wds, 277 C, 29 D, 13 I, 125 S, 38.75% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 16 corr, 4 del, 0 ins, 3 sub
+  (cum: 454 wds, 293 C, 33 D, 13 I, 128 S, 38.33% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 22 corr, 4 del, 0 ins, 3 sub
+  (cum: 483 wds, 315 C, 37 D, 13 I, 131 S, 37.47% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 317 C, 37 D, 13 I, 131 S, 37.32% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 8 corr, 2 del, 0 ins, 4 sub
+  (cum: 499 wds, 325 C, 39 D, 13 I, 135 S, 37.47% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 15 corr, 0 del, 0 ins, 6 sub
+  (cum: 520 wds, 340 C, 39 D, 13 I, 141 S, 37.12% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 342 C, 39 D, 13 I, 141 S, 36.97% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 357 C, 39 D, 13 I, 148 S, 36.76% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 11 corr, 3 del, 0 ins, 7 sub
+  (cum: 565 wds, 368 C, 42 D, 13 I, 155 S, 37.17% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 16 corr, 0 del, 1 ins, 4 sub
+  (cum: 585 wds, 384 C, 42 D, 14 I, 159 S, 36.75% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 18 corr, 3 del, 0 ins, 8 sub
+  (cum: 614 wds, 402 C, 45 D, 14 I, 167 S, 36.81% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 48 corr, 2 del, 1 ins, 4 sub
+  (cum: 668 wds, 450 C, 47 D, 15 I, 171 S, 34.88% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 12 corr, 0 del, 0 ins, 3 sub
+  (cum: 683 wds, 462 C, 47 D, 15 I, 174 S, 34.55% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 8 corr, 3 del, 0 ins, 3 sub
+  (cum: 697 wds, 470 C, 50 D, 15 I, 177 S, 34.72% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 13 corr, 0 del, 0 ins, 3 sub
+  (cum: 713 wds, 483 C, 50 D, 15 I, 180 S, 34.36% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 9 corr, 3 del, 0 ins, 3 sub
+  (cum: 728 wds, 492 C, 53 D, 15 I, 183 S, 34.48% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 11 corr, 0 del, 0 ins, 5 sub
+  (cum: 744 wds, 503 C, 53 D, 15 I, 188 S, 34.41% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 505 C, 53 D, 15 I, 188 S, 34.32% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 14 corr, 0 del, 0 ins, 2 sub
+  (cum: 762 wds, 519 C, 53 D, 15 I, 190 S, 33.86% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 527 C, 53 D, 17 I, 190 S, 33.77% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 20 corr, 4 del, 0 ins, 4 sub
+  (cum: 798 wds, 547 C, 57 D, 17 I, 194 S, 33.58% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 550 C, 57 D, 17 I, 194 S, 33.46% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 9 corr, 1 del, 0 ins, 4 sub
+  (cum: 815 wds, 559 C, 58 D, 17 I, 198 S, 33.50% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 570 C, 58 D, 18 I, 201 S, 33.41% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 830 wds, 570 C, 58 D, 18 I, 202 S, 33.49% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 12 corr, 3 del, 1 ins, 7 sub
+  (cum: 852 wds, 582 C, 61 D, 19 I, 209 S, 33.92% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 0 ins, 1 sub
+  (cum: 864 wds, 592 C, 62 D, 19 I, 210 S, 33.68% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 9 corr, 0 del, 0 ins, 1 sub
+  (cum: 874 wds, 601 C, 62 D, 19 I, 211 S, 33.41% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 4 corr, 1 del, 0 ins, 2 sub
+  (cum: 881 wds, 605 C, 63 D, 19 I, 213 S, 33.48% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 910 wds, 627 C, 67 D, 20 I, 216 S, 33.30% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 629 C, 67 D, 20 I, 216 S, 33.22% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 9 corr, 0 del, 1 ins, 2 sub
+  (cum: 923 wds, 638 C, 67 D, 21 I, 218 S, 33.15% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 19 corr, 2 del, 2 ins, 10 sub
+  (cum: 954 wds, 657 C, 69 D, 23 I, 228 S, 33.54% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 6 corr, 1 del, 0 ins, 1 sub
+  (cum: 962 wds, 663 C, 70 D, 23 I, 229 S, 33.47% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 3 corr, 1 del, 1 ins, 5 sub
+  (cum: 971 wds, 666 C, 71 D, 24 I, 234 S, 33.88% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 683 C, 72 D, 25 I, 237 S, 33.67% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 3 corr, 0 del, 0 ins, 4 sub
+  (cum: 999 wds, 686 C, 72 D, 25 I, 241 S, 33.83% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 31 corr, 2 del, 0 ins, 4 sub
+  (cum: 1036 wds, 717 C, 74 D, 25 I, 245 S, 33.20% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 0 ins, 0 sub
+  (cum: 1057 wds, 738 C, 74 D, 25 I, 245 S, 32.54% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 1065 wds, 745 C, 74 D, 25 I, 246 S, 32.39% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 26 corr, 4 del, 1 ins, 4 sub
+  (cum: 1099 wds, 771 C, 78 D, 26 I, 250 S, 32.21% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 21 corr, 0 del, 0 ins, 4 sub
+  (cum: 1124 wds, 792 C, 78 D, 26 I, 254 S, 31.85% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 806 C, 78 D, 26 I, 255 S, 31.52% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 25 corr, 2 del, 0 ins, 2 sub
+  (cum: 1168 wds, 831 C, 80 D, 26 I, 257 S, 31.08% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 1171 wds, 834 C, 80 D, 26 I, 257 S, 31.00% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 15 corr, 3 del, 0 ins, 6 sub
+  (cum: 1195 wds, 849 C, 83 D, 26 I, 263 S, 31.13% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 20 corr, 1 del, 1 ins, 4 sub
+  (cum: 1220 wds, 869 C, 84 D, 27 I, 267 S, 30.98% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 34 corr, 3 del, 1 ins, 6 sub
+  (cum: 1263 wds, 903 C, 87 D, 28 I, 273 S, 30.72% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 914 C, 87 D, 29 I, 273 S, 30.53% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 9 corr, 0 del, 1 ins, 0 sub
+  (cum: 1283 wds, 923 C, 87 D, 30 I, 273 S, 30.40% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 924 C, 87 D, 30 I, 273 S, 30.37% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 10 corr, 0 del, 0 ins, 5 sub
+  (cum: 1299 wds, 934 C, 87 D, 30 I, 278 S, 30.41% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 10 corr, 0 del, 2 ins, 2 sub
+  (cum: 1311 wds, 944 C, 87 D, 32 I, 280 S, 30.43% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+72.01% corr (944/1311 wds)
+6.64% del (87/1311 wds)
+2.44% ins (32/1311 wds)
+21.36% sub (280/1311 wds)
+30.43% WER (399/1311 wds)
+Elapsed time: 0 sec
+
+======================================================================
+2-gram model (WB smoothing; full SWB corpus)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.txt --test p4.tmp.txt --n 2 \
+  --sent_log_probs p4.tmp.probs
+103.3446 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 1 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 1 I, 5 S, 31.58% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 3 I, 15 S, 43.18% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 3 I, 15 S, 42.22% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 55 wds, 35 C, 2 D, 3 I, 18 S, 41.82% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 58 wds, 38 C, 2 D, 4 I, 18 S, 41.38% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 41 C, 2 D, 4 I, 18 S, 39.34% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 44 C, 2 D, 4 I, 18 S, 37.50% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 45 C, 2 D, 4 I, 18 S, 36.92% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 24 corr, 0 del, 2 ins, 1 sub
+  (cum: 90 wds, 69 C, 2 D, 6 I, 19 S, 30.00% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 100 wds, 75 C, 3 D, 6 I, 22 S, 31.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 13 corr, 0 del, 1 ins, 6 sub
+  (cum: 119 wds, 88 C, 3 D, 7 I, 28 S, 31.93% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 89 C, 3 D, 7 I, 28 S, 31.67% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 90 C, 3 D, 7 I, 28 S, 31.40% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 6 corr, 2 del, 1 ins, 3 sub
+  (cum: 132 wds, 96 C, 5 D, 8 I, 31 S, 33.33% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 13 corr, 2 del, 0 ins, 3 sub
+  (cum: 150 wds, 109 C, 7 D, 8 I, 34 S, 32.67% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 6 corr, 1 del, 0 ins, 2 sub
+  (cum: 159 wds, 115 C, 8 D, 8 I, 36 S, 32.70% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 0 del, 0 ins, 4 sub
+  (cum: 165 wds, 117 C, 8 D, 8 I, 40 S, 33.94% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 119 C, 8 D, 9 I, 41 S, 34.52% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 120 C, 8 D, 9 I, 42 S, 34.71% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 181 wds, 128 C, 8 D, 10 I, 45 S, 34.81% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 129 C, 8 D, 10 I, 45 S, 34.62% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 0 del, 0 ins, 5 sub
+  (cum: 199 wds, 141 C, 8 D, 10 I, 50 S, 34.17% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 0 ins, 4 sub
+  (cum: 210 wds, 147 C, 9 D, 10 I, 54 S, 34.76% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 148 C, 9 D, 10 I, 54 S, 34.60% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 9 corr, 1 del, 1 ins, 3 sub
+  (cum: 224 wds, 157 C, 10 D, 11 I, 57 S, 34.82% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 157 C, 10 D, 11 I, 58 S, 35.11% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 7 corr, 0 del, 1 ins, 6 sub
+  (cum: 238 wds, 164 C, 10 D, 12 I, 64 S, 36.13% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 165 C, 10 D, 12 I, 64 S, 35.98% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 248 wds, 172 C, 11 D, 12 I, 65 S, 35.48% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 253 wds, 176 C, 11 D, 12 I, 66 S, 35.18% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 263 wds, 182 C, 12 D, 12 I, 69 S, 35.36% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 267 wds, 186 C, 12 D, 12 I, 69 S, 34.83% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 16 corr, 1 del, 0 ins, 5 sub
+  (cum: 289 wds, 202 C, 13 D, 12 I, 74 S, 34.26% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 203 C, 13 D, 12 I, 74 S, 34.14% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 3 corr, 1 del, 0 ins, 5 sub
+  (cum: 299 wds, 206 C, 14 D, 12 I, 79 S, 35.12% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 208 C, 15 D, 12 I, 80 S, 35.31% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 5 corr, 0 del, 0 ins, 7 sub
+  (cum: 315 wds, 213 C, 15 D, 12 I, 87 S, 36.19% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 214 C, 15 D, 12 I, 87 S, 36.08% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 1 del, 0 ins, 2 sub
+  (cum: 324 wds, 219 C, 16 D, 12 I, 89 S, 36.11% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 1 del, 0 ins, 6 sub
+  (cum: 335 wds, 223 C, 17 D, 12 I, 95 S, 37.01% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 337 wds, 225 C, 17 D, 12 I, 95 S, 36.80% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 231 C, 19 D, 12 I, 99 S, 37.25% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 233 C, 19 D, 12 I, 99 S, 37.04% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 17 corr, 0 del, 1 ins, 0 sub
+  (cum: 368 wds, 250 C, 19 D, 13 I, 99 S, 35.60% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 13 corr, 0 del, 3 ins, 2 sub
+  (cum: 383 wds, 263 C, 19 D, 16 I, 101 S, 35.51% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 273 C, 20 D, 17 I, 117 S, 37.56% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 18 corr, 0 del, 1 ins, 3 sub
+  (cum: 431 wds, 291 C, 20 D, 18 I, 120 S, 36.66% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 15 corr, 2 del, 0 ins, 6 sub
+  (cum: 454 wds, 306 C, 22 D, 18 I, 126 S, 36.56% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 20 corr, 4 del, 0 ins, 5 sub
+  (cum: 483 wds, 326 C, 26 D, 18 I, 131 S, 36.23% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 328 C, 26 D, 18 I, 131 S, 36.08% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 9 corr, 2 del, 0 ins, 3 sub
+  (cum: 499 wds, 337 C, 28 D, 18 I, 134 S, 36.07% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 20 corr, 0 del, 1 ins, 1 sub
+  (cum: 520 wds, 357 C, 28 D, 19 I, 135 S, 35.00% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 359 C, 28 D, 19 I, 135 S, 34.87% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 1 ins, 7 sub
+  (cum: 544 wds, 374 C, 28 D, 20 I, 142 S, 34.93% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 14 corr, 2 del, 0 ins, 5 sub
+  (cum: 565 wds, 388 C, 30 D, 20 I, 147 S, 34.87% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 16 corr, 0 del, 1 ins, 4 sub
+  (cum: 585 wds, 404 C, 30 D, 21 I, 151 S, 34.53% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 19 corr, 3 del, 0 ins, 7 sub
+  (cum: 614 wds, 423 C, 33 D, 21 I, 158 S, 34.53% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 48 corr, 2 del, 1 ins, 4 sub
+  (cum: 668 wds, 471 C, 35 D, 22 I, 162 S, 32.78% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 13 corr, 0 del, 0 ins, 2 sub
+  (cum: 683 wds, 484 C, 35 D, 22 I, 164 S, 32.36% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 7 corr, 3 del, 0 ins, 4 sub
+  (cum: 697 wds, 491 C, 38 D, 22 I, 168 S, 32.71% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 15 corr, 0 del, 0 ins, 1 sub
+  (cum: 713 wds, 506 C, 38 D, 22 I, 169 S, 32.12% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 8 corr, 3 del, 0 ins, 4 sub
+  (cum: 728 wds, 514 C, 41 D, 22 I, 173 S, 32.42% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 524 C, 41 D, 22 I, 179 S, 32.53% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 526 C, 41 D, 22 I, 179 S, 32.44% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 14 corr, 0 del, 0 ins, 2 sub
+  (cum: 762 wds, 540 C, 41 D, 22 I, 181 S, 32.02% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 548 C, 41 D, 24 I, 181 S, 31.95% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 20 corr, 4 del, 0 ins, 4 sub
+  (cum: 798 wds, 568 C, 45 D, 24 I, 185 S, 31.83% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 571 C, 45 D, 24 I, 185 S, 31.71% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 10 corr, 1 del, 0 ins, 3 sub
+  (cum: 815 wds, 581 C, 46 D, 24 I, 188 S, 31.66% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 592 C, 46 D, 25 I, 191 S, 31.60% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 593 C, 46 D, 25 I, 191 S, 31.57% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 13 corr, 3 del, 1 ins, 6 sub
+  (cum: 852 wds, 606 C, 49 D, 26 I, 197 S, 31.92% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 0 ins, 1 sub
+  (cum: 864 wds, 616 C, 50 D, 26 I, 198 S, 31.71% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 10 corr, 0 del, 0 ins, 0 sub
+  (cum: 874 wds, 626 C, 50 D, 26 I, 198 S, 31.35% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 6 corr, 1 del, 0 ins, 0 sub
+  (cum: 881 wds, 632 C, 51 D, 26 I, 198 S, 31.21% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 21 corr, 4 del, 1 ins, 4 sub
+  (cum: 910 wds, 653 C, 55 D, 27 I, 202 S, 31.21% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 655 C, 55 D, 27 I, 202 S, 31.14% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 923 wds, 663 C, 55 D, 28 I, 205 S, 31.20% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 18 corr, 2 del, 2 ins, 11 sub
+  (cum: 954 wds, 681 C, 57 D, 30 I, 216 S, 31.76% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 7 corr, 1 del, 0 ins, 0 sub
+  (cum: 962 wds, 688 C, 58 D, 30 I, 216 S, 31.60% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 5 corr, 1 del, 2 ins, 3 sub
+  (cum: 971 wds, 693 C, 59 D, 32 I, 219 S, 31.93% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 710 C, 60 D, 33 I, 222 S, 31.75% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 4 corr, 0 del, 0 ins, 3 sub
+  (cum: 999 wds, 714 C, 60 D, 33 I, 225 S, 31.83% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 0 ins, 6 sub
+  (cum: 1036 wds, 744 C, 61 D, 33 I, 231 S, 31.37% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 0 ins, 0 sub
+  (cum: 1057 wds, 765 C, 61 D, 33 I, 231 S, 30.75% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 7 corr, 0 del, 1 ins, 1 sub
+  (cum: 1065 wds, 772 C, 61 D, 34 I, 232 S, 30.70% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 26 corr, 4 del, 1 ins, 4 sub
+  (cum: 1099 wds, 798 C, 65 D, 35 I, 236 S, 30.57% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 23 corr, 0 del, 1 ins, 2 sub
+  (cum: 1124 wds, 821 C, 65 D, 36 I, 238 S, 30.16% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 835 C, 65 D, 36 I, 239 S, 29.85% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 26 corr, 2 del, 0 ins, 1 sub
+  (cum: 1168 wds, 861 C, 67 D, 36 I, 240 S, 29.37% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 1171 wds, 864 C, 67 D, 36 I, 240 S, 29.29% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 15 corr, 3 del, 0 ins, 6 sub
+  (cum: 1195 wds, 879 C, 70 D, 36 I, 246 S, 29.46% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 19 corr, 2 del, 1 ins, 4 sub
+  (cum: 1220 wds, 898 C, 72 D, 37 I, 250 S, 29.43% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 35 corr, 2 del, 1 ins, 6 sub
+  (cum: 1263 wds, 933 C, 74 D, 38 I, 256 S, 29.14% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 944 C, 74 D, 39 I, 256 S, 28.96% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 9 corr, 0 del, 1 ins, 0 sub
+  (cum: 1283 wds, 953 C, 74 D, 40 I, 256 S, 28.84% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 954 C, 74 D, 40 I, 256 S, 28.82% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 12 corr, 1 del, 0 ins, 2 sub
+  (cum: 1299 wds, 966 C, 75 D, 40 I, 258 S, 28.71% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 11 corr, 0 del, 1 ins, 1 sub
+  (cum: 1311 wds, 977 C, 75 D, 41 I, 259 S, 28.60% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+74.52% corr (977/1311 wds)
+5.72% del (75/1311 wds)
+3.13% ins (41/1311 wds)
+19.76% sub (259/1311 wds)
+28.60% WER (375/1311 wds)
+Elapsed time: 1 sec
+
+======================================================================
+3-gram model (WB smoothing; full SWB corpus)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.txt --test p4.tmp.txt --n 3 \
+  --sent_log_probs p4.tmp.probs
+98.4234 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 1 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 1 I, 5 S, 31.58% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 3 I, 15 S, 43.18% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 3 I, 15 S, 42.22% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 7 corr, 1 del, 0 ins, 2 sub
+  (cum: 55 wds, 36 C, 2 D, 3 I, 17 S, 40.00% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 58 wds, 39 C, 2 D, 4 I, 17 S, 39.66% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 42 C, 2 D, 4 I, 17 S, 37.70% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 45 C, 2 D, 4 I, 17 S, 35.94% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 46 C, 2 D, 4 I, 17 S, 35.38% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 24 corr, 0 del, 2 ins, 1 sub
+  (cum: 90 wds, 70 C, 2 D, 6 I, 18 S, 28.89% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 100 wds, 76 C, 3 D, 6 I, 21 S, 30.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 13 corr, 0 del, 1 ins, 6 sub
+  (cum: 119 wds, 89 C, 3 D, 7 I, 27 S, 31.09% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 90 C, 3 D, 7 I, 27 S, 30.83% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 91 C, 3 D, 7 I, 27 S, 30.58% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 6 corr, 2 del, 1 ins, 3 sub
+  (cum: 132 wds, 97 C, 5 D, 8 I, 30 S, 32.58% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 14 corr, 2 del, 0 ins, 2 sub
+  (cum: 150 wds, 111 C, 7 D, 8 I, 32 S, 31.33% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 6 corr, 1 del, 0 ins, 2 sub
+  (cum: 159 wds, 117 C, 8 D, 8 I, 34 S, 31.45% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 0 del, 0 ins, 4 sub
+  (cum: 165 wds, 119 C, 8 D, 8 I, 38 S, 32.73% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 121 C, 8 D, 9 I, 39 S, 33.33% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 122 C, 8 D, 9 I, 40 S, 33.53% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 181 wds, 130 C, 8 D, 10 I, 43 S, 33.70% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 131 C, 8 D, 10 I, 43 S, 33.52% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 1 del, 0 ins, 4 sub
+  (cum: 199 wds, 143 C, 9 D, 10 I, 47 S, 33.17% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 0 ins, 4 sub
+  (cum: 210 wds, 149 C, 10 D, 10 I, 51 S, 33.81% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 150 C, 10 D, 10 I, 51 S, 33.65% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 10 corr, 1 del, 1 ins, 2 sub
+  (cum: 224 wds, 160 C, 11 D, 11 I, 53 S, 33.48% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 160 C, 11 D, 11 I, 54 S, 33.78% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 7 corr, 0 del, 0 ins, 6 sub
+  (cum: 238 wds, 167 C, 11 D, 11 I, 60 S, 34.45% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 168 C, 11 D, 11 I, 60 S, 34.31% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 248 wds, 175 C, 12 D, 11 I, 61 S, 33.87% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 253 wds, 179 C, 12 D, 11 I, 62 S, 33.60% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 8 corr, 1 del, 0 ins, 1 sub
+  (cum: 263 wds, 187 C, 13 D, 11 I, 63 S, 33.08% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 3 corr, 0 del, 0 ins, 1 sub
+  (cum: 267 wds, 190 C, 13 D, 11 I, 64 S, 32.96% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 16 corr, 1 del, 0 ins, 5 sub
+  (cum: 289 wds, 206 C, 14 D, 11 I, 69 S, 32.53% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 207 C, 14 D, 11 I, 69 S, 32.41% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 4 corr, 1 del, 0 ins, 4 sub
+  (cum: 299 wds, 211 C, 15 D, 11 I, 73 S, 33.11% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 213 C, 16 D, 11 I, 74 S, 33.33% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 6 corr, 0 del, 0 ins, 6 sub
+  (cum: 315 wds, 219 C, 16 D, 11 I, 80 S, 33.97% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 220 C, 16 D, 11 I, 80 S, 33.86% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 1 del, 0 ins, 2 sub
+  (cum: 324 wds, 225 C, 17 D, 11 I, 82 S, 33.95% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 335 wds, 229 C, 19 D, 11 I, 87 S, 34.93% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 337 wds, 231 C, 19 D, 11 I, 87 S, 34.72% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 237 C, 21 D, 11 I, 91 S, 35.24% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 239 C, 21 D, 11 I, 91 S, 35.04% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 16 corr, 0 del, 1 ins, 1 sub
+  (cum: 368 wds, 255 C, 21 D, 12 I, 92 S, 33.97% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 13 corr, 0 del, 2 ins, 2 sub
+  (cum: 383 wds, 268 C, 21 D, 14 I, 94 S, 33.68% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 278 C, 22 D, 15 I, 110 S, 35.85% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 16 corr, 0 del, 1 ins, 5 sub
+  (cum: 431 wds, 294 C, 22 D, 16 I, 115 S, 35.50% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 15 corr, 2 del, 0 ins, 6 sub
+  (cum: 454 wds, 309 C, 24 D, 16 I, 121 S, 35.46% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 483 wds, 331 C, 28 D, 17 I, 124 S, 34.99% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 333 C, 28 D, 17 I, 124 S, 34.85% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 11 corr, 1 del, 0 ins, 2 sub
+  (cum: 499 wds, 344 C, 29 D, 17 I, 126 S, 34.47% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 18 corr, 0 del, 1 ins, 3 sub
+  (cum: 520 wds, 362 C, 29 D, 18 I, 129 S, 33.85% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 364 C, 29 D, 18 I, 129 S, 33.72% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 379 C, 29 D, 18 I, 136 S, 33.64% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 14 corr, 2 del, 0 ins, 5 sub
+  (cum: 565 wds, 393 C, 31 D, 18 I, 141 S, 33.63% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 16 corr, 0 del, 1 ins, 4 sub
+  (cum: 585 wds, 409 C, 31 D, 19 I, 145 S, 33.33% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 19 corr, 3 del, 0 ins, 7 sub
+  (cum: 614 wds, 428 C, 34 D, 19 I, 152 S, 33.39% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 47 corr, 2 del, 1 ins, 5 sub
+  (cum: 668 wds, 475 C, 36 D, 20 I, 157 S, 31.89% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 13 corr, 0 del, 0 ins, 2 sub
+  (cum: 683 wds, 488 C, 36 D, 20 I, 159 S, 31.48% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 8 corr, 3 del, 0 ins, 3 sub
+  (cum: 697 wds, 496 C, 39 D, 20 I, 162 S, 31.71% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 15 corr, 0 del, 0 ins, 1 sub
+  (cum: 713 wds, 511 C, 39 D, 20 I, 163 S, 31.14% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 9 corr, 3 del, 0 ins, 3 sub
+  (cum: 728 wds, 520 C, 42 D, 20 I, 166 S, 31.32% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 530 C, 42 D, 20 I, 172 S, 31.45% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 532 C, 42 D, 20 I, 172 S, 31.37% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 14 corr, 0 del, 0 ins, 2 sub
+  (cum: 762 wds, 546 C, 42 D, 20 I, 174 S, 30.97% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 554 C, 42 D, 22 I, 174 S, 30.91% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 21 corr, 3 del, 0 ins, 4 sub
+  (cum: 798 wds, 575 C, 45 D, 22 I, 178 S, 30.70% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 578 C, 45 D, 22 I, 178 S, 30.59% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 10 corr, 1 del, 0 ins, 3 sub
+  (cum: 815 wds, 588 C, 46 D, 22 I, 181 S, 30.55% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 599 C, 46 D, 23 I, 184 S, 30.52% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 600 C, 46 D, 23 I, 184 S, 30.48% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 13 corr, 3 del, 0 ins, 6 sub
+  (cum: 852 wds, 613 C, 49 D, 23 I, 190 S, 30.75% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 0 ins, 1 sub
+  (cum: 864 wds, 623 C, 50 D, 23 I, 191 S, 30.56% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 9 corr, 0 del, 0 ins, 1 sub
+  (cum: 874 wds, 632 C, 50 D, 23 I, 192 S, 30.32% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 6 corr, 1 del, 0 ins, 0 sub
+  (cum: 881 wds, 638 C, 51 D, 23 I, 192 S, 30.19% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 21 corr, 4 del, 1 ins, 4 sub
+  (cum: 910 wds, 659 C, 55 D, 24 I, 196 S, 30.22% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 661 C, 55 D, 24 I, 196 S, 30.15% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 9 corr, 0 del, 1 ins, 2 sub
+  (cum: 923 wds, 670 C, 55 D, 25 I, 198 S, 30.12% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 19 corr, 2 del, 2 ins, 10 sub
+  (cum: 954 wds, 689 C, 57 D, 27 I, 208 S, 30.61% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 7 corr, 1 del, 0 ins, 0 sub
+  (cum: 962 wds, 696 C, 58 D, 27 I, 208 S, 30.46% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 5 corr, 1 del, 1 ins, 3 sub
+  (cum: 971 wds, 701 C, 59 D, 28 I, 211 S, 30.69% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 718 C, 60 D, 29 I, 214 S, 30.54% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 4 corr, 0 del, 0 ins, 3 sub
+  (cum: 999 wds, 722 C, 60 D, 29 I, 217 S, 30.63% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 0 ins, 6 sub
+  (cum: 1036 wds, 752 C, 61 D, 29 I, 223 S, 30.21% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 0 ins, 0 sub
+  (cum: 1057 wds, 773 C, 61 D, 29 I, 223 S, 29.61% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 7 corr, 0 del, 1 ins, 1 sub
+  (cum: 1065 wds, 780 C, 61 D, 30 I, 224 S, 29.58% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 30 corr, 2 del, 1 ins, 2 sub
+  (cum: 1099 wds, 810 C, 63 D, 31 I, 226 S, 29.12% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 23 corr, 0 del, 1 ins, 2 sub
+  (cum: 1124 wds, 833 C, 63 D, 32 I, 228 S, 28.74% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 847 C, 63 D, 32 I, 229 S, 28.45% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 26 corr, 2 del, 0 ins, 1 sub
+  (cum: 1168 wds, 873 C, 65 D, 32 I, 230 S, 28.00% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 1171 wds, 875 C, 65 D, 32 I, 231 S, 28.01% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 17 corr, 2 del, 0 ins, 5 sub
+  (cum: 1195 wds, 892 C, 67 D, 32 I, 236 S, 28.03% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 20 corr, 1 del, 1 ins, 4 sub
+  (cum: 1220 wds, 912 C, 68 D, 33 I, 240 S, 27.95% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 34 corr, 2 del, 1 ins, 7 sub
+  (cum: 1263 wds, 946 C, 70 D, 34 I, 247 S, 27.79% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 957 C, 70 D, 35 I, 247 S, 27.63% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 8 corr, 0 del, 1 ins, 1 sub
+  (cum: 1283 wds, 965 C, 70 D, 36 I, 248 S, 27.59% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 966 C, 70 D, 36 I, 248 S, 27.57% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 12 corr, 1 del, 0 ins, 2 sub
+  (cum: 1299 wds, 978 C, 71 D, 36 I, 250 S, 27.48% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 10 corr, 0 del, 2 ins, 2 sub
+  (cum: 1311 wds, 988 C, 71 D, 38 I, 252 S, 27.54% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+75.36% corr (988/1311 wds)
+5.42% del (71/1311 wds)
+2.90% ins (38/1311 wds)
+19.22% sub (252/1311 wds)
+27.54% WER (361/1311 wds)
+Elapsed time: 0 sec
+
+======================================================================
+No smoothing, i.e., MLE (3-gram model; full SWB corpus)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.txt --test p4.tmp.txt --n 3 \
+  --sent_log_probs p4.tmp.probs --delta 0.0
+inf PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 0 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 0 I, 5 S, 26.32% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 2 I, 15 S, 40.91% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 2 I, 15 S, 40.00% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 7 corr, 1 del, 0 ins, 2 sub
+  (cum: 55 wds, 36 C, 2 D, 2 I, 17 S, 38.18% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 3 corr, 0 del, 2 ins, 0 sub
+  (cum: 58 wds, 39 C, 2 D, 4 I, 17 S, 39.66% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 61 wds, 41 C, 2 D, 4 I, 18 S, 39.34% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 44 C, 2 D, 4 I, 18 S, 37.50% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 45 C, 2 D, 4 I, 18 S, 36.92% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 24 corr, 0 del, 3 ins, 1 sub
+  (cum: 90 wds, 69 C, 2 D, 7 I, 19 S, 31.11% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 9 corr, 1 del, 1 ins, 0 sub
+  (cum: 100 wds, 78 C, 3 D, 8 I, 19 S, 30.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 12 corr, 0 del, 1 ins, 7 sub
+  (cum: 119 wds, 90 C, 3 D, 9 I, 26 S, 31.93% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 91 C, 3 D, 9 I, 26 S, 31.67% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 92 C, 3 D, 9 I, 26 S, 31.40% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 5 corr, 2 del, 1 ins, 4 sub
+  (cum: 132 wds, 97 C, 5 D, 10 I, 30 S, 34.09% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 14 corr, 2 del, 0 ins, 2 sub
+  (cum: 150 wds, 111 C, 7 D, 10 I, 32 S, 32.67% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 4 corr, 0 del, 0 ins, 5 sub
+  (cum: 159 wds, 115 C, 7 D, 10 I, 37 S, 33.96% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 1 del, 0 ins, 3 sub
+  (cum: 165 wds, 117 C, 8 D, 10 I, 40 S, 35.15% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 119 C, 8 D, 11 I, 41 S, 35.71% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 120 C, 8 D, 11 I, 42 S, 35.88% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 2 ins, 3 sub
+  (cum: 181 wds, 128 C, 8 D, 13 I, 45 S, 36.46% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 129 C, 8 D, 13 I, 45 S, 36.26% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 0 del, 0 ins, 5 sub
+  (cum: 199 wds, 141 C, 8 D, 13 I, 50 S, 35.68% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 1 ins, 4 sub
+  (cum: 210 wds, 147 C, 9 D, 14 I, 54 S, 36.67% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 148 C, 9 D, 14 I, 54 S, 36.49% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 10 corr, 0 del, 2 ins, 3 sub
+  (cum: 224 wds, 158 C, 9 D, 16 I, 57 S, 36.61% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 158 C, 9 D, 16 I, 58 S, 36.89% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 8 corr, 0 del, 0 ins, 5 sub
+  (cum: 238 wds, 166 C, 9 D, 16 I, 63 S, 36.97% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 167 C, 9 D, 16 I, 63 S, 36.82% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 9 corr, 0 del, 0 ins, 0 sub
+  (cum: 248 wds, 176 C, 9 D, 16 I, 63 S, 35.48% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 1 ins, 1 sub
+  (cum: 253 wds, 180 C, 9 D, 17 I, 64 S, 35.57% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 7 corr, 1 del, 0 ins, 2 sub
+  (cum: 263 wds, 187 C, 10 D, 17 I, 66 S, 35.36% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 267 wds, 191 C, 10 D, 18 I, 66 S, 35.21% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 17 corr, 1 del, 0 ins, 4 sub
+  (cum: 289 wds, 208 C, 11 D, 18 I, 70 S, 34.26% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 209 C, 11 D, 18 I, 70 S, 34.14% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 3 corr, 1 del, 0 ins, 5 sub
+  (cum: 299 wds, 212 C, 12 D, 18 I, 75 S, 35.12% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 214 C, 13 D, 18 I, 76 S, 35.31% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 6 corr, 0 del, 0 ins, 6 sub
+  (cum: 315 wds, 220 C, 13 D, 18 I, 82 S, 35.87% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 221 C, 13 D, 18 I, 82 S, 35.76% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 0 del, 0 ins, 3 sub
+  (cum: 324 wds, 226 C, 13 D, 18 I, 85 S, 35.80% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 335 wds, 230 C, 15 D, 18 I, 90 S, 36.72% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 337 wds, 232 C, 15 D, 19 I, 90 S, 36.80% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 5 corr, 2 del, 0 ins, 5 sub
+  (cum: 349 wds, 237 C, 17 D, 19 I, 95 S, 37.54% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 239 C, 17 D, 19 I, 95 S, 37.32% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 15 corr, 0 del, 1 ins, 2 sub
+  (cum: 368 wds, 254 C, 17 D, 20 I, 97 S, 36.41% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 12 corr, 0 del, 3 ins, 3 sub
+  (cum: 383 wds, 266 C, 17 D, 23 I, 100 S, 36.55% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 276 C, 18 D, 24 I, 116 S, 38.54% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 16 corr, 0 del, 3 ins, 5 sub
+  (cum: 431 wds, 292 C, 18 D, 27 I, 121 S, 38.52% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 16 corr, 2 del, 0 ins, 5 sub
+  (cum: 454 wds, 308 C, 20 D, 27 I, 126 S, 38.11% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 21 corr, 3 del, 1 ins, 5 sub
+  (cum: 483 wds, 329 C, 23 D, 28 I, 131 S, 37.68% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 331 C, 23 D, 28 I, 131 S, 37.53% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 11 corr, 1 del, 0 ins, 2 sub
+  (cum: 499 wds, 342 C, 24 D, 28 I, 133 S, 37.07% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 19 corr, 0 del, 1 ins, 2 sub
+  (cum: 520 wds, 361 C, 24 D, 29 I, 135 S, 36.15% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 363 C, 24 D, 29 I, 135 S, 36.02% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 378 C, 24 D, 29 I, 142 S, 35.85% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 14 corr, 2 del, 0 ins, 5 sub
+  (cum: 565 wds, 392 C, 26 D, 29 I, 147 S, 35.75% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 15 corr, 1 del, 1 ins, 4 sub
+  (cum: 585 wds, 407 C, 27 D, 30 I, 151 S, 35.56% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 22 corr, 1 del, 0 ins, 6 sub
+  (cum: 614 wds, 429 C, 28 D, 30 I, 157 S, 35.02% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 47 corr, 2 del, 1 ins, 5 sub
+  (cum: 668 wds, 476 C, 30 D, 31 I, 162 S, 33.38% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 13 corr, 0 del, 1 ins, 2 sub
+  (cum: 683 wds, 489 C, 30 D, 32 I, 164 S, 33.09% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 8 corr, 3 del, 0 ins, 3 sub
+  (cum: 697 wds, 497 C, 33 D, 32 I, 167 S, 33.29% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 13 corr, 0 del, 1 ins, 3 sub
+  (cum: 713 wds, 510 C, 33 D, 33 I, 170 S, 33.10% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 9 corr, 3 del, 0 ins, 3 sub
+  (cum: 728 wds, 519 C, 36 D, 33 I, 173 S, 33.24% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 529 C, 36 D, 33 I, 179 S, 33.33% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 531 C, 36 D, 33 I, 179 S, 33.24% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 13 corr, 0 del, 1 ins, 3 sub
+  (cum: 762 wds, 544 C, 36 D, 34 I, 182 S, 33.07% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 552 C, 36 D, 36 I, 182 S, 32.99% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 21 corr, 3 del, 0 ins, 4 sub
+  (cum: 798 wds, 573 C, 39 D, 36 I, 186 S, 32.71% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 576 C, 39 D, 36 I, 186 S, 32.58% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 11 corr, 1 del, 1 ins, 2 sub
+  (cum: 815 wds, 587 C, 40 D, 37 I, 188 S, 32.52% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 598 C, 40 D, 38 I, 191 S, 32.45% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 599 C, 40 D, 38 I, 191 S, 32.41% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 13 corr, 3 del, 0 ins, 6 sub
+  (cum: 852 wds, 612 C, 43 D, 38 I, 197 S, 32.63% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 1 ins, 1 sub
+  (cum: 864 wds, 622 C, 44 D, 39 I, 198 S, 32.52% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 8 corr, 0 del, 1 ins, 2 sub
+  (cum: 874 wds, 630 C, 44 D, 40 I, 200 S, 32.49% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 7 corr, 0 del, 0 ins, 0 sub
+  (cum: 881 wds, 637 C, 44 D, 40 I, 200 S, 32.24% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 910 wds, 659 C, 48 D, 41 I, 203 S, 32.09% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 661 C, 48 D, 41 I, 203 S, 32.02% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 7 corr, 0 del, 3 ins, 4 sub
+  (cum: 923 wds, 668 C, 48 D, 44 I, 207 S, 32.39% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 18 corr, 2 del, 2 ins, 11 sub
+  (cum: 954 wds, 686 C, 50 D, 46 I, 218 S, 32.91% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 6 corr, 1 del, 1 ins, 1 sub
+  (cum: 962 wds, 692 C, 51 D, 47 I, 219 S, 32.95% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 7 corr, 1 del, 2 ins, 1 sub
+  (cum: 971 wds, 699 C, 52 D, 49 I, 220 S, 33.06% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 19 corr, 0 del, 1 ins, 2 sub
+  (cum: 992 wds, 718 C, 52 D, 50 I, 222 S, 32.66% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 4 corr, 0 del, 0 ins, 3 sub
+  (cum: 999 wds, 722 C, 52 D, 50 I, 225 S, 32.73% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 0 ins, 6 sub
+  (cum: 1036 wds, 752 C, 53 D, 50 I, 231 S, 32.24% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 1 ins, 0 sub
+  (cum: 1057 wds, 773 C, 53 D, 51 I, 231 S, 31.69% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 8 corr, 0 del, 1 ins, 0 sub
+  (cum: 1065 wds, 781 C, 53 D, 52 I, 231 S, 31.55% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 30 corr, 2 del, 1 ins, 2 sub
+  (cum: 1099 wds, 811 C, 55 D, 53 I, 233 S, 31.03% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 22 corr, 0 del, 1 ins, 3 sub
+  (cum: 1124 wds, 833 C, 55 D, 54 I, 236 S, 30.69% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 847 C, 55 D, 54 I, 237 S, 30.38% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 25 corr, 3 del, 0 ins, 1 sub
+  (cum: 1168 wds, 872 C, 58 D, 54 I, 238 S, 29.97% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 1171 wds, 874 C, 58 D, 54 I, 239 S, 29.97% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 17 corr, 2 del, 0 ins, 5 sub
+  (cum: 1195 wds, 891 C, 60 D, 54 I, 244 S, 29.96% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 19 corr, 1 del, 1 ins, 5 sub
+  (cum: 1220 wds, 910 C, 61 D, 55 I, 249 S, 29.92% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 34 corr, 2 del, 1 ins, 7 sub
+  (cum: 1263 wds, 944 C, 63 D, 56 I, 256 S, 29.69% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 2 ins, 0 sub
+  (cum: 1274 wds, 955 C, 63 D, 58 I, 256 S, 29.59% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 8 corr, 0 del, 1 ins, 1 sub
+  (cum: 1283 wds, 963 C, 63 D, 59 I, 257 S, 29.54% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 964 C, 63 D, 59 I, 257 S, 29.52% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 11 corr, 1 del, 0 ins, 3 sub
+  (cum: 1299 wds, 975 C, 64 D, 59 I, 260 S, 29.48% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 12 corr, 0 del, 1 ins, 0 sub
+  (cum: 1311 wds, 987 C, 64 D, 60 I, 260 S, 29.29% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+75.29% corr (987/1311 wds)
+4.88% del (64/1311 wds)
+4.58% ins (60/1311 wds)
+19.83% sub (260/1311 wds)
+29.29% WER (384/1311 wds)
+Elapsed time: 0 sec
+
+======================================================================
+Plus-delta smoothing (3-gram model; full SWB corpus)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.txt --test p4.tmp.txt --n 3 \
+  --sent_log_probs p4.tmp.probs --delta 0.0001
+468.8819 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 0 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 0 I, 5 S, 26.32% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 2 I, 15 S, 40.91% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 2 I, 15 S, 40.00% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 55 wds, 35 C, 2 D, 2 I, 18 S, 40.00% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 58 wds, 37 C, 2 D, 3 I, 19 S, 41.38% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 61 wds, 39 C, 2 D, 3 I, 20 S, 40.98% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 42 C, 2 D, 3 I, 20 S, 39.06% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 43 C, 2 D, 3 I, 20 S, 38.46% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 24 corr, 0 del, 2 ins, 1 sub
+  (cum: 90 wds, 67 C, 2 D, 5 I, 21 S, 31.11% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 9 corr, 1 del, 1 ins, 0 sub
+  (cum: 100 wds, 76 C, 3 D, 6 I, 21 S, 30.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 13 corr, 0 del, 1 ins, 6 sub
+  (cum: 119 wds, 89 C, 3 D, 7 I, 27 S, 31.09% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 90 C, 3 D, 7 I, 27 S, 30.83% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 91 C, 3 D, 7 I, 27 S, 30.58% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 5 corr, 2 del, 1 ins, 4 sub
+  (cum: 132 wds, 96 C, 5 D, 8 I, 31 S, 33.33% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 14 corr, 3 del, 0 ins, 1 sub
+  (cum: 150 wds, 110 C, 8 D, 8 I, 32 S, 32.00% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 159 wds, 117 C, 9 D, 8 I, 33 S, 31.45% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 1 del, 0 ins, 3 sub
+  (cum: 165 wds, 119 C, 10 D, 8 I, 36 S, 32.73% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 121 C, 10 D, 9 I, 37 S, 33.33% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 122 C, 10 D, 9 I, 38 S, 33.53% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 2 ins, 3 sub
+  (cum: 181 wds, 130 C, 10 D, 11 I, 41 S, 34.25% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 131 C, 10 D, 11 I, 41 S, 34.07% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 1 del, 0 ins, 4 sub
+  (cum: 199 wds, 143 C, 11 D, 11 I, 45 S, 33.67% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 1 ins, 4 sub
+  (cum: 210 wds, 149 C, 12 D, 12 I, 49 S, 34.76% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 150 C, 12 D, 12 I, 49 S, 34.60% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 10 corr, 0 del, 1 ins, 3 sub
+  (cum: 224 wds, 160 C, 12 D, 13 I, 52 S, 34.38% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 160 C, 12 D, 13 I, 53 S, 34.67% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 8 corr, 1 del, 0 ins, 4 sub
+  (cum: 238 wds, 168 C, 13 D, 13 I, 57 S, 34.87% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 169 C, 13 D, 13 I, 57 S, 34.73% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 9 corr, 0 del, 0 ins, 0 sub
+  (cum: 248 wds, 178 C, 13 D, 13 I, 57 S, 33.47% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 1 ins, 1 sub
+  (cum: 253 wds, 182 C, 13 D, 14 I, 58 S, 33.60% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 8 corr, 1 del, 0 ins, 1 sub
+  (cum: 263 wds, 190 C, 14 D, 14 I, 59 S, 33.08% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 4 corr, 0 del, 1 ins, 0 sub
+  (cum: 267 wds, 194 C, 14 D, 15 I, 59 S, 32.96% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 289 wds, 209 C, 14 D, 15 I, 66 S, 32.87% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 210 C, 14 D, 15 I, 66 S, 32.76% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 3 corr, 1 del, 0 ins, 5 sub
+  (cum: 299 wds, 213 C, 15 D, 15 I, 71 S, 33.78% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 215 C, 16 D, 15 I, 72 S, 33.99% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 6 corr, 0 del, 0 ins, 6 sub
+  (cum: 315 wds, 221 C, 16 D, 15 I, 78 S, 34.60% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 222 C, 16 D, 15 I, 78 S, 34.49% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 1 del, 0 ins, 2 sub
+  (cum: 324 wds, 227 C, 17 D, 15 I, 80 S, 34.57% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 335 wds, 231 C, 19 D, 15 I, 85 S, 35.52% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 1 ins, 0 sub
+  (cum: 337 wds, 233 C, 19 D, 16 I, 85 S, 35.61% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 239 C, 21 D, 16 I, 89 S, 36.10% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 241 C, 21 D, 16 I, 89 S, 35.90% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 16 corr, 0 del, 1 ins, 1 sub
+  (cum: 368 wds, 257 C, 21 D, 17 I, 90 S, 34.78% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 12 corr, 0 del, 3 ins, 3 sub
+  (cum: 383 wds, 269 C, 21 D, 20 I, 93 S, 34.99% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 279 C, 22 D, 21 I, 109 S, 37.07% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 15 corr, 0 del, 1 ins, 6 sub
+  (cum: 431 wds, 294 C, 22 D, 22 I, 115 S, 36.89% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 15 corr, 2 del, 0 ins, 6 sub
+  (cum: 454 wds, 309 C, 24 D, 22 I, 121 S, 36.78% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 18 corr, 4 del, 0 ins, 7 sub
+  (cum: 483 wds, 327 C, 28 D, 22 I, 128 S, 36.85% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 329 C, 28 D, 22 I, 128 S, 36.70% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 9 corr, 2 del, 0 ins, 3 sub
+  (cum: 499 wds, 338 C, 30 D, 22 I, 131 S, 36.67% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 18 corr, 0 del, 1 ins, 3 sub
+  (cum: 520 wds, 356 C, 30 D, 23 I, 134 S, 35.96% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 358 C, 30 D, 23 I, 134 S, 35.82% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 373 C, 30 D, 23 I, 141 S, 35.66% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 13 corr, 2 del, 0 ins, 6 sub
+  (cum: 565 wds, 386 C, 32 D, 23 I, 147 S, 35.75% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 15 corr, 1 del, 1 ins, 4 sub
+  (cum: 585 wds, 401 C, 33 D, 24 I, 151 S, 35.56% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 22 corr, 1 del, 0 ins, 6 sub
+  (cum: 614 wds, 423 C, 34 D, 24 I, 157 S, 35.02% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 47 corr, 2 del, 1 ins, 5 sub
+  (cum: 668 wds, 470 C, 36 D, 25 I, 162 S, 33.38% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 13 corr, 0 del, 1 ins, 2 sub
+  (cum: 683 wds, 483 C, 36 D, 26 I, 164 S, 33.09% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 8 corr, 3 del, 0 ins, 3 sub
+  (cum: 697 wds, 491 C, 39 D, 26 I, 167 S, 33.29% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 14 corr, 0 del, 1 ins, 2 sub
+  (cum: 713 wds, 505 C, 39 D, 27 I, 169 S, 32.96% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 9 corr, 3 del, 0 ins, 3 sub
+  (cum: 728 wds, 514 C, 42 D, 27 I, 172 S, 33.10% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 524 C, 42 D, 27 I, 178 S, 33.20% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 526 C, 42 D, 27 I, 178 S, 33.11% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 13 corr, 0 del, 1 ins, 3 sub
+  (cum: 762 wds, 539 C, 42 D, 28 I, 181 S, 32.94% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 547 C, 42 D, 30 I, 181 S, 32.86% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 22 corr, 3 del, 0 ins, 3 sub
+  (cum: 798 wds, 569 C, 45 D, 30 I, 184 S, 32.46% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 572 C, 45 D, 30 I, 184 S, 32.33% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 11 corr, 1 del, 1 ins, 2 sub
+  (cum: 815 wds, 583 C, 46 D, 31 I, 186 S, 32.27% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 594 C, 46 D, 32 I, 189 S, 32.21% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 595 C, 46 D, 32 I, 189 S, 32.17% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 14 corr, 3 del, 0 ins, 5 sub
+  (cum: 852 wds, 609 C, 49 D, 32 I, 194 S, 32.28% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 1 ins, 1 sub
+  (cum: 864 wds, 619 C, 50 D, 33 I, 195 S, 32.18% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 8 corr, 0 del, 1 ins, 2 sub
+  (cum: 874 wds, 627 C, 50 D, 34 I, 197 S, 32.15% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 5 corr, 1 del, 0 ins, 1 sub
+  (cum: 881 wds, 632 C, 51 D, 34 I, 198 S, 32.12% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 910 wds, 654 C, 55 D, 35 I, 201 S, 31.98% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 656 C, 55 D, 35 I, 201 S, 31.91% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 7 corr, 0 del, 3 ins, 4 sub
+  (cum: 923 wds, 663 C, 55 D, 38 I, 205 S, 32.29% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 19 corr, 2 del, 2 ins, 10 sub
+  (cum: 954 wds, 682 C, 57 D, 40 I, 215 S, 32.70% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 6 corr, 1 del, 1 ins, 1 sub
+  (cum: 962 wds, 688 C, 58 D, 41 I, 216 S, 32.74% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 7 corr, 1 del, 2 ins, 1 sub
+  (cum: 971 wds, 695 C, 59 D, 43 I, 217 S, 32.85% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 712 C, 60 D, 44 I, 220 S, 32.66% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 4 corr, 0 del, 0 ins, 3 sub
+  (cum: 999 wds, 716 C, 60 D, 44 I, 223 S, 32.73% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 0 ins, 6 sub
+  (cum: 1036 wds, 746 C, 61 D, 44 I, 229 S, 32.24% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 1 ins, 0 sub
+  (cum: 1057 wds, 767 C, 61 D, 45 I, 229 S, 31.69% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 8 corr, 0 del, 0 ins, 0 sub
+  (cum: 1065 wds, 775 C, 61 D, 45 I, 229 S, 31.46% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 28 corr, 3 del, 1 ins, 3 sub
+  (cum: 1099 wds, 803 C, 64 D, 46 I, 232 S, 31.12% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 21 corr, 0 del, 0 ins, 4 sub
+  (cum: 1124 wds, 824 C, 64 D, 46 I, 236 S, 30.78% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 838 C, 64 D, 46 I, 237 S, 30.47% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 25 corr, 3 del, 0 ins, 1 sub
+  (cum: 1168 wds, 863 C, 67 D, 46 I, 238 S, 30.05% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 1171 wds, 865 C, 67 D, 46 I, 239 S, 30.06% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 17 corr, 2 del, 0 ins, 5 sub
+  (cum: 1195 wds, 882 C, 69 D, 46 I, 244 S, 30.04% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 19 corr, 1 del, 1 ins, 5 sub
+  (cum: 1220 wds, 901 C, 70 D, 47 I, 249 S, 30.00% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 34 corr, 2 del, 1 ins, 7 sub
+  (cum: 1263 wds, 935 C, 72 D, 48 I, 256 S, 29.77% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 946 C, 72 D, 49 I, 256 S, 29.59% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 8 corr, 0 del, 1 ins, 1 sub
+  (cum: 1283 wds, 954 C, 72 D, 50 I, 257 S, 29.54% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 955 C, 72 D, 50 I, 257 S, 29.52% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 11 corr, 1 del, 0 ins, 3 sub
+  (cum: 1299 wds, 966 C, 73 D, 50 I, 260 S, 29.48% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 11 corr, 0 del, 1 ins, 1 sub
+  (cum: 1311 wds, 977 C, 73 D, 51 I, 261 S, 29.37% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+74.52% corr (977/1311 wds)
+5.57% del (73/1311 wds)
+3.89% ins (51/1311 wds)
+19.91% sub (261/1311 wds)
+29.37% WER (385/1311 wds)
+Elapsed time: 1 sec
+
+======================================================================
+Witten-Bell smoothing (3-gram model; full SWB corpus)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.txt --test p4.tmp.txt --n 3 \
+  --sent_log_probs p4.tmp.probs
+98.4234 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 1 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 1 I, 5 S, 31.58% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 3 I, 15 S, 43.18% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 3 I, 15 S, 42.22% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 7 corr, 1 del, 0 ins, 2 sub
+  (cum: 55 wds, 36 C, 2 D, 3 I, 17 S, 40.00% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 58 wds, 39 C, 2 D, 4 I, 17 S, 39.66% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 42 C, 2 D, 4 I, 17 S, 37.70% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 45 C, 2 D, 4 I, 17 S, 35.94% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 46 C, 2 D, 4 I, 17 S, 35.38% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 24 corr, 0 del, 2 ins, 1 sub
+  (cum: 90 wds, 70 C, 2 D, 6 I, 18 S, 28.89% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 100 wds, 76 C, 3 D, 6 I, 21 S, 30.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 13 corr, 0 del, 1 ins, 6 sub
+  (cum: 119 wds, 89 C, 3 D, 7 I, 27 S, 31.09% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 90 C, 3 D, 7 I, 27 S, 30.83% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 91 C, 3 D, 7 I, 27 S, 30.58% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 6 corr, 2 del, 1 ins, 3 sub
+  (cum: 132 wds, 97 C, 5 D, 8 I, 30 S, 32.58% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 14 corr, 2 del, 0 ins, 2 sub
+  (cum: 150 wds, 111 C, 7 D, 8 I, 32 S, 31.33% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 6 corr, 1 del, 0 ins, 2 sub
+  (cum: 159 wds, 117 C, 8 D, 8 I, 34 S, 31.45% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 0 del, 0 ins, 4 sub
+  (cum: 165 wds, 119 C, 8 D, 8 I, 38 S, 32.73% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 121 C, 8 D, 9 I, 39 S, 33.33% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 122 C, 8 D, 9 I, 40 S, 33.53% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 181 wds, 130 C, 8 D, 10 I, 43 S, 33.70% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 131 C, 8 D, 10 I, 43 S, 33.52% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 1 del, 0 ins, 4 sub
+  (cum: 199 wds, 143 C, 9 D, 10 I, 47 S, 33.17% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 0 ins, 4 sub
+  (cum: 210 wds, 149 C, 10 D, 10 I, 51 S, 33.81% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 150 C, 10 D, 10 I, 51 S, 33.65% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 10 corr, 1 del, 1 ins, 2 sub
+  (cum: 224 wds, 160 C, 11 D, 11 I, 53 S, 33.48% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 160 C, 11 D, 11 I, 54 S, 33.78% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 7 corr, 0 del, 0 ins, 6 sub
+  (cum: 238 wds, 167 C, 11 D, 11 I, 60 S, 34.45% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 168 C, 11 D, 11 I, 60 S, 34.31% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 248 wds, 175 C, 12 D, 11 I, 61 S, 33.87% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 253 wds, 179 C, 12 D, 11 I, 62 S, 33.60% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 8 corr, 1 del, 0 ins, 1 sub
+  (cum: 263 wds, 187 C, 13 D, 11 I, 63 S, 33.08% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 3 corr, 0 del, 0 ins, 1 sub
+  (cum: 267 wds, 190 C, 13 D, 11 I, 64 S, 32.96% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 16 corr, 1 del, 0 ins, 5 sub
+  (cum: 289 wds, 206 C, 14 D, 11 I, 69 S, 32.53% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 207 C, 14 D, 11 I, 69 S, 32.41% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 4 corr, 1 del, 0 ins, 4 sub
+  (cum: 299 wds, 211 C, 15 D, 11 I, 73 S, 33.11% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 213 C, 16 D, 11 I, 74 S, 33.33% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 6 corr, 0 del, 0 ins, 6 sub
+  (cum: 315 wds, 219 C, 16 D, 11 I, 80 S, 33.97% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 220 C, 16 D, 11 I, 80 S, 33.86% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 1 del, 0 ins, 2 sub
+  (cum: 324 wds, 225 C, 17 D, 11 I, 82 S, 33.95% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 335 wds, 229 C, 19 D, 11 I, 87 S, 34.93% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 337 wds, 231 C, 19 D, 11 I, 87 S, 34.72% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 237 C, 21 D, 11 I, 91 S, 35.24% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 239 C, 21 D, 11 I, 91 S, 35.04% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 16 corr, 0 del, 1 ins, 1 sub
+  (cum: 368 wds, 255 C, 21 D, 12 I, 92 S, 33.97% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 13 corr, 0 del, 2 ins, 2 sub
+  (cum: 383 wds, 268 C, 21 D, 14 I, 94 S, 33.68% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 278 C, 22 D, 15 I, 110 S, 35.85% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 16 corr, 0 del, 1 ins, 5 sub
+  (cum: 431 wds, 294 C, 22 D, 16 I, 115 S, 35.50% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 15 corr, 2 del, 0 ins, 6 sub
+  (cum: 454 wds, 309 C, 24 D, 16 I, 121 S, 35.46% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 483 wds, 331 C, 28 D, 17 I, 124 S, 34.99% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 333 C, 28 D, 17 I, 124 S, 34.85% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 11 corr, 1 del, 0 ins, 2 sub
+  (cum: 499 wds, 344 C, 29 D, 17 I, 126 S, 34.47% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 18 corr, 0 del, 1 ins, 3 sub
+  (cum: 520 wds, 362 C, 29 D, 18 I, 129 S, 33.85% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 364 C, 29 D, 18 I, 129 S, 33.72% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 379 C, 29 D, 18 I, 136 S, 33.64% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 14 corr, 2 del, 0 ins, 5 sub
+  (cum: 565 wds, 393 C, 31 D, 18 I, 141 S, 33.63% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 16 corr, 0 del, 1 ins, 4 sub
+  (cum: 585 wds, 409 C, 31 D, 19 I, 145 S, 33.33% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 19 corr, 3 del, 0 ins, 7 sub
+  (cum: 614 wds, 428 C, 34 D, 19 I, 152 S, 33.39% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 47 corr, 2 del, 1 ins, 5 sub
+  (cum: 668 wds, 475 C, 36 D, 20 I, 157 S, 31.89% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 13 corr, 0 del, 0 ins, 2 sub
+  (cum: 683 wds, 488 C, 36 D, 20 I, 159 S, 31.48% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 8 corr, 3 del, 0 ins, 3 sub
+  (cum: 697 wds, 496 C, 39 D, 20 I, 162 S, 31.71% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 15 corr, 0 del, 0 ins, 1 sub
+  (cum: 713 wds, 511 C, 39 D, 20 I, 163 S, 31.14% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 9 corr, 3 del, 0 ins, 3 sub
+  (cum: 728 wds, 520 C, 42 D, 20 I, 166 S, 31.32% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 530 C, 42 D, 20 I, 172 S, 31.45% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 532 C, 42 D, 20 I, 172 S, 31.37% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 14 corr, 0 del, 0 ins, 2 sub
+  (cum: 762 wds, 546 C, 42 D, 20 I, 174 S, 30.97% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 554 C, 42 D, 22 I, 174 S, 30.91% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 21 corr, 3 del, 0 ins, 4 sub
+  (cum: 798 wds, 575 C, 45 D, 22 I, 178 S, 30.70% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 578 C, 45 D, 22 I, 178 S, 30.59% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 10 corr, 1 del, 0 ins, 3 sub
+  (cum: 815 wds, 588 C, 46 D, 22 I, 181 S, 30.55% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 599 C, 46 D, 23 I, 184 S, 30.52% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 600 C, 46 D, 23 I, 184 S, 30.48% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 13 corr, 3 del, 0 ins, 6 sub
+  (cum: 852 wds, 613 C, 49 D, 23 I, 190 S, 30.75% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 0 ins, 1 sub
+  (cum: 864 wds, 623 C, 50 D, 23 I, 191 S, 30.56% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 9 corr, 0 del, 0 ins, 1 sub
+  (cum: 874 wds, 632 C, 50 D, 23 I, 192 S, 30.32% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 6 corr, 1 del, 0 ins, 0 sub
+  (cum: 881 wds, 638 C, 51 D, 23 I, 192 S, 30.19% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 21 corr, 4 del, 1 ins, 4 sub
+  (cum: 910 wds, 659 C, 55 D, 24 I, 196 S, 30.22% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 661 C, 55 D, 24 I, 196 S, 30.15% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 9 corr, 0 del, 1 ins, 2 sub
+  (cum: 923 wds, 670 C, 55 D, 25 I, 198 S, 30.12% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 19 corr, 2 del, 2 ins, 10 sub
+  (cum: 954 wds, 689 C, 57 D, 27 I, 208 S, 30.61% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 7 corr, 1 del, 0 ins, 0 sub
+  (cum: 962 wds, 696 C, 58 D, 27 I, 208 S, 30.46% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 5 corr, 1 del, 1 ins, 3 sub
+  (cum: 971 wds, 701 C, 59 D, 28 I, 211 S, 30.69% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 718 C, 60 D, 29 I, 214 S, 30.54% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 4 corr, 0 del, 0 ins, 3 sub
+  (cum: 999 wds, 722 C, 60 D, 29 I, 217 S, 30.63% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 0 ins, 6 sub
+  (cum: 1036 wds, 752 C, 61 D, 29 I, 223 S, 30.21% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 0 ins, 0 sub
+  (cum: 1057 wds, 773 C, 61 D, 29 I, 223 S, 29.61% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 7 corr, 0 del, 1 ins, 1 sub
+  (cum: 1065 wds, 780 C, 61 D, 30 I, 224 S, 29.58% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 30 corr, 2 del, 1 ins, 2 sub
+  (cum: 1099 wds, 810 C, 63 D, 31 I, 226 S, 29.12% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 23 corr, 0 del, 1 ins, 2 sub
+  (cum: 1124 wds, 833 C, 63 D, 32 I, 228 S, 28.74% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 847 C, 63 D, 32 I, 229 S, 28.45% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 26 corr, 2 del, 0 ins, 1 sub
+  (cum: 1168 wds, 873 C, 65 D, 32 I, 230 S, 28.00% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 1171 wds, 875 C, 65 D, 32 I, 231 S, 28.01% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 17 corr, 2 del, 0 ins, 5 sub
+  (cum: 1195 wds, 892 C, 67 D, 32 I, 236 S, 28.03% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 20 corr, 1 del, 1 ins, 4 sub
+  (cum: 1220 wds, 912 C, 68 D, 33 I, 240 S, 27.95% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 34 corr, 2 del, 1 ins, 7 sub
+  (cum: 1263 wds, 946 C, 70 D, 34 I, 247 S, 27.79% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 957 C, 70 D, 35 I, 247 S, 27.63% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 8 corr, 0 del, 1 ins, 1 sub
+  (cum: 1283 wds, 965 C, 70 D, 36 I, 248 S, 27.59% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 966 C, 70 D, 36 I, 248 S, 27.57% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 12 corr, 1 del, 0 ins, 2 sub
+  (cum: 1299 wds, 978 C, 71 D, 36 I, 250 S, 27.48% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 10 corr, 0 del, 2 ins, 2 sub
+  (cum: 1311 wds, 988 C, 71 D, 38 I, 252 S, 27.54% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+75.36% corr (988/1311 wds)
+5.42% del (71/1311 wds)
+2.90% ins (38/1311 wds)
+19.22% sub (252/1311 wds)
+27.54% WER (361/1311 wds)
+Elapsed time: 1 sec
+
+======================================================================
+2000 sentences of training data (3-gram model; WB smoothing)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.2000.txt --test p4.tmp.txt --n 3 \
+  --sent_log_probs p4.tmp.probs
+243.0473 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 0 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 0 I, 5 S, 26.32% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 15 corr, 1 del, 1 ins, 9 sub
+  (cum: 44 wds, 29 C, 1 D, 1 I, 14 S, 36.36% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 30 C, 1 D, 1 I, 14 S, 35.56% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 5 corr, 1 del, 0 ins, 4 sub
+  (cum: 55 wds, 35 C, 2 D, 1 I, 18 S, 38.18% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 58 wds, 38 C, 2 D, 2 I, 18 S, 37.93% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 41 C, 2 D, 2 I, 18 S, 36.07% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 44 C, 2 D, 2 I, 18 S, 34.38% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 45 C, 2 D, 2 I, 18 S, 33.85% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 23 corr, 1 del, 2 ins, 1 sub
+  (cum: 90 wds, 68 C, 3 D, 4 I, 19 S, 28.89% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 100 wds, 74 C, 4 D, 4 I, 22 S, 30.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 13 corr, 0 del, 1 ins, 6 sub
+  (cum: 119 wds, 87 C, 4 D, 5 I, 28 S, 31.09% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 88 C, 4 D, 5 I, 28 S, 30.83% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 89 C, 4 D, 5 I, 28 S, 30.58% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 6 corr, 2 del, 1 ins, 3 sub
+  (cum: 132 wds, 95 C, 6 D, 6 I, 31 S, 32.58% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 13 corr, 3 del, 0 ins, 2 sub
+  (cum: 150 wds, 108 C, 9 D, 6 I, 33 S, 32.00% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 159 wds, 115 C, 10 D, 6 I, 34 S, 31.45% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 0 del, 0 ins, 4 sub
+  (cum: 165 wds, 117 C, 10 D, 6 I, 38 S, 32.73% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 119 C, 10 D, 7 I, 39 S, 33.33% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 120 C, 10 D, 7 I, 40 S, 33.53% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 181 wds, 128 C, 10 D, 8 I, 43 S, 33.70% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 129 C, 10 D, 8 I, 43 S, 33.52% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 13 corr, 0 del, 1 ins, 4 sub
+  (cum: 199 wds, 142 C, 10 D, 9 I, 47 S, 33.17% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 0 ins, 4 sub
+  (cum: 210 wds, 148 C, 11 D, 9 I, 51 S, 33.81% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 149 C, 11 D, 9 I, 51 S, 33.65% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 10 corr, 1 del, 1 ins, 2 sub
+  (cum: 224 wds, 159 C, 12 D, 10 I, 53 S, 33.48% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 159 C, 12 D, 10 I, 54 S, 33.78% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 7 corr, 0 del, 1 ins, 6 sub
+  (cum: 238 wds, 166 C, 12 D, 11 I, 60 S, 34.87% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 167 C, 12 D, 11 I, 60 S, 34.73% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 248 wds, 174 C, 13 D, 11 I, 61 S, 34.27% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 253 wds, 178 C, 13 D, 11 I, 62 S, 33.99% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 263 wds, 184 C, 14 D, 11 I, 65 S, 34.22% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 267 wds, 188 C, 14 D, 11 I, 65 S, 33.71% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 289 wds, 203 C, 14 D, 11 I, 72 S, 33.56% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 204 C, 14 D, 11 I, 72 S, 33.45% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 4 corr, 1 del, 0 ins, 4 sub
+  (cum: 299 wds, 208 C, 15 D, 11 I, 76 S, 34.11% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 210 C, 16 D, 11 I, 77 S, 34.32% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 5 corr, 0 del, 0 ins, 7 sub
+  (cum: 315 wds, 215 C, 16 D, 11 I, 84 S, 35.24% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 216 C, 16 D, 11 I, 84 S, 35.13% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 1 del, 0 ins, 2 sub
+  (cum: 324 wds, 221 C, 17 D, 11 I, 86 S, 35.19% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 335 wds, 225 C, 19 D, 11 I, 91 S, 36.12% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 337 wds, 227 C, 19 D, 11 I, 91 S, 35.91% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 233 C, 21 D, 11 I, 95 S, 36.39% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 235 C, 21 D, 11 I, 95 S, 36.18% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 16 corr, 0 del, 1 ins, 1 sub
+  (cum: 368 wds, 251 C, 21 D, 12 I, 96 S, 35.05% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 13 corr, 0 del, 3 ins, 2 sub
+  (cum: 383 wds, 264 C, 21 D, 15 I, 98 S, 34.99% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 274 C, 22 D, 16 I, 114 S, 37.07% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 17 corr, 0 del, 2 ins, 4 sub
+  (cum: 431 wds, 291 C, 22 D, 18 I, 118 S, 36.66% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 16 corr, 4 del, 0 ins, 3 sub
+  (cum: 454 wds, 307 C, 26 D, 18 I, 121 S, 36.34% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 21 corr, 4 del, 0 ins, 4 sub
+  (cum: 483 wds, 328 C, 30 D, 18 I, 125 S, 35.82% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 330 C, 30 D, 18 I, 125 S, 35.67% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 8 corr, 2 del, 0 ins, 4 sub
+  (cum: 499 wds, 338 C, 32 D, 18 I, 129 S, 35.87% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 16 corr, 0 del, 0 ins, 5 sub
+  (cum: 520 wds, 354 C, 32 D, 18 I, 134 S, 35.38% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 356 C, 32 D, 18 I, 134 S, 35.25% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 371 C, 32 D, 18 I, 141 S, 35.11% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 14 corr, 2 del, 0 ins, 5 sub
+  (cum: 565 wds, 385 C, 34 D, 18 I, 146 S, 35.04% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 15 corr, 1 del, 1 ins, 4 sub
+  (cum: 585 wds, 400 C, 35 D, 19 I, 150 S, 34.87% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 21 corr, 2 del, 0 ins, 6 sub
+  (cum: 614 wds, 421 C, 37 D, 19 I, 156 S, 34.53% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 47 corr, 2 del, 1 ins, 5 sub
+  (cum: 668 wds, 468 C, 39 D, 20 I, 161 S, 32.93% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 12 corr, 0 del, 0 ins, 3 sub
+  (cum: 683 wds, 480 C, 39 D, 20 I, 164 S, 32.65% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 7 corr, 3 del, 0 ins, 4 sub
+  (cum: 697 wds, 487 C, 42 D, 20 I, 168 S, 33.00% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 15 corr, 0 del, 0 ins, 1 sub
+  (cum: 713 wds, 502 C, 42 D, 20 I, 169 S, 32.40% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 7 corr, 3 del, 0 ins, 5 sub
+  (cum: 728 wds, 509 C, 45 D, 20 I, 174 S, 32.83% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 519 C, 45 D, 20 I, 180 S, 32.93% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 521 C, 45 D, 20 I, 180 S, 32.84% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 13 corr, 0 del, 1 ins, 3 sub
+  (cum: 762 wds, 534 C, 45 D, 21 I, 183 S, 32.68% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 542 C, 45 D, 23 I, 183 S, 32.60% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 21 corr, 3 del, 0 ins, 4 sub
+  (cum: 798 wds, 563 C, 48 D, 23 I, 187 S, 32.33% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 566 C, 48 D, 23 I, 187 S, 32.21% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 9 corr, 1 del, 0 ins, 4 sub
+  (cum: 815 wds, 575 C, 49 D, 23 I, 191 S, 32.27% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 586 C, 49 D, 24 I, 194 S, 32.21% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 587 C, 49 D, 24 I, 194 S, 32.17% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 11 corr, 3 del, 1 ins, 8 sub
+  (cum: 852 wds, 598 C, 52 D, 25 I, 202 S, 32.75% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 9 corr, 1 del, 0 ins, 2 sub
+  (cum: 864 wds, 607 C, 53 D, 25 I, 204 S, 32.64% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 10 corr, 0 del, 0 ins, 0 sub
+  (cum: 874 wds, 617 C, 53 D, 25 I, 204 S, 32.27% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 3 corr, 2 del, 0 ins, 2 sub
+  (cum: 881 wds, 620 C, 55 D, 25 I, 206 S, 32.46% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 23 corr, 4 del, 2 ins, 2 sub
+  (cum: 910 wds, 643 C, 59 D, 27 I, 208 S, 32.31% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 645 C, 59 D, 27 I, 208 S, 32.24% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 923 wds, 653 C, 59 D, 28 I, 211 S, 32.29% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 19 corr, 2 del, 2 ins, 10 sub
+  (cum: 954 wds, 672 C, 61 D, 30 I, 221 S, 32.70% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 6 corr, 1 del, 0 ins, 1 sub
+  (cum: 962 wds, 678 C, 62 D, 30 I, 222 S, 32.64% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 5 corr, 1 del, 1 ins, 3 sub
+  (cum: 971 wds, 683 C, 63 D, 31 I, 225 S, 32.85% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 700 C, 64 D, 32 I, 228 S, 32.66% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 3 corr, 0 del, 0 ins, 4 sub
+  (cum: 999 wds, 703 C, 64 D, 32 I, 232 S, 32.83% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 0 ins, 6 sub
+  (cum: 1036 wds, 733 C, 65 D, 32 I, 238 S, 32.34% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 0 ins, 0 sub
+  (cum: 1057 wds, 754 C, 65 D, 32 I, 238 S, 31.69% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 1065 wds, 761 C, 65 D, 32 I, 239 S, 31.55% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 28 corr, 3 del, 1 ins, 3 sub
+  (cum: 1099 wds, 789 C, 68 D, 33 I, 242 S, 31.21% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 21 corr, 0 del, 0 ins, 4 sub
+  (cum: 1124 wds, 810 C, 68 D, 33 I, 246 S, 30.87% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 824 C, 68 D, 33 I, 247 S, 30.55% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 26 corr, 2 del, 0 ins, 1 sub
+  (cum: 1168 wds, 850 C, 70 D, 33 I, 248 S, 30.05% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 1171 wds, 853 C, 70 D, 33 I, 248 S, 29.97% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 15 corr, 3 del, 0 ins, 6 sub
+  (cum: 1195 wds, 868 C, 73 D, 33 I, 254 S, 30.13% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 20 corr, 1 del, 1 ins, 4 sub
+  (cum: 1220 wds, 888 C, 74 D, 34 I, 258 S, 30.00% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 34 corr, 3 del, 1 ins, 6 sub
+  (cum: 1263 wds, 922 C, 77 D, 35 I, 264 S, 29.77% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 933 C, 77 D, 36 I, 264 S, 29.59% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 9 corr, 0 del, 1 ins, 0 sub
+  (cum: 1283 wds, 942 C, 77 D, 37 I, 264 S, 29.46% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 943 C, 77 D, 37 I, 264 S, 29.44% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 12 corr, 1 del, 0 ins, 2 sub
+  (cum: 1299 wds, 955 C, 78 D, 37 I, 266 S, 29.33% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 11 corr, 0 del, 1 ins, 1 sub
+  (cum: 1311 wds, 966 C, 78 D, 38 I, 267 S, 29.21% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+73.68% corr (966/1311 wds)
+5.95% del (78/1311 wds)
+2.90% ins (38/1311 wds)
+20.37% sub (267/1311 wds)
+29.21% WER (383/1311 wds)
+Elapsed time: 0 sec
+
+======================================================================
+20000 sentences of training data (3-gram model; WB smoothing)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.20000.txt --test p4.tmp.txt --n 3 \
+  --sent_log_probs p4.tmp.probs
+160.7908 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 1 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 1 I, 5 S, 31.58% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 3 I, 15 S, 43.18% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 3 I, 15 S, 42.22% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 5 corr, 1 del, 0 ins, 4 sub
+  (cum: 55 wds, 34 C, 2 D, 3 I, 19 S, 43.64% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 58 wds, 37 C, 2 D, 4 I, 19 S, 43.10% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 40 C, 2 D, 4 I, 19 S, 40.98% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 43 C, 2 D, 4 I, 19 S, 39.06% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 44 C, 2 D, 4 I, 19 S, 38.46% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 24 corr, 0 del, 2 ins, 1 sub
+  (cum: 90 wds, 68 C, 2 D, 6 I, 20 S, 31.11% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 9 corr, 1 del, 0 ins, 0 sub
+  (cum: 100 wds, 77 C, 3 D, 6 I, 20 S, 29.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 12 corr, 1 del, 1 ins, 6 sub
+  (cum: 119 wds, 89 C, 4 D, 7 I, 26 S, 31.09% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 90 C, 4 D, 7 I, 26 S, 30.83% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 91 C, 4 D, 7 I, 26 S, 30.58% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 6 corr, 2 del, 1 ins, 3 sub
+  (cum: 132 wds, 97 C, 6 D, 8 I, 29 S, 32.58% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 13 corr, 3 del, 0 ins, 2 sub
+  (cum: 150 wds, 110 C, 9 D, 8 I, 31 S, 32.00% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 3 corr, 0 del, 0 ins, 6 sub
+  (cum: 159 wds, 113 C, 9 D, 8 I, 37 S, 33.96% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 0 del, 0 ins, 4 sub
+  (cum: 165 wds, 115 C, 9 D, 8 I, 41 S, 35.15% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 117 C, 9 D, 9 I, 42 S, 35.71% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 118 C, 9 D, 9 I, 43 S, 35.88% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 181 wds, 126 C, 9 D, 10 I, 46 S, 35.91% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 127 C, 9 D, 10 I, 46 S, 35.71% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 1 del, 0 ins, 4 sub
+  (cum: 199 wds, 139 C, 10 D, 10 I, 50 S, 35.18% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 0 ins, 4 sub
+  (cum: 210 wds, 145 C, 11 D, 10 I, 54 S, 35.71% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 146 C, 11 D, 10 I, 54 S, 35.55% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 9 corr, 1 del, 1 ins, 3 sub
+  (cum: 224 wds, 155 C, 12 D, 11 I, 57 S, 35.71% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 155 C, 12 D, 11 I, 58 S, 36.00% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 5 corr, 0 del, 0 ins, 8 sub
+  (cum: 238 wds, 160 C, 12 D, 11 I, 66 S, 37.39% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 161 C, 12 D, 11 I, 66 S, 37.24% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 248 wds, 168 C, 13 D, 11 I, 67 S, 36.69% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 253 wds, 172 C, 13 D, 11 I, 68 S, 36.36% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 7 corr, 1 del, 0 ins, 2 sub
+  (cum: 263 wds, 179 C, 14 D, 11 I, 70 S, 36.12% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 4 corr, 0 del, 0 ins, 0 sub
+  (cum: 267 wds, 183 C, 14 D, 11 I, 70 S, 35.58% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 16 corr, 0 del, 0 ins, 6 sub
+  (cum: 289 wds, 199 C, 14 D, 11 I, 76 S, 34.95% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 200 C, 14 D, 11 I, 76 S, 34.83% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 4 corr, 1 del, 0 ins, 4 sub
+  (cum: 299 wds, 204 C, 15 D, 11 I, 80 S, 35.45% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 206 C, 16 D, 11 I, 81 S, 35.64% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 6 corr, 0 del, 0 ins, 6 sub
+  (cum: 315 wds, 212 C, 16 D, 11 I, 87 S, 36.19% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 213 C, 16 D, 11 I, 87 S, 36.08% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 0 del, 0 ins, 3 sub
+  (cum: 324 wds, 218 C, 16 D, 11 I, 90 S, 36.11% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 335 wds, 222 C, 18 D, 11 I, 95 S, 37.01% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 337 wds, 224 C, 18 D, 11 I, 95 S, 36.80% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 230 C, 20 D, 11 I, 99 S, 37.25% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 232 C, 20 D, 11 I, 99 S, 37.04% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 16 corr, 0 del, 1 ins, 1 sub
+  (cum: 368 wds, 248 C, 20 D, 12 I, 100 S, 35.87% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 13 corr, 0 del, 3 ins, 2 sub
+  (cum: 383 wds, 261 C, 20 D, 15 I, 102 S, 35.77% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 271 C, 21 D, 16 I, 118 S, 37.80% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 16 corr, 0 del, 1 ins, 5 sub
+  (cum: 431 wds, 287 C, 21 D, 17 I, 123 S, 37.35% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 16 corr, 2 del, 0 ins, 5 sub
+  (cum: 454 wds, 303 C, 23 D, 17 I, 128 S, 37.00% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 483 wds, 325 C, 27 D, 18 I, 131 S, 36.44% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 327 C, 27 D, 18 I, 131 S, 36.29% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 11 corr, 1 del, 0 ins, 2 sub
+  (cum: 499 wds, 338 C, 28 D, 18 I, 133 S, 35.87% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 15 corr, 0 del, 0 ins, 6 sub
+  (cum: 520 wds, 353 C, 28 D, 18 I, 139 S, 35.58% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 355 C, 28 D, 18 I, 139 S, 35.44% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 370 C, 28 D, 18 I, 146 S, 35.29% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 13 corr, 2 del, 0 ins, 6 sub
+  (cum: 565 wds, 383 C, 30 D, 18 I, 152 S, 35.40% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 16 corr, 0 del, 1 ins, 4 sub
+  (cum: 585 wds, 399 C, 30 D, 19 I, 156 S, 35.04% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 21 corr, 2 del, 0 ins, 6 sub
+  (cum: 614 wds, 420 C, 32 D, 19 I, 162 S, 34.69% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 47 corr, 2 del, 1 ins, 5 sub
+  (cum: 668 wds, 467 C, 34 D, 20 I, 167 S, 33.08% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 12 corr, 0 del, 0 ins, 3 sub
+  (cum: 683 wds, 479 C, 34 D, 20 I, 170 S, 32.80% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 8 corr, 3 del, 0 ins, 3 sub
+  (cum: 697 wds, 487 C, 37 D, 20 I, 173 S, 33.00% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 15 corr, 0 del, 0 ins, 1 sub
+  (cum: 713 wds, 502 C, 37 D, 20 I, 174 S, 32.40% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 8 corr, 3 del, 0 ins, 4 sub
+  (cum: 728 wds, 510 C, 40 D, 20 I, 178 S, 32.69% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 520 C, 40 D, 20 I, 184 S, 32.80% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 522 C, 40 D, 20 I, 184 S, 32.71% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 14 corr, 0 del, 0 ins, 2 sub
+  (cum: 762 wds, 536 C, 40 D, 20 I, 186 S, 32.28% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 544 C, 40 D, 22 I, 186 S, 32.21% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 21 corr, 3 del, 0 ins, 4 sub
+  (cum: 798 wds, 565 C, 43 D, 22 I, 190 S, 31.95% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 568 C, 43 D, 22 I, 190 S, 31.84% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 11 corr, 2 del, 0 ins, 1 sub
+  (cum: 815 wds, 579 C, 45 D, 22 I, 191 S, 31.66% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 590 C, 45 D, 23 I, 194 S, 31.60% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 591 C, 45 D, 23 I, 194 S, 31.57% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 12 corr, 3 del, 1 ins, 7 sub
+  (cum: 852 wds, 603 C, 48 D, 24 I, 201 S, 32.04% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 1 ins, 1 sub
+  (cum: 864 wds, 613 C, 49 D, 25 I, 202 S, 31.94% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 10 corr, 0 del, 0 ins, 0 sub
+  (cum: 874 wds, 623 C, 49 D, 25 I, 202 S, 31.58% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 3 corr, 2 del, 0 ins, 2 sub
+  (cum: 881 wds, 626 C, 51 D, 25 I, 204 S, 31.78% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 910 wds, 648 C, 55 D, 26 I, 207 S, 31.65% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 650 C, 55 D, 26 I, 207 S, 31.58% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 7 corr, 0 del, 3 ins, 4 sub
+  (cum: 923 wds, 657 C, 55 D, 29 I, 211 S, 31.96% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 19 corr, 2 del, 2 ins, 10 sub
+  (cum: 954 wds, 676 C, 57 D, 31 I, 221 S, 32.39% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 6 corr, 1 del, 0 ins, 1 sub
+  (cum: 962 wds, 682 C, 58 D, 31 I, 222 S, 32.33% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 7 corr, 1 del, 2 ins, 1 sub
+  (cum: 971 wds, 689 C, 59 D, 33 I, 223 S, 32.44% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 706 C, 60 D, 34 I, 226 S, 32.26% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 3 corr, 0 del, 0 ins, 4 sub
+  (cum: 999 wds, 709 C, 60 D, 34 I, 230 S, 32.43% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 1 ins, 6 sub
+  (cum: 1036 wds, 739 C, 61 D, 35 I, 236 S, 32.05% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 0 ins, 0 sub
+  (cum: 1057 wds, 760 C, 61 D, 35 I, 236 S, 31.41% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 7 corr, 0 del, 1 ins, 1 sub
+  (cum: 1065 wds, 767 C, 61 D, 36 I, 237 S, 31.36% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 28 corr, 3 del, 1 ins, 3 sub
+  (cum: 1099 wds, 795 C, 64 D, 37 I, 240 S, 31.03% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 21 corr, 0 del, 0 ins, 4 sub
+  (cum: 1124 wds, 816 C, 64 D, 37 I, 244 S, 30.69% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 830 C, 64 D, 37 I, 245 S, 30.38% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 25 corr, 2 del, 0 ins, 2 sub
+  (cum: 1168 wds, 855 C, 66 D, 37 I, 247 S, 29.97% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 1171 wds, 858 C, 66 D, 37 I, 247 S, 29.89% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 16 corr, 2 del, 0 ins, 6 sub
+  (cum: 1195 wds, 874 C, 68 D, 37 I, 253 S, 29.96% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 20 corr, 2 del, 1 ins, 3 sub
+  (cum: 1220 wds, 894 C, 70 D, 38 I, 256 S, 29.84% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 33 corr, 3 del, 1 ins, 7 sub
+  (cum: 1263 wds, 927 C, 73 D, 39 I, 263 S, 29.69% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 938 C, 73 D, 40 I, 263 S, 29.51% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 8 corr, 0 del, 1 ins, 1 sub
+  (cum: 1283 wds, 946 C, 73 D, 41 I, 264 S, 29.46% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 947 C, 73 D, 41 I, 264 S, 29.44% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 10 corr, 0 del, 0 ins, 5 sub
+  (cum: 1299 wds, 957 C, 73 D, 41 I, 269 S, 29.48% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 10 corr, 0 del, 2 ins, 2 sub
+  (cum: 1311 wds, 967 C, 73 D, 43 I, 271 S, 29.52% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+73.76% corr (967/1311 wds)
+5.57% del (73/1311 wds)
+3.28% ins (43/1311 wds)
+20.67% sub (271/1311 wds)
+29.52% WER (387/1311 wds)
+Elapsed time: 0 sec
+
+======================================================================
+200000 sentences of training data (3-gram model; WB smoothing)
+======================================================================
+
+Reading n-best lists, writing corpus ...
+Computing LM scores ...
+lab3_lm --vocab lab3.syms --train swb.200000.txt --test p4.tmp.txt --n 3 \
+  --sent_log_probs p4.tmp.probs
+103.1636 PP (131722 words)
+Computing 1-best ...
+Cleaning up ...
+Loading web/control file ...
+
+Processing cell 1 (id 0001) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 1 wds, 0 C, 0 D, 0 I, 1 S, 100.00% wer)
+
+Processing cell 2 (id 0002) ...
+  18 ref words, 14 corr, 0 del, 1 ins, 4 sub
+  (cum: 19 wds, 14 C, 0 D, 1 I, 5 S, 31.58% wer)
+
+Processing cell 3 (id 0003) ...
+  25 ref words, 14 corr, 1 del, 2 ins, 10 sub
+  (cum: 44 wds, 28 C, 1 D, 3 I, 15 S, 43.18% wer)
+
+Processing cell 4 (id 0004) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 45 wds, 29 C, 1 D, 3 I, 15 S, 42.22% wer)
+
+Processing cell 5 (id 0005) ...
+  10 ref words, 7 corr, 1 del, 0 ins, 2 sub
+  (cum: 55 wds, 36 C, 2 D, 3 I, 17 S, 40.00% wer)
+
+Processing cell 6 (id 0006) ...
+  3 ref words, 3 corr, 0 del, 1 ins, 0 sub
+  (cum: 58 wds, 39 C, 2 D, 4 I, 17 S, 39.66% wer)
+
+Processing cell 7 (id 0007) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 61 wds, 42 C, 2 D, 4 I, 17 S, 37.70% wer)
+
+Processing cell 8 (id 0008) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 64 wds, 45 C, 2 D, 4 I, 17 S, 35.94% wer)
+
+Processing cell 9 (id 0009) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 65 wds, 46 C, 2 D, 4 I, 17 S, 35.38% wer)
+
+Processing cell 10 (id 0010) ...
+  25 ref words, 24 corr, 0 del, 2 ins, 1 sub
+  (cum: 90 wds, 70 C, 2 D, 6 I, 18 S, 28.89% wer)
+
+Processing cell 11 (id 0011) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 100 wds, 76 C, 3 D, 6 I, 21 S, 30.00% wer)
+
+Processing cell 12 (id 0012) ...
+  19 ref words, 13 corr, 0 del, 1 ins, 6 sub
+  (cum: 119 wds, 89 C, 3 D, 7 I, 27 S, 31.09% wer)
+
+Processing cell 13 (id 0013) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 120 wds, 90 C, 3 D, 7 I, 27 S, 30.83% wer)
+
+Processing cell 14 (id 0014) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 121 wds, 91 C, 3 D, 7 I, 27 S, 30.58% wer)
+
+Processing cell 15 (id 0015) ...
+  11 ref words, 6 corr, 2 del, 1 ins, 3 sub
+  (cum: 132 wds, 97 C, 5 D, 8 I, 30 S, 32.58% wer)
+
+Processing cell 16 (id 0016) ...
+  18 ref words, 14 corr, 2 del, 0 ins, 2 sub
+  (cum: 150 wds, 111 C, 7 D, 8 I, 32 S, 31.33% wer)
+
+Processing cell 17 (id 0017) ...
+  9 ref words, 6 corr, 1 del, 0 ins, 2 sub
+  (cum: 159 wds, 117 C, 8 D, 8 I, 34 S, 31.45% wer)
+
+Processing cell 18 (id 0018) ...
+  6 ref words, 2 corr, 0 del, 0 ins, 4 sub
+  (cum: 165 wds, 119 C, 8 D, 8 I, 38 S, 32.73% wer)
+
+Processing cell 19 (id 0019) ...
+  3 ref words, 2 corr, 0 del, 1 ins, 1 sub
+  (cum: 168 wds, 121 C, 8 D, 9 I, 39 S, 33.33% wer)
+
+Processing cell 20 (id 0020) ...
+  2 ref words, 1 corr, 0 del, 0 ins, 1 sub
+  (cum: 170 wds, 122 C, 8 D, 9 I, 40 S, 33.53% wer)
+
+Processing cell 21 (id 0021) ...
+  11 ref words, 8 corr, 0 del, 1 ins, 3 sub
+  (cum: 181 wds, 130 C, 8 D, 10 I, 43 S, 33.70% wer)
+
+Processing cell 22 (id 0022) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 182 wds, 131 C, 8 D, 10 I, 43 S, 33.52% wer)
+
+Processing cell 23 (id 0023) ...
+  17 ref words, 12 corr, 1 del, 0 ins, 4 sub
+  (cum: 199 wds, 143 C, 9 D, 10 I, 47 S, 33.17% wer)
+
+Processing cell 24 (id 0024) ...
+  11 ref words, 6 corr, 1 del, 0 ins, 4 sub
+  (cum: 210 wds, 149 C, 10 D, 10 I, 51 S, 33.81% wer)
+
+Processing cell 25 (id 0025) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 211 wds, 150 C, 10 D, 10 I, 51 S, 33.65% wer)
+
+Processing cell 26 (id 0026) ...
+  13 ref words, 10 corr, 1 del, 1 ins, 2 sub
+  (cum: 224 wds, 160 C, 11 D, 11 I, 53 S, 33.48% wer)
+
+Processing cell 27 (id 0027) ...
+  1 ref words, 0 corr, 0 del, 0 ins, 1 sub
+  (cum: 225 wds, 160 C, 11 D, 11 I, 54 S, 33.78% wer)
+
+Processing cell 28 (id 0028) ...
+  13 ref words, 5 corr, 1 del, 0 ins, 7 sub
+  (cum: 238 wds, 165 C, 12 D, 11 I, 61 S, 35.29% wer)
+
+Processing cell 29 (id 0029) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 239 wds, 166 C, 12 D, 11 I, 61 S, 35.15% wer)
+
+Processing cell 30 (id 0030) ...
+  9 ref words, 7 corr, 1 del, 0 ins, 1 sub
+  (cum: 248 wds, 173 C, 13 D, 11 I, 62 S, 34.68% wer)
+
+Processing cell 31 (id 0031) ...
+  5 ref words, 4 corr, 0 del, 0 ins, 1 sub
+  (cum: 253 wds, 177 C, 13 D, 11 I, 63 S, 34.39% wer)
+
+Processing cell 32 (id 0032) ...
+  10 ref words, 6 corr, 1 del, 0 ins, 3 sub
+  (cum: 263 wds, 183 C, 14 D, 11 I, 66 S, 34.60% wer)
+
+Processing cell 33 (id 0033) ...
+  4 ref words, 3 corr, 0 del, 0 ins, 1 sub
+  (cum: 267 wds, 186 C, 14 D, 11 I, 67 S, 34.46% wer)
+
+Processing cell 34 (id 0034) ...
+  22 ref words, 16 corr, 1 del, 0 ins, 5 sub
+  (cum: 289 wds, 202 C, 15 D, 11 I, 72 S, 33.91% wer)
+
+Processing cell 35 (id 0035) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 290 wds, 203 C, 15 D, 11 I, 72 S, 33.79% wer)
+
+Processing cell 36 (id 0036) ...
+  9 ref words, 4 corr, 1 del, 0 ins, 4 sub
+  (cum: 299 wds, 207 C, 16 D, 11 I, 76 S, 34.45% wer)
+
+Processing cell 37 (id 0037) ...
+  4 ref words, 2 corr, 1 del, 0 ins, 1 sub
+  (cum: 303 wds, 209 C, 17 D, 11 I, 77 S, 34.65% wer)
+
+Processing cell 38 (id 0038) ...
+  12 ref words, 6 corr, 0 del, 0 ins, 6 sub
+  (cum: 315 wds, 215 C, 17 D, 11 I, 83 S, 35.24% wer)
+
+Processing cell 39 (id 0039) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 316 wds, 216 C, 17 D, 11 I, 83 S, 35.13% wer)
+
+Processing cell 40 (id 0040) ...
+  8 ref words, 5 corr, 1 del, 0 ins, 2 sub
+  (cum: 324 wds, 221 C, 18 D, 11 I, 85 S, 35.19% wer)
+
+Processing cell 41 (id 0041) ...
+  11 ref words, 4 corr, 2 del, 0 ins, 5 sub
+  (cum: 335 wds, 225 C, 20 D, 11 I, 90 S, 36.12% wer)
+
+Processing cell 42 (id 0042) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 337 wds, 227 C, 20 D, 11 I, 90 S, 35.91% wer)
+
+Processing cell 43 (id 0043) ...
+  12 ref words, 6 corr, 2 del, 0 ins, 4 sub
+  (cum: 349 wds, 233 C, 22 D, 11 I, 94 S, 36.39% wer)
+
+Processing cell 44 (id 0044) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 351 wds, 235 C, 22 D, 11 I, 94 S, 36.18% wer)
+
+Processing cell 45 (id 0045) ...
+  17 ref words, 16 corr, 0 del, 1 ins, 1 sub
+  (cum: 368 wds, 251 C, 22 D, 12 I, 95 S, 35.05% wer)
+
+Processing cell 46 (id 0046) ...
+  15 ref words, 13 corr, 0 del, 2 ins, 2 sub
+  (cum: 383 wds, 264 C, 22 D, 14 I, 97 S, 34.73% wer)
+
+Processing cell 47 (id 0047) ...
+  27 ref words, 10 corr, 1 del, 1 ins, 16 sub
+  (cum: 410 wds, 274 C, 23 D, 15 I, 113 S, 36.83% wer)
+
+Processing cell 48 (id 0048) ...
+  21 ref words, 15 corr, 0 del, 1 ins, 6 sub
+  (cum: 431 wds, 289 C, 23 D, 16 I, 119 S, 36.66% wer)
+
+Processing cell 49 (id 0049) ...
+  23 ref words, 15 corr, 2 del, 0 ins, 6 sub
+  (cum: 454 wds, 304 C, 25 D, 16 I, 125 S, 36.56% wer)
+
+Processing cell 50 (id 0050) ...
+  29 ref words, 22 corr, 4 del, 1 ins, 3 sub
+  (cum: 483 wds, 326 C, 29 D, 17 I, 128 S, 36.02% wer)
+
+Processing cell 51 (id 0051) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 485 wds, 328 C, 29 D, 17 I, 128 S, 35.88% wer)
+
+Processing cell 52 (id 0052) ...
+  14 ref words, 9 corr, 2 del, 0 ins, 3 sub
+  (cum: 499 wds, 337 C, 31 D, 17 I, 131 S, 35.87% wer)
+
+Processing cell 53 (id 0053) ...
+  21 ref words, 18 corr, 0 del, 1 ins, 3 sub
+  (cum: 520 wds, 355 C, 31 D, 18 I, 134 S, 35.19% wer)
+
+Processing cell 54 (id 0054) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 522 wds, 357 C, 31 D, 18 I, 134 S, 35.06% wer)
+
+Processing cell 55 (id 0055) ...
+  22 ref words, 15 corr, 0 del, 0 ins, 7 sub
+  (cum: 544 wds, 372 C, 31 D, 18 I, 141 S, 34.93% wer)
+
+Processing cell 56 (id 0056) ...
+  21 ref words, 14 corr, 2 del, 0 ins, 5 sub
+  (cum: 565 wds, 386 C, 33 D, 18 I, 146 S, 34.87% wer)
+
+Processing cell 57 (id 0057) ...
+  20 ref words, 16 corr, 0 del, 1 ins, 4 sub
+  (cum: 585 wds, 402 C, 33 D, 19 I, 150 S, 34.53% wer)
+
+Processing cell 58 (id 0058) ...
+  29 ref words, 19 corr, 3 del, 0 ins, 7 sub
+  (cum: 614 wds, 421 C, 36 D, 19 I, 157 S, 34.53% wer)
+
+Processing cell 59 (id 0059) ...
+  54 ref words, 47 corr, 2 del, 1 ins, 5 sub
+  (cum: 668 wds, 468 C, 38 D, 20 I, 162 S, 32.93% wer)
+
+Processing cell 60 (id 0060) ...
+  15 ref words, 13 corr, 0 del, 0 ins, 2 sub
+  (cum: 683 wds, 481 C, 38 D, 20 I, 164 S, 32.50% wer)
+
+Processing cell 61 (id 0061) ...
+  14 ref words, 8 corr, 3 del, 0 ins, 3 sub
+  (cum: 697 wds, 489 C, 41 D, 20 I, 167 S, 32.71% wer)
+
+Processing cell 62 (id 0062) ...
+  16 ref words, 15 corr, 0 del, 0 ins, 1 sub
+  (cum: 713 wds, 504 C, 41 D, 20 I, 168 S, 32.12% wer)
+
+Processing cell 63 (id 0063) ...
+  15 ref words, 8 corr, 3 del, 0 ins, 4 sub
+  (cum: 728 wds, 512 C, 44 D, 20 I, 172 S, 32.42% wer)
+
+Processing cell 64 (id 0064) ...
+  16 ref words, 10 corr, 0 del, 0 ins, 6 sub
+  (cum: 744 wds, 522 C, 44 D, 20 I, 178 S, 32.53% wer)
+
+Processing cell 65 (id 0065) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 746 wds, 524 C, 44 D, 20 I, 178 S, 32.44% wer)
+
+Processing cell 66 (id 0066) ...
+  16 ref words, 14 corr, 0 del, 0 ins, 2 sub
+  (cum: 762 wds, 538 C, 44 D, 20 I, 180 S, 32.02% wer)
+
+Processing cell 67 (id 0067) ...
+  8 ref words, 8 corr, 0 del, 2 ins, 0 sub
+  (cum: 770 wds, 546 C, 44 D, 22 I, 180 S, 31.95% wer)
+
+Processing cell 68 (id 0068) ...
+  28 ref words, 21 corr, 3 del, 0 ins, 4 sub
+  (cum: 798 wds, 567 C, 47 D, 22 I, 184 S, 31.70% wer)
+
+Processing cell 69 (id 0069) ...
+  3 ref words, 3 corr, 0 del, 0 ins, 0 sub
+  (cum: 801 wds, 570 C, 47 D, 22 I, 184 S, 31.59% wer)
+
+Processing cell 70 (id 0070) ...
+  14 ref words, 10 corr, 1 del, 0 ins, 3 sub
+  (cum: 815 wds, 580 C, 48 D, 22 I, 187 S, 31.53% wer)
+
+Processing cell 71 (id 0071) ...
+  14 ref words, 11 corr, 0 del, 1 ins, 3 sub
+  (cum: 829 wds, 591 C, 48 D, 23 I, 190 S, 31.48% wer)
+
+Processing cell 72 (id 0072) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 830 wds, 592 C, 48 D, 23 I, 190 S, 31.45% wer)
+
+Processing cell 73 (id 0073) ...
+  22 ref words, 13 corr, 3 del, 0 ins, 6 sub
+  (cum: 852 wds, 605 C, 51 D, 23 I, 196 S, 31.69% wer)
+
+Processing cell 74 (id 0074) ...
+  12 ref words, 10 corr, 1 del, 0 ins, 1 sub
+  (cum: 864 wds, 615 C, 52 D, 23 I, 197 S, 31.48% wer)
+
+Processing cell 75 (id 0075) ...
+  10 ref words, 9 corr, 0 del, 0 ins, 1 sub
+  (cum: 874 wds, 624 C, 52 D, 23 I, 198 S, 31.24% wer)
+
+Processing cell 76 (id 0076) ...
+  7 ref words, 6 corr, 1 del, 0 ins, 0 sub
+  (cum: 881 wds, 630 C, 53 D, 23 I, 198 S, 31.10% wer)
+
+Processing cell 77 (id 0077) ...
+  29 ref words, 21 corr, 4 del, 1 ins, 4 sub
+  (cum: 910 wds, 651 C, 57 D, 24 I, 202 S, 31.10% wer)
+
+Processing cell 78 (id 0078) ...
+  2 ref words, 2 corr, 0 del, 0 ins, 0 sub
+  (cum: 912 wds, 653 C, 57 D, 24 I, 202 S, 31.03% wer)
+
+Processing cell 79 (id 0079) ...
+  11 ref words, 7 corr, 0 del, 3 ins, 4 sub
+  (cum: 923 wds, 660 C, 57 D, 27 I, 206 S, 31.42% wer)
+
+Processing cell 80 (id 0080) ...
+  31 ref words, 18 corr, 2 del, 2 ins, 11 sub
+  (cum: 954 wds, 678 C, 59 D, 29 I, 217 S, 31.97% wer)
+
+Processing cell 81 (id 0081) ...
+  8 ref words, 7 corr, 1 del, 0 ins, 0 sub
+  (cum: 962 wds, 685 C, 60 D, 29 I, 217 S, 31.81% wer)
+
+Processing cell 82 (id 0082) ...
+  9 ref words, 5 corr, 1 del, 1 ins, 3 sub
+  (cum: 971 wds, 690 C, 61 D, 30 I, 220 S, 32.03% wer)
+
+Processing cell 83 (id 0083) ...
+  21 ref words, 17 corr, 1 del, 1 ins, 3 sub
+  (cum: 992 wds, 707 C, 62 D, 31 I, 223 S, 31.85% wer)
+
+Processing cell 84 (id 0084) ...
+  7 ref words, 4 corr, 0 del, 0 ins, 3 sub
+  (cum: 999 wds, 711 C, 62 D, 31 I, 226 S, 31.93% wer)
+
+Processing cell 85 (id 0085) ...
+  37 ref words, 30 corr, 1 del, 0 ins, 6 sub
+  (cum: 1036 wds, 741 C, 63 D, 31 I, 232 S, 31.47% wer)
+
+Processing cell 86 (id 0086) ...
+  21 ref words, 21 corr, 0 del, 0 ins, 0 sub
+  (cum: 1057 wds, 762 C, 63 D, 31 I, 232 S, 30.84% wer)
+
+Processing cell 87 (id 0087) ...
+  8 ref words, 7 corr, 0 del, 1 ins, 1 sub
+  (cum: 1065 wds, 769 C, 63 D, 32 I, 233 S, 30.80% wer)
+
+Processing cell 88 (id 0088) ...
+  34 ref words, 30 corr, 2 del, 1 ins, 2 sub
+  (cum: 1099 wds, 799 C, 65 D, 33 I, 235 S, 30.30% wer)
+
+Processing cell 89 (id 0089) ...
+  25 ref words, 23 corr, 0 del, 1 ins, 2 sub
+  (cum: 1124 wds, 822 C, 65 D, 34 I, 237 S, 29.89% wer)
+
+Processing cell 90 (id 0090) ...
+  15 ref words, 14 corr, 0 del, 0 ins, 1 sub
+  (cum: 1139 wds, 836 C, 65 D, 34 I, 238 S, 29.59% wer)
+
+Processing cell 91 (id 0091) ...
+  29 ref words, 26 corr, 2 del, 0 ins, 1 sub
+  (cum: 1168 wds, 862 C, 67 D, 34 I, 239 S, 29.11% wer)
+
+Processing cell 92 (id 0092) ...
+  3 ref words, 2 corr, 0 del, 0 ins, 1 sub
+  (cum: 1171 wds, 864 C, 67 D, 34 I, 240 S, 29.12% wer)
+
+Processing cell 93 (id 0093) ...
+  24 ref words, 17 corr, 2 del, 0 ins, 5 sub
+  (cum: 1195 wds, 881 C, 69 D, 34 I, 245 S, 29.12% wer)
+
+Processing cell 94 (id 0094) ...
+  25 ref words, 20 corr, 1 del, 1 ins, 4 sub
+  (cum: 1220 wds, 901 C, 70 D, 35 I, 249 S, 29.02% wer)
+
+Processing cell 95 (id 0095) ...
+  43 ref words, 35 corr, 2 del, 1 ins, 6 sub
+  (cum: 1263 wds, 936 C, 72 D, 36 I, 255 S, 28.74% wer)
+
+Processing cell 96 (id 0096) ...
+  11 ref words, 11 corr, 0 del, 1 ins, 0 sub
+  (cum: 1274 wds, 947 C, 72 D, 37 I, 255 S, 28.57% wer)
+
+Processing cell 97 (id 0097) ...
+  9 ref words, 8 corr, 0 del, 1 ins, 1 sub
+  (cum: 1283 wds, 955 C, 72 D, 38 I, 256 S, 28.53% wer)
+
+Processing cell 98 (id 0098) ...
+  1 ref words, 1 corr, 0 del, 0 ins, 0 sub
+  (cum: 1284 wds, 956 C, 72 D, 38 I, 256 S, 28.50% wer)
+
+Processing cell 99 (id 0099) ...
+  15 ref words, 11 corr, 1 del, 0 ins, 3 sub
+  (cum: 1299 wds, 967 C, 73 D, 38 I, 259 S, 28.48% wer)
+
+Processing cell 100 (id 0100) ...
+  12 ref words, 10 corr, 0 del, 2 ins, 2 sub
+  (cum: 1311 wds, 977 C, 73 D, 40 I, 261 S, 28.53% wer)
+
+OK cell(s) 100/100
+
+1311 ref words.
+74.52% corr (977/1311 wds)
+5.57% del (73/1311 wds)
+3.05% ins (40/1311 wds)
+19.91% sub (261/1311 wds)
+28.53% WER (374/1311 wds)
+Elapsed time: 1 sec

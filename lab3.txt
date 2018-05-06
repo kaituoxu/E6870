@@ -1,0 +1,198 @@
+
+########################################################################
+#   Lab 3: Language Modeling Fever
+#   EECS E6870: Speech Recognition
+#   Due: March 11, 2016 at 6pm
+########################################################################
+
+* Name:Jingyi Yuan
+
+
+########################################################################
+#   Part 1
+########################################################################
+
+* Create the file "p1b.counts" by running "lab3_p1b.sh".
+  Submit the file "p1b.counts" by typing
+  the following command (in the directory ~/e6870/lab3/):
+
+      submit-e6870.py lab3 p1b.counts
+
+  More generally, the usage of "submit-e6870.py" is as follows:
+
+      submit-e6870.py <lab#> <file1> <file2> <file3> ...
+
+  You can submit a file multiple times; later submissions
+  will overwrite earlier ones.  Submissions will fail
+  if the destination directory for you has not been created
+  for the given <lab#>; contact us if this happens.
+
+
+* Can you name a word/token that will have a different unigram count
+  when counted as a history (i.e., histories are immediately to the
+  left of a word that we wish to predict the probability of) and
+  when counted as a regular unigram (i.e., exactly in a position that we
+  wish to predict the probability of)?
+
+->
+A word/token that is used as end-of-sentence marker </s> will have a different unigram count when counted as a history and when counted as a regular unigram, because it only has a regular unigram count since it is the end of a sentence. Also, a word/token which is not in the dictionary (unknown token) may also appear to be so, because only its regular unigram matters.
+
+
+ *Sometimes in practice, the same token is used as both a
+  beginning-of-sentence marker and end-of-sentence marker.
+  In this scenario, why is it a bad idea to count these markers
+  at the beginnings of sentences (in addition to at the ends of
+  sentences) when computing regular unigram counts?
+
+->
+Since the number n in n-gram changes, if we count these markers at the beginnings of sentences, the algorithm becomes unstable as n changes. Also, counting at the beginnings of sentences may change the result when we count at the end of sentences, thus the end-of-sentence marker may have a tendency to appear more and may affect the result.
+
+* In this lab, we update counts for each sentence separately, which
+  precludes the updating of n-grams that span two different sentences.
+  A different strategy is to concatenate all of the training sentences
+  into one long word sequence (separated by the end-of-sentence token, say)
+  and to update counts for all n-grams in this long sequence.  In this
+  method, we can update counts for n-grams that span different sentences.
+  Is this a reasonable thing to do?  Why or why not?
+
+->
+No, it is not reasonable to do so. Since for each sentence, we use the beginning-of-sentence and end-of-sentence in n-grams. If we concatenate all of the training sentences into one long word, we will have to predict the beginning of one sentence by using the end of another sentence, which may have different result with counting for each sentence separately. For example, let us suppose that the end of the first sentence is “sentence” and the beginning of the next is “I”. When counting separatedly, we have p(I|<s>). But when using a long word sequence, we have p(I|sentence), which may differ from p(I|<s>).
+
+
+########################################################################
+#   Part 2
+########################################################################
+
+* Create the file "p2b.probs" by running "lab3_p2b.sh".
+  Submit the following files:
+
+      submit-e6870.py lab3 p2b.probs
+
+
+########################################################################
+#   Part 3
+########################################################################
+
+* Describe a situation where P_MLE() will be the dominant term
+  in the Witten-Bell smoothing equation (e.g., describe how
+  many different words follow the given history, and how many
+  times each word follows the history):
+
+->
+We have Witten-Bell equation that pWB = lambda*P_MLE() + N/c*P_backoff(). Thus when lambda is much larger than N/c, P_MLE() will be the dominant term. That is, the larger the probability of using the higher-order model, the number of unique words that follow the history w(i-1) is less, the more important P_MLE() will be. And
+
+
+* Describe a situation where P_backoff() will be the dominant term
+  in the Witten-Bell smoothing equation:
+
+->
+We have Witten-Bell equation that pWB = lambda*P_MLE() + N/c*P_backoff(). Thus when lambda is much smaller than N/c, P_backoff() will be the dominant term. That is, the smaller the probability of using the higher-order model, the number of unique words that follow the history w(i-1) is more, the more important P_backoff() will be
+
+* Create the file "p3b.probs" by running "lab3_p3b.sh".
+  Submit the following files:
+
+      submit-e6870.py lab3 lang_model.C p3b.probs
+
+
+########################################################################
+#   Part 4
+########################################################################
+
+* What word-error rates did you find for the following conditions?
+  (Examine the file "p4.out" to extract this information.)
+
+->
+1-gram model (WB; full training set): 30.43%
+2-gram model (WB; full training set): 28.60%
+3-gram model (WB; full training set): 27.54%
+
+MLE (3-gram; full training set): 29.29%
+plus-delta (3-gram; full training set): 29.37%
+Witten-Bell (3-gram; full training set): 27.54%
+
+2000 sentences training (3-gram; WB): 29.21%
+20000 sentences training (3-gram; WB): 29.52%
+200000 sentences training (3-gram; WB): 28.53%
+
+
+* What did you learn in this part?
+
+->
+First, as the n in n-gram increases, the error rate decreases. That is, as n increases, the accuracy also increases (when n is not too large). Second, Witten-Bell performs better than MLE and plus-delta in this experiment using 3-gram algorithm. Third, large dataset ensures the accuracy of this experiment, and when the dataset is large enough, the accuracy will finally converge.
+
+
+* When calculating perplexity we need to normalize by the
+  number of words in the data.  When counting the number
+  of words for computing PP, one convention is
+  to include the end-of-sentence token in this count.
+  For example, we would count the sentence "WHO IS THE MAN"
+  as five words rather than four.  Why might this be a good
+  idea?
+
+->
+The perplexity of a language model on a test set is the inverse probability of the test set, normalized by the number of words. When using n-gram, we added an end token into each sentence to ensure the last word to be taken into consideration. Thus we also need to include the end-of-sentence marker </s> in the total count of word tokens N and the normalization will be ensured in this way.
+
+
+* If the sentence "OH I CAN IMAGINE" has the following trigram probabilities:
+
+      P(OH | <s> <s>) = 0.063983
+      P(I | <s> OH) = 0.126221
+      P(CAN | OH I) = 0.006285
+      P(IMAGINE | I CAN) = 0.000010
+      P(</s> | CAN IMAGINE) = 0.030753
+
+  (<s> is the beginning-of-sentence marker, </s> is the end-of-sentence marker)
+
+  what is the perplexity of this sentence (using the convention mentioned
+  in the last question)?
+
+->144.9847
+
+
+* For a given task, we can vary the vocabulary size; with smaller
+  vocabularies, more words will be mapped to the unknown token.
+  Can you say anything about how PP will vary with vocabulary size,
+  given the same training and test set (and method for constructing
+  the LM)?
+
+->
+As the question suggests, with smaller vocabularies, more words will be mapped to the unknown token. The lower the perplexity, the better it predicts an arbitrary new text. Clearly, the text prediction capabilities of a model are directly dependent on the quality of estimation of its parameters during training. And this quality is in turn dependent on the training corpus size. Thus the perplexity for a fixed vocabulary size is expected to monotonously and asymptotically decrease as the vocabulary size increases. On the other hand, a larger number of words allows for better text prediction. Accordingly, the same perplexity behavior should be observed for an unlimited training corpus when vocabulary size increases. To conclude, if we improve the vocabulary size, the perplexity should go down.
+
+
+* When handling silence, one option is to treat it as a "transparent" word
+  as in the lab.  Another way is to not treat it specially, i.e., to treat it
+  as just another word in the vocabulary.  What are some
+  advantages/disadvantages of each of these approaches?
+
+->
+The advantage of treating silence as a  “transparent” word will make the model simpler and save time, but the accuracy of the algorithm may decrease a little since silence is also an important part in speech recognition and is better to be considered. The advantage for treating it as another word would increase the accuracy, but the training process may be more complex and the time the algorithm spends may be more.
+
+
+########################################################################
+#   Wrap Up
+########################################################################
+
+After filling in all of the fields in this file, submit this file
+using the following command:
+
+    submit-e6870.py lab3 lab3.txt
+
+The timestamp on the last submission of this file (if you submit
+multiple times) will be the one used to determine your official
+submission time (e.g., for figuring out if you handed in the
+assignment on time).
+
+To verify whether your files were submitted correctly, you can
+use the command:
+
+    check-e6870.py lab3
+
+This will list all of the files in your submission directory,
+along with file sizes and submission times.
+
+
+########################################################################
+#
+########################################################################
+
+
