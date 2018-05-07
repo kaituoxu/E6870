@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 
-if [[ -e lab3_lm ]] ; then
-    binStr="lab3_lm"
+if [[ -e ./lab3_lm ]] ; then
+    binStr="./lab3_lm"
 elif [[ -e Lab3Lm.class ]] ; then
     binStr="java Lab3Lm"
 else
