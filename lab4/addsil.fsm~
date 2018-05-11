@@ -1,0 +1,13 @@
+# states: 2
+# input-voc: /dynamic/
+# output-voc: /dynamic/
+# transducer: true
+1	2	<epsilon>	~SIL
+2	1	BRITNEY	BRITNEY
+2	1	I	I
+2	1	LIKE	LIKE
+1	1	I	I
+1	1	LIKE	LIKE
+1	1	BRITNEY	BRITNEY
+2	1	~SIL	<epsilon>
+1

@@ -1,0 +1,20 @@
+# transducer: true
+1	2	BEARS(01)	|
+1	6	I(01)	|
+1	7	LIKE(01)	|
+2	3	<epsilon>	B
+3	4	<epsilon>	EH
+4	5	<epsilon>	R
+5	1	<epsilon>	Z
+6	1	<epsilon>	AY
+7	8	<epsilon>	L
+8	9	<epsilon>	AY
+9	1	<epsilon>	KD
+1	10	BRITNEY(01)	|
+10	11	<epsilon>	B
+11	12	<epsilon>	R
+12	13	<epsilon>	IH
+13	14	<epsilon>	TD
+14	15	<epsilon>	N
+15	1	<epsilon>	IY
+1

@@ -1,0 +1,75 @@
+======================================================================
+beam = 20
+======================================================================
+Processing utterance ID: es:1
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:2
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:3
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:4
+  Output: ~SIL FOUR ~SIL
+Processing utterance ID: es:5
+  Output: ~SIL FIVE ~SIL
+Processing utterance ID: es:6
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:7
+  Output: ~SIL FIVE ~SIL
+Processing utterance ID: es:8
+  Output: ~SIL EIGHT ~SIL
+Processing utterance ID: es:9
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:o
+  Output: ~SIL TWO ~SIL
+-1.749160 logprob/frame (956 frames).
+0.01 xRT (61.7% front end; 24.7% GMM; 12.3% search)
+======================================================================
+beam = 10
+======================================================================
+Processing utterance ID: es:1
+  Output: ~SIL OH ~SIL
+Processing utterance ID: es:2
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:3
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:4
+  Output: ~SIL FOUR ~SIL
+Processing utterance ID: es:5
+  Output: ~SIL FIVE ~SIL
+Processing utterance ID: es:6
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:7
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:8
+  Output: ~SIL EIGHT ~SIL
+Processing utterance ID: es:9
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:o
+  Output: ~SIL TWO ~SIL
+-1.850070 logprob/frame (956 frames).
+0.01 xRT (61.7% front end; 37.0% GMM; 0.0% search)
+======================================================================
+beam = 5
+======================================================================
+Processing utterance ID: es:1
+  Output: ~SIL OH ~SIL
+Processing utterance ID: es:2
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:3
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:4
+  Output: ~SIL FOUR ~SIL
+Processing utterance ID: es:5
+  Output: ~SIL FIVE ~SIL
+Processing utterance ID: es:6
+  Output: ~SIL EIGHT ~SIL
+Processing utterance ID: es:7
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:8
+  Output: ~SIL EIGHT ~SIL
+Processing utterance ID: es:9
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:o
+  Output: ~SIL TWO ~SIL
+-1.887576 logprob/frame (956 frames).
+0.01 xRT (56.3% front end; 42.3% GMM; 0.0% search)

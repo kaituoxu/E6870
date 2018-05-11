@@ -1,0 +1,555 @@
+
+======================================================================
+WSJ, 3kw voc, small LM, beam = 10
+======================================================================
+
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.gs
+INFO(container.tcc,285)   Container::read           open wsj.gs itemN= 386
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.ms
+INFO(container.tcc,285)   Container::read           open wsj.ms itemN= 386
+INFO(hselect.cc,90)       HSelect::read             open wsj.fs
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.fs
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 32
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 1024
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[0].selectMax = 32
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[1].selectMax = 256
+Processing utterance ID: w0o01103#0001
+  Output: <s>(01) IF(01) THEY(01) ARE(01) ALARMED(01) ~SIL(01) ,COMMA(01) ~SIL(01) TOP(01) SIEMENS(01) OFFICIALS(01) DON'T(01) SAY(01) SELL(01) PUBLICLY(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0002
+  Output: <s>(01) MR.(01) BAR(01) ~SIL(01) ,COMMA(01) AS(01) HEAD(01) OF(01) SIEMENS(01) BASED(01) TELECOMMUNICATIONS(01) DIVISION(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALLED(01) THE(01) POLITICAL(01) FUSS(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) EXAGGERATED(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) AND(01) SAYS(01) THE(01) ARGUING(01) DOESN'T(01) INVOLVE(01) SIEMENS(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0003
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) WE(01) SELL(01) TECHNOLOGY(01) ~SIL(01) ,COMMA(01) ~SIL(01) NOT(01) POLITICS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0004
+  Output: <s>(01) THE(01) TREASURY(01) A(01) RULES(01) ,COMMA(01) ~SIL(01) HOWEVER(02) ,COMMA(01) ~SIL(01) CONTAIN(01) MODIFICATIONS(01) AT(01) THE(01) S.(01) E.(01) C.(01) RULES(01) ~SIL(01) DESIGNED(01) TO(01) IMPROVE(01) PROTECTION(01) OF(01) PARTIES(01) ~SIL(01) INVOLVED(01) IN(01) REPURCHASE(01) AGREEMENTS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0005
+  Output: <s>(01) ~SIL(01) IN(01) SUCH(01) AGREEMENTS(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALL(01) REPOS(01) ~SIL(01) ,COMMA(01) ~SIL(01) ONE(01) PARTY(01) SELLS(01) GOVERNMENT(01) SECURITIES(01) TO(01) ANOTHER(01) ~SIL(01) WITH(03) A(01) UNDERSTANDING(01) OF(01) THE(01) CELLULAR(01) REPURCHASE(01) THEM(01) LATER(01) HAD(01) A(01) SPECIFIED(01) PRICE(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0006
+  Output: <s>(01) THE(01) PROPOSED(01) MODIFICATIONS(01) WOULD(01) APPLY(01) GOVERNMENT(01) SECURITIES(01) ~SIL(01) BROKERS(01) ARE(01) DEALERS(01) ~SIL(01) THAT(01) ARE(01) ALREADY(01) REGISTERED(01) ~SIL(01) ,COMMA(01) ~SIL(01) AS(01) WELL(01) AS(01) TO(01) NEWLY(01) A(01) REGISTERED(01) ENTITIES(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0007
+  Output: <s>(01) ~SIL(01) MR.(01) ACROSS(01) HIS(02) PRINCETON(01) ,COMMA(01) ~SIL(01) N.(01) J.(01) ~SIL(01) ,COMMA(01) ~SIL(01) ~SIL(01) INVESTOR(01) ~SIL(01) AND(01) MR.(01) SLAINE(01) HIS(02) PRESIDENT(01) OF(01) DEALERS(01) DIGEST(01) INCORPORATED(01) ~SIL(01) IN(01) NEW(01) YORK(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0008
+  Output: <s>(01) ~SIL(01) MR.(01) CROSS(01) CALLED(01) THE(01) PURCHASES(01) AND(01) INVESTMENT(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0009
+  Output: ~SIL(01) <s>(01) FROST(02) &AMPERSAND(01) SULLIVAN(01) ~SIL(01) COULDN'T(01) BE(01) REACHED(01) FOR(02) COMMENT(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0010
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) THAT(01) ARE(01) BROTHERS(01) MS.(01) MANAGED(01) ,COMMA(01) BUT(02) WAS(01) NOT(01) FOR(02) THE(01) PURPOSE(01) OF(01) LINING(01) MARYLAND(01) POCKETS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+-1.018192 logprob/frame (10535 frames).
+0.26 xRT (0.0% front end; 19.2% GMM; 80.8% search)
+Loading web/control file ...
+
+Processing cell 1 (id w0o01103#0001) ...
+  13 ref words, 12 corr, 0 del, 0 ins, 1 sub
+  (cum: 13 wds, 12 C, 0 D, 0 I, 1 S, 7.69% wer)
+
+Processing cell 2 (id w0o01103#0002) ...
+  26 ref words, 22 corr, 0 del, 0 ins, 4 sub
+  (cum: 39 wds, 34 C, 0 D, 0 I, 5 S, 12.82% wer)
+
+Processing cell 3 (id w0o01103#0003) ...
+  12 ref words, 12 corr, 0 del, 0 ins, 0 sub
+  (cum: 51 wds, 46 C, 0 D, 0 I, 5 S, 9.80% wer)
+
+Processing cell 4 (id w0o01103#0004) ...
+  25 ref words, 24 corr, 0 del, 1 ins, 1 sub
+  (cum: 76 wds, 70 C, 0 D, 1 I, 6 S, 9.21% wer)
+
+Processing cell 5 (id w0o01103#0005) ...
+  29 ref words, 23 corr, 1 del, 0 ins, 5 sub
+  (cum: 105 wds, 93 C, 1 D, 1 I, 11 S, 12.38% wer)
+
+Processing cell 6 (id w0o01103#0006) ...
+  24 ref words, 22 corr, 1 del, 1 ins, 1 sub
+  (cum: 129 wds, 115 C, 2 D, 2 I, 12 S, 12.40% wer)
+
+Processing cell 7 (id w0o01103#0007) ...
+  23 ref words, 18 corr, 1 del, 0 ins, 4 sub
+  (cum: 152 wds, 133 C, 3 D, 2 I, 16 S, 13.82% wer)
+
+Processing cell 8 (id w0o01103#0008) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 160 wds, 140 C, 3 D, 2 I, 17 S, 13.75% wer)
+
+Processing cell 9 (id w0o01103#0009) ...
+  9 ref words, 9 corr, 0 del, 0 ins, 0 sub
+  (cum: 169 wds, 149 C, 3 D, 2 I, 17 S, 13.02% wer)
+
+Processing cell 10 (id w0o01103#0010) ...
+  23 ref words, 17 corr, 2 del, 1 ins, 4 sub
+  (cum: 192 wds, 166 C, 5 D, 3 I, 21 S, 15.10% wer)
+
+OK cell(s) 10/10
+
+192 ref words.
+86.46% corr (166/192 wds)
+2.60% del (5/192 wds)
+1.56% ins (3/192 wds)
+10.94% sub (21/192 wds)
+15.10% WER (29/192 wds)
+Elapsed time: 0 sec
+
+======================================================================
+WSJ, 3kw voc, small LM, beam = 5
+======================================================================
+
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.gs
+INFO(container.tcc,285)   Container::read           open wsj.gs itemN= 386
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.ms
+INFO(container.tcc,285)   Container::read           open wsj.ms itemN= 386
+INFO(hselect.cc,90)       HSelect::read             open wsj.fs
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.fs
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 32
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 1024
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[0].selectMax = 32
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[1].selectMax = 256
+Processing utterance ID: w0o01103#0001
+  Output: <s>(01) IF(01) THEY(01) ARE(01) ALARMED(01) ~SIL(01) ,COMMA(01) ~SIL(01) TOP(01) SIEMENS(01) OFFICIALS(01) DON'T(01) SAY(01) SELL(01) PUBLICLY(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0002
+  Output: <s>(01) MR.(01) BAR(01) ~SIL(01) ,COMMA(01) AS(01) HEAD(01) OF(01) SIEMENS(01) BASED(01) TELECOMMUNICATIONS(01) DIVISION(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALLED(01) THE(01) POLITICAL(01) FUSS(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) EXAGGERATED(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) AND(01) SAYS(01) THE(01) ARGUING(01) DOESN'T(01) INVOLVE(01) SIEMENS(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0003
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) WE(01) SELL(01) TECHNOLOGY(01) ~SIL(01) ,COMMA(01) ~SIL(01) NOT(01) POLITICS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0004
+  Output: <s>(01) THE(01) TREASURY(01) RULES(01) ,COMMA(01) ~SIL(01) HOWEVER(02) ,COMMA(01) ~SIL(01) CONTAIN(01) MODIFICATIONS(01) AT(01) THE(01) S.(01) E.(01) C.(01) RULES(01) ~SIL(01) DESIGNED(01) TO(01) IMPROVE(01) PROTECTION(01) OF(01) PARTIES(01) ~SIL(01) INVOLVED(01) IN(01) REPURCHASE(01) AGREEMENTS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0005
+  Output: <s>(01) ~SIL(01) IN(01) SUCH(01) AGREEMENTS(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALL(01) REPOS(01) ~SIL(01) ,COMMA(01) ~SIL(01) ONE(01) PARTY(01) SELLS(01) GOVERNMENT(01) SECURITIES(01) TO(01) ANOTHER(01) ~SIL(01) WITH(03) A(01) UNDERSTANDING(01) OF(01) THE(01) CELLULAR(01) REPURCHASE(01) THEM(01) LATER(01) HAD(01) A(01) SPECIFIED(01) PRICE(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0006
+  Output: <s>(01) THE(01) PROPOSED(01) MODIFICATIONS(01) WOULD(01) APPLY(01) GOVERNMENT(01) SECURITIES(01) ~SIL(01) BROKERS(01) ARE(01) DEALERS(01) ~SIL(01) THAT(01) ARE(01) ALREADY(01) REGISTERED(01) ~SIL(01) ,COMMA(01) ~SIL(01) AS(01) WELL(01) AS(01) TO(01) NEW(01) LEAVE(01) REGISTERED(01) ENTITIES(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0007
+  Output: <s>(01) ~SIL(01) MR.(01) ACROSS(01) HIS(02) PRINCETON(01) ,COMMA(01) ~SIL(01) N.(01) J.(01) ~SIL(01) ,COMMA(01) ~SIL(01) ~SIL(01) INVESTOR(01) ~SIL(01) AND(01) MR.(01) SLAINE(01) HIS(02) PRESIDENT(01) OF(01) DEALERS(01) DIGEST(01) INCORPORATED(01) ~SIL(01) IN(01) NEW(01) YORK(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0008
+  Output: <s>(01) ~SIL(01) MR.(01) CROSS(01) CALLED(01) THE(01) PURCHASES(01) AND(01) INVESTMENT(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0009
+  Output: ~SIL(01) <s>(01) FROST(02) &AMPERSAND(01) SULLIVAN(01) ~SIL(01) COULDN'T(01) BE(01) REACHED(01) FOR(02) COMMENT(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0010
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) THAT(01) ARE(01) BROTHERS(01) MS.(01) MANAGED(01) ,COMMA(01) BUT(02) WAS(01) NOT(01) FOR(02) THE(01) PURPOSE(01) OF(01) LINING(01) MARYLAND(01) POCKETS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+-1.018366 logprob/frame (10535 frames).
+0.06 xRT (0.0% front end; 79.2% GMM; 20.8% search)
+Loading web/control file ...
+
+Processing cell 1 (id w0o01103#0001) ...
+  13 ref words, 12 corr, 0 del, 0 ins, 1 sub
+  (cum: 13 wds, 12 C, 0 D, 0 I, 1 S, 7.69% wer)
+
+Processing cell 2 (id w0o01103#0002) ...
+  26 ref words, 22 corr, 0 del, 0 ins, 4 sub
+  (cum: 39 wds, 34 C, 0 D, 0 I, 5 S, 12.82% wer)
+
+Processing cell 3 (id w0o01103#0003) ...
+  12 ref words, 12 corr, 0 del, 0 ins, 0 sub
+  (cum: 51 wds, 46 C, 0 D, 0 I, 5 S, 9.80% wer)
+
+Processing cell 4 (id w0o01103#0004) ...
+  25 ref words, 24 corr, 0 del, 0 ins, 1 sub
+  (cum: 76 wds, 70 C, 0 D, 0 I, 6 S, 7.89% wer)
+
+Processing cell 5 (id w0o01103#0005) ...
+  29 ref words, 23 corr, 1 del, 0 ins, 5 sub
+  (cum: 105 wds, 93 C, 1 D, 0 I, 11 S, 11.43% wer)
+
+Processing cell 6 (id w0o01103#0006) ...
+  24 ref words, 21 corr, 1 del, 1 ins, 2 sub
+  (cum: 129 wds, 114 C, 2 D, 1 I, 13 S, 12.40% wer)
+
+Processing cell 7 (id w0o01103#0007) ...
+  23 ref words, 18 corr, 1 del, 0 ins, 4 sub
+  (cum: 152 wds, 132 C, 3 D, 1 I, 17 S, 13.82% wer)
+
+Processing cell 8 (id w0o01103#0008) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 160 wds, 139 C, 3 D, 1 I, 18 S, 13.75% wer)
+
+Processing cell 9 (id w0o01103#0009) ...
+  9 ref words, 9 corr, 0 del, 0 ins, 0 sub
+  (cum: 169 wds, 148 C, 3 D, 1 I, 18 S, 13.02% wer)
+
+Processing cell 10 (id w0o01103#0010) ...
+  23 ref words, 17 corr, 2 del, 1 ins, 4 sub
+  (cum: 192 wds, 165 C, 5 D, 2 I, 22 S, 15.10% wer)
+
+OK cell(s) 10/10
+
+192 ref words.
+85.94% corr (165/192 wds)
+2.60% del (5/192 wds)
+1.04% ins (2/192 wds)
+11.46% sub (22/192 wds)
+15.10% WER (29/192 wds)
+Elapsed time: 0 sec
+
+======================================================================
+WSJ, 3kw voc, small LM, beam = 3
+======================================================================
+
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.gs
+INFO(container.tcc,285)   Container::read           open wsj.gs itemN= 386
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.ms
+INFO(container.tcc,285)   Container::read           open wsj.ms itemN= 386
+INFO(hselect.cc,90)       HSelect::read             open wsj.fs
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.fs
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 32
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 1024
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[0].selectMax = 32
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[1].selectMax = 256
+Processing utterance ID: w0o01103#0001
+  Output: <s>(01) IF(01) THEY(01) ARE(01) LARGER(01) ~SIL(01) ,COMMA(01) ~SIL(01) TOP(01) SIEMENS(01) OFFICIALS(01) DON'T(01) SAY(01) SELL(01) PUBLICLY(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0002
+  Output: <s>(01) MR.(01) BALANCE(01) HEAD(01) OF(01) SIEMENS(01) BIGGEST(01) TELECOMMUNICATIONS(01) DIVISION(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALLED(01) THE(01) POLITICAL(01) FOSTER(02) "DOUBLE-QUOTE(01) ~SIL(01) EXAGGERATED(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) AND(01) SAYS(01) THE(01) ARGUING(01) DOESN'T(01) INVOLVE(01) SIEMENS(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0003
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) WE(01) SELL(01) TECHNOLOGY(01) ~SIL(01) ,COMMA(01) ~SIL(01) NOT(01) POLITICS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0004
+  Output: <s>(01) THE(01) TREASURY(01) RULES(01) ,COMMA(01) ~SIL(01) HOWEVER(02) ,COMMA(01) ~SIL(01) CONTAIN(01) MODIFICATIONS(01) ADVANCED(01) EASY(01) WILL(01) STATISTICS(01) HAVE(01) SHOWN(01) AUTHORITIES(01) ~SIL(01) INVOLVED(01) IN(01) RETURN(01) TO(01) CIGARETTE(01) ITS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0005
+  Output: <s>(01) ~SIL(01) IN(01) SUCH(01) AGREEMENTS(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALLED(01) REPOS(01) ~SIL(01) ,COMMA(01) ~SIL(01) ONE(01) PARTIES(01) SELLS(01) GOVERNMENT(01) SECURITIES(01) TO(01) ANOTHER(01) ~SIL(01) WITH(03) A(01) UNDERSTANDING(01) OF(01) THE(01) SELLER(01) WILL(01) REPORT(01) TO(01) SOME(01) LATER(01) HAD(01) A(01) SPECIFIED(01) PRICE(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0006
+  Output: <s>(01) THE(01) PROPOSED(01) MODIFICATIONS(01) WOULD(01) APPLY(01) TO(01) GOVERNMENT(01) SECURITIES(01) ~SIL(01) BROKERS(01) ARE(01) DEALERS(01) ~SIL(01) THAT(01) ARE(01) ALREADY(01) REGISTERED(01) ~SIL(01) ,COMMA(01) ~SIL(01) AS(01) WELL(01) AS(01) TO(01) NEW(01) LEAVE(01) REGISTERED(01) ENTITIES(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0007
+  Output: <s>(01) ~SIL(01) MR.(01) CROSS(01) HIS(02) OPEN(01) STANDARD(01) ,COMMA(01) AND(01) THEY(01) ARE(01) ~SIL(01) ,COMMA(01) ~SIL(01) ~SIL(01) INVESTOR(01) ~SIL(01) AND(01) HISTORY(01) SLAINE(01) HIS(02) PRESIDENT(01) OF(01) DEALERS(01) DIGEST(01) INCORPORATED(01) ~SIL(01) IN(01) NEW(01) YORK(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0008
+  Output: <s>(01) ~SIL(01) MR.(01) CROSS(01) CALLED(01) THE(01) PURCHASES(01) AND(01) INVESTMENT(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0009
+  Output: ~SIL(01) <s>(01) FROST(02) &AMPERSAND(01) SULLIVAN(01) ~SIL(01) WOULD(01) BE(01) REACHED(01) FOR(02) COMMENT(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0010
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) THAT(01) ARE(01) BROTHERS(01) MR.(01) THAN(01) IT(01) TO(01) ,COMMA(01) BUT(02) WAS(01) NOT(01) FOR(02) THE(01) PURPOSE(01) OF(01) LINING(01) MARYLAND(01) POCKETS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+-1.057842 logprob/frame (10535 frames).
+0.05 xRT (0.0% front end; 96.3% GMM; 3.7% search)
+Loading web/control file ...
+
+Processing cell 1 (id w0o01103#0001) ...
+  13 ref words, 11 corr, 0 del, 0 ins, 2 sub
+  (cum: 13 wds, 11 C, 0 D, 0 I, 2 S, 15.38% wer)
+
+Processing cell 2 (id w0o01103#0002) ...
+  26 ref words, 20 corr, 2 del, 0 ins, 4 sub
+  (cum: 39 wds, 31 C, 2 D, 0 I, 6 S, 20.51% wer)
+
+Processing cell 3 (id w0o01103#0003) ...
+  12 ref words, 12 corr, 0 del, 0 ins, 0 sub
+  (cum: 51 wds, 43 C, 2 D, 0 I, 6 S, 15.69% wer)
+
+Processing cell 4 (id w0o01103#0004) ...
+  25 ref words, 9 corr, 3 del, 0 ins, 13 sub
+  (cum: 76 wds, 52 C, 5 D, 0 I, 19 S, 31.58% wer)
+
+Processing cell 5 (id w0o01103#0005) ...
+  29 ref words, 23 corr, 0 del, 1 ins, 6 sub
+  (cum: 105 wds, 75 C, 5 D, 1 I, 25 S, 29.52% wer)
+
+Processing cell 6 (id w0o01103#0006) ...
+  24 ref words, 22 corr, 0 del, 1 ins, 2 sub
+  (cum: 129 wds, 97 C, 5 D, 2 I, 27 S, 26.36% wer)
+
+Processing cell 7 (id w0o01103#0007) ...
+  23 ref words, 15 corr, 0 del, 1 ins, 8 sub
+  (cum: 152 wds, 112 C, 5 D, 3 I, 35 S, 28.29% wer)
+
+Processing cell 8 (id w0o01103#0008) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 160 wds, 119 C, 5 D, 3 I, 36 S, 27.50% wer)
+
+Processing cell 9 (id w0o01103#0009) ...
+  9 ref words, 8 corr, 0 del, 0 ins, 1 sub
+  (cum: 169 wds, 127 C, 5 D, 3 I, 37 S, 26.63% wer)
+
+Processing cell 10 (id w0o01103#0010) ...
+  23 ref words, 17 corr, 2 del, 3 ins, 4 sub
+  (cum: 192 wds, 144 C, 7 D, 6 I, 41 S, 28.12% wer)
+
+OK cell(s) 10/10
+
+192 ref words.
+75.00% corr (144/192 wds)
+3.65% del (7/192 wds)
+3.12% ins (6/192 wds)
+21.35% sub (41/192 wds)
+28.12% WER (54/192 wds)
+Elapsed time: 0 sec
+
+======================================================================
+WSJ, 3kw voc, small LM, beam = 7
+======================================================================
+
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.gs
+INFO(container.tcc,285)   Container::read           open wsj.gs itemN= 386
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.ms
+INFO(container.tcc,285)   Container::read           open wsj.ms itemN= 386
+INFO(hselect.cc,90)       HSelect::read             open wsj.fs
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.fs
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 32
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 1024
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[0].selectMax = 32
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[1].selectMax = 256
+Processing utterance ID: w0o01103#0001
+  Output: <s>(01) IF(01) THEY(01) ARE(01) ALARMED(01) ~SIL(01) ,COMMA(01) ~SIL(01) TOP(01) SIEMENS(01) OFFICIALS(01) DON'T(01) SAY(01) SELL(01) PUBLICLY(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0002
+  Output: <s>(01) MR.(01) BAR(01) ~SIL(01) ,COMMA(01) AS(01) HEAD(01) OF(01) SIEMENS(01) BASED(01) TELECOMMUNICATIONS(01) DIVISION(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALLED(01) THE(01) POLITICAL(01) FUSS(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) EXAGGERATED(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) AND(01) SAYS(01) THE(01) ARGUING(01) DOESN'T(01) INVOLVE(01) SIEMENS(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0003
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) WE(01) SELL(01) TECHNOLOGY(01) ~SIL(01) ,COMMA(01) ~SIL(01) NOT(01) POLITICS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0004
+  Output: <s>(01) THE(01) TREASURY(01) A(01) RULES(01) ,COMMA(01) ~SIL(01) HOWEVER(02) ,COMMA(01) ~SIL(01) CONTAIN(01) MODIFICATIONS(01) AT(01) THE(01) S.(01) E.(01) C.(01) RULES(01) ~SIL(01) DESIGNED(01) TO(01) IMPROVE(01) PROTECTION(01) OF(01) PARTIES(01) ~SIL(01) INVOLVED(01) IN(01) REPURCHASE(01) AGREEMENTS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0005
+  Output: <s>(01) ~SIL(01) IN(01) SUCH(01) AGREEMENTS(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALL(01) REPOS(01) ~SIL(01) ,COMMA(01) ~SIL(01) ONE(01) PARTY(01) SELLS(01) GOVERNMENT(01) SECURITIES(01) TO(01) ANOTHER(01) ~SIL(01) WITH(03) A(01) UNDERSTANDING(01) OF(01) THE(01) CELLULAR(01) REPURCHASE(01) THEM(01) LATER(01) HAD(01) A(01) SPECIFIED(01) PRICE(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0006
+  Output: <s>(01) THE(01) PROPOSED(01) MODIFICATIONS(01) WOULD(01) APPLY(01) GOVERNMENT(01) SECURITIES(01) ~SIL(01) BROKERS(01) ARE(01) DEALERS(01) ~SIL(01) THAT(01) ARE(01) ALREADY(01) REGISTERED(01) ~SIL(01) ,COMMA(01) ~SIL(01) AS(01) WELL(01) AS(01) TO(01) NEWLY(01) A(01) REGISTERED(01) ENTITIES(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0007
+  Output: <s>(01) ~SIL(01) MR.(01) ACROSS(01) HIS(02) PRINCETON(01) ,COMMA(01) ~SIL(01) N.(01) J.(01) ~SIL(01) ,COMMA(01) ~SIL(01) ~SIL(01) INVESTOR(01) ~SIL(01) AND(01) MR.(01) SLAINE(01) HIS(02) PRESIDENT(01) OF(01) DEALERS(01) DIGEST(01) INCORPORATED(01) ~SIL(01) IN(01) NEW(01) YORK(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0008
+  Output: <s>(01) ~SIL(01) MR.(01) CROSS(01) CALLED(01) THE(01) PURCHASES(01) AND(01) INVESTMENT(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0009
+  Output: ~SIL(01) <s>(01) FROST(02) &AMPERSAND(01) SULLIVAN(01) ~SIL(01) COULDN'T(01) BE(01) REACHED(01) FOR(02) COMMENT(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0010
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) THAT(01) ARE(01) BROTHERS(01) MS.(01) MANAGED(01) ,COMMA(01) BUT(02) WAS(01) NOT(01) FOR(02) THE(01) PURPOSE(01) OF(01) LINING(01) MARYLAND(01) POCKETS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+-1.018192 logprob/frame (10535 frames).
+0.10 xRT (0.0% front end; 48.4% GMM; 51.6% search)
+Loading web/control file ...
+
+Processing cell 1 (id w0o01103#0001) ...
+  13 ref words, 12 corr, 0 del, 0 ins, 1 sub
+  (cum: 13 wds, 12 C, 0 D, 0 I, 1 S, 7.69% wer)
+
+Processing cell 2 (id w0o01103#0002) ...
+  26 ref words, 22 corr, 0 del, 0 ins, 4 sub
+  (cum: 39 wds, 34 C, 0 D, 0 I, 5 S, 12.82% wer)
+
+Processing cell 3 (id w0o01103#0003) ...
+  12 ref words, 12 corr, 0 del, 0 ins, 0 sub
+  (cum: 51 wds, 46 C, 0 D, 0 I, 5 S, 9.80% wer)
+
+Processing cell 4 (id w0o01103#0004) ...
+  25 ref words, 24 corr, 0 del, 1 ins, 1 sub
+  (cum: 76 wds, 70 C, 0 D, 1 I, 6 S, 9.21% wer)
+
+Processing cell 5 (id w0o01103#0005) ...
+  29 ref words, 23 corr, 1 del, 0 ins, 5 sub
+  (cum: 105 wds, 93 C, 1 D, 1 I, 11 S, 12.38% wer)
+
+Processing cell 6 (id w0o01103#0006) ...
+  24 ref words, 22 corr, 1 del, 1 ins, 1 sub
+  (cum: 129 wds, 115 C, 2 D, 2 I, 12 S, 12.40% wer)
+
+Processing cell 7 (id w0o01103#0007) ...
+  23 ref words, 18 corr, 1 del, 0 ins, 4 sub
+  (cum: 152 wds, 133 C, 3 D, 2 I, 16 S, 13.82% wer)
+
+Processing cell 8 (id w0o01103#0008) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 160 wds, 140 C, 3 D, 2 I, 17 S, 13.75% wer)
+
+Processing cell 9 (id w0o01103#0009) ...
+  9 ref words, 9 corr, 0 del, 0 ins, 0 sub
+  (cum: 169 wds, 149 C, 3 D, 2 I, 17 S, 13.02% wer)
+
+Processing cell 10 (id w0o01103#0010) ...
+  23 ref words, 17 corr, 2 del, 1 ins, 4 sub
+  (cum: 192 wds, 166 C, 5 D, 3 I, 21 S, 15.10% wer)
+
+OK cell(s) 10/10
+
+192 ref words.
+86.46% corr (166/192 wds)
+2.60% del (5/192 wds)
+1.56% ins (3/192 wds)
+10.94% sub (21/192 wds)
+15.10% WER (29/192 wds)
+Elapsed time: 0 sec
+
+======================================================================
+WSJ, 21kw voc, small LM, beam = 7
+======================================================================
+
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.gs
+INFO(container.tcc,285)   Container::read           open wsj.gs itemN= 386
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.ms
+INFO(container.tcc,285)   Container::read           open wsj.ms itemN= 386
+INFO(hselect.cc,90)       HSelect::read             open wsj.fs
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.fs
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 32
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 1024
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[0].selectMax = 32
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[1].selectMax = 256
+Processing utterance ID: w0o01103#0001
+  Output: <s>(01) IF(01) THEY(01) ARE(01) ALARMED(01) ~SIL(01) ,COMMA(01) ~SIL(01) TOP(01) SIEMENS(01) OFFICIALS(01) DON'T(01) SAY(01) SELL(01) PUBLICLY(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0002
+  Output: <s>(01) MR.(01) BAR(01) ~SIL(01) ,COMMA(01) AS(01) HEAD(01) OF(01) SIEMENS(01) BEAST(01) TELECOMMUNICATIONS(01) DIVISION(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALLED(01) THE(01) POLITICAL(01) FUSS(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) EXAGGERATED(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) AND(01) SAYS(01) THE(01) ARGUING(01) DOESN'T(01) INVOLVE(01) SIEMENS(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0003
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) RESELL(01) TECHNOLOGY(01) ~SIL(01) ,COMMA(01) ~SIL(01) NOT(01) POLITICS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0004
+  Output: <s>(01) THE(01) TREASURE(01) RULES(01) ,COMMA(01) ~SIL(01) HOWEVER(02) ,COMMA(01) ~SIL(01) CONTAIN(01) MODIFICATIONS(01) AT(01) THE(01) S.(01) E.(01) C.(01) RULES(01) ~SIL(01) DESIGNED(01) TO(01) IMPROVE(01) PROTECTION(01) OF(01) PARTIES(01) ~SIL(01) INVOLVED(01) IN(01) REPURCHASE(01) AGREEMENTS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0005
+  Output: <s>(01) ~SIL(01) IN(01) SUCH(01) AGREEMENTS(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALL(01) REPOS(01) ~SIL(01) ,COMMA(01) ~SIL(01) ONE(01) PARTY(01) SELLS(01) GOVERNMENT(01) SECURITIES(01) TO(01) ANOTHER(01) ~SIL(01) WITH(03) A(01) UNDERSTANDING(01) OF(01) THE(01) CELLULAR(01) REPURCHASE(01) THEM(01) LATER(01) HAD(01) A(01) SPECIFIED(01) PRICE(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0006
+  Output: <s>(01) THE(01) PROPOSED(01) MODIFICATIONS(01) WOULD(01) APPLY(01) GOVERNMENT(01) SECURITIES(01) ~SIL(01) BROKERS(01) ARE(01) DEALERS(01) ~SIL(01) THAT(01) ARE(01) ALREADY(01) REGISTERED(01) ~SIL(01) ,COMMA(01) ~SIL(01) AS(01) WELL(01) AS(01) TO(01) NEWLY(01) A(01) REGISTERED(01) ENTITIES(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0007
+  Output: <s>(01) ~SIL(01) MR.(01) ACROSS(01) HIS(02) PRINCETON(01) ,COMMA(01) ~SIL(01) N.(01) J.(01) ~SIL(01) ,COMMA(01) ~SIL(01) ~SIL(01) INVESTOR(01) ~SIL(01) AND(01) MR.(01) SLAINE(01) HIS(02) PRESIDENT(01) OF(01) DEALERS(01) DIGEST(01) INCORPORATED(01) ~SIL(01) IN(01) NEW(01) YORK(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0008
+  Output: <s>(01) ~SIL(01) MR.(01) CROSS(01) CALLED(01) THE(01) PURCHASES(01) AND(01) INVESTMENT(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0009
+  Output: ~SIL(01) <s>(01) FROST(02) &AMPERSAND(01) SULLIVAN(01) ~SIL(01) COULDN'T(01) BE(01) REACHED(01) FOR(02) COMMENT(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0010
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) THAT(01) CROW(01) BROTHERS(01) MISS(01) MANAGED(01) ,COMMA(01) BUT(02) WAS(01) NOT(01) FOR(02) THE(01) PURPOSE(01) OF(01) LINING(01) MARYLAND(01) POCKETS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+-1.017688 logprob/frame (10535 frames).
+0.14 xRT (0.0% front end; 34.9% GMM; 65.1% search)
+Loading web/control file ...
+
+Processing cell 1 (id w0o01103#0001) ...
+  13 ref words, 12 corr, 0 del, 0 ins, 1 sub
+  (cum: 13 wds, 12 C, 0 D, 0 I, 1 S, 7.69% wer)
+
+Processing cell 2 (id w0o01103#0002) ...
+  26 ref words, 22 corr, 0 del, 0 ins, 4 sub
+  (cum: 39 wds, 34 C, 0 D, 0 I, 5 S, 12.82% wer)
+
+Processing cell 3 (id w0o01103#0003) ...
+  12 ref words, 10 corr, 1 del, 0 ins, 1 sub
+  (cum: 51 wds, 44 C, 1 D, 0 I, 6 S, 13.73% wer)
+
+Processing cell 4 (id w0o01103#0004) ...
+  25 ref words, 23 corr, 0 del, 0 ins, 2 sub
+  (cum: 76 wds, 67 C, 1 D, 0 I, 8 S, 11.84% wer)
+
+Processing cell 5 (id w0o01103#0005) ...
+  29 ref words, 23 corr, 1 del, 0 ins, 5 sub
+  (cum: 105 wds, 90 C, 2 D, 0 I, 13 S, 14.29% wer)
+
+Processing cell 6 (id w0o01103#0006) ...
+  24 ref words, 22 corr, 1 del, 1 ins, 1 sub
+  (cum: 129 wds, 112 C, 3 D, 1 I, 14 S, 13.95% wer)
+
+Processing cell 7 (id w0o01103#0007) ...
+  23 ref words, 18 corr, 1 del, 0 ins, 4 sub
+  (cum: 152 wds, 130 C, 4 D, 1 I, 18 S, 15.13% wer)
+
+Processing cell 8 (id w0o01103#0008) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 160 wds, 137 C, 4 D, 1 I, 19 S, 15.00% wer)
+
+Processing cell 9 (id w0o01103#0009) ...
+  9 ref words, 9 corr, 0 del, 0 ins, 0 sub
+  (cum: 169 wds, 146 C, 4 D, 1 I, 19 S, 14.20% wer)
+
+Processing cell 10 (id w0o01103#0010) ...
+  23 ref words, 17 corr, 2 del, 1 ins, 4 sub
+  (cum: 192 wds, 163 C, 6 D, 2 I, 23 S, 16.15% wer)
+
+OK cell(s) 10/10
+
+192 ref words.
+84.90% corr (163/192 wds)
+3.12% del (6/192 wds)
+1.04% ins (2/192 wds)
+11.98% sub (23/192 wds)
+16.15% WER (31/192 wds)
+Elapsed time: 0 sec
+
+======================================================================
+WSJ, 21kw voc, large LM, beam = 7
+======================================================================
+
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.gs
+INFO(container.tcc,285)   Container::read           open wsj.gs itemN= 386
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.ms
+INFO(container.tcc,285)   Container::read           open wsj.ms itemN= 386
+INFO(hselect.cc,90)       HSelect::read             open wsj.fs
+DEBUG(file-io.cc,105)     extifstream::open         filename= wsj.fs
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 32
+INFO(hselect.cc,57)       HSelectLevel::read        clusterN= 1024
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[0].selectMax = 32
+INFO(hselect.cc,153)      HSelect::setSelectMax     la[1].selectMax = 256
+Processing utterance ID: w0o01103#0001
+  Output: <s>(01) IF(01) THEY(01) ARE(01) ALARMED(01) ~SIL(01) ,COMMA(01) ~SIL(01) TOP(01) SIEMENS(01) OFFICIALS(01) DON'T(01) SAY(01) SO(01) PUBLICLY(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0002
+  Output: <s>(01) MR.(01) BAUER(01) ~SIL(01) ,COMMA(01) AS(01) HEAD(01) OF(01) SIEMENS(01) BEAST(01) TELECOMMUNICATIONS(01) DIVISION(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALLED(01) THE(01) POLITICAL(01) FUSS(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) EXAGGERATED(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) AND(01) SAYS(01) THE(01) ARGUING(01) DOESN'T(01) INVOLVE(01) SIEMENS(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0003
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) WE(01) SELL(01) TECHNOLOGY(01) ~SIL(01) ,COMMA(01) ~SIL(01) NOT(01) POLITICS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0004
+  Output: <s>(01) THE(01) TREASURER(01) RULES(01) ,COMMA(01) ~SIL(01) HOWEVER(02) ,COMMA(01) ~SIL(01) CONTAIN(01) MODIFICATIONS(01) OF(01) THE(01) S.(01) E.(01) C.(01) RULES(01) ~SIL(01) DESIGNED(01) TO(01) IMPROVE(01) PROTECTION(01) AND(01) PARTIES(01) ~SIL(01) INVOLVED(01) IN(01) REPURCHASE(01) AGREEMENTS(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0005
+  Output: <s>(01) ~SIL(01) IN(01) SUCH(01) AGREEMENTS(01) ~SIL(01) ,COMMA(01) ~SIL(01) CALL(01) REPOS(01) ~SIL(01) ,COMMA(01) ~SIL(01) ONE(01) PARTY(01) SELLS(01) GOVERNMENT(01) SECURITIES(01) TO(01) ANOTHER(01) ~SIL(01) WITH(03) A(01) UNDERSTANDING(01) OF(01) THE(01) CELLULAR(01) REPURCHASE(01) THEM(01) LATER(01) AT(01) A(01) SPECIFIED(01) PRICE(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0006
+  Output: <s>(01) THE(01) PROPOSED(01) MODIFICATIONS(01) WOULD(01) APPLY(01) TO(01) GOVERNMENT(01) SECURITIES(01) ~SIL(01) BROKERS(01) ARE(01) DEALERS(01) ~SIL(01) THAT(01) ARE(01) ALREADY(01) REGISTERED(01) ~SIL(01) ,COMMA(01) ~SIL(01) AS(01) WELL(01) AS(01) TO(01) NEWLY(01) REGISTERED(01) ENTITIES(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0007
+  Output: <s>(01) ~SIL(01) MR.(01) CROSSES(01) AT(01) PRINCETON(01) ,COMMA(01) ~SIL(01) N.(01) J.(01) ~SIL(01) ,COMMA(01) ~SIL(01) INVESTOR(01) ~SIL(01) AND(01) MR.(01) SLAINE(01) IS(01) PRESIDENT(01) OF(01) DEALERS(01) DIGEST(01) INCORPORATED(01) ~SIL(01) IN(01) NEW(01) YORK(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0008
+  Output: <s>(01) ~SIL(01) MR.(01) CROSS(01) CALLED(01) THE(01) PURCHASES(01) AND(01) INVESTMENT(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0009
+  Output: <s>(01) ~SIL(01) FROST(02) &AMPERSAND(01) SULLIVAN(01) AND(01) ~SIL(01) COULDN'T(01) BE(01) REACHED(01) FOR(02) COMMENT(01) ~SIL(01) .PERIOD(01) </s>(01)
+Processing utterance ID: w0o01103#0010
+  Output: <s>(01) "DOUBLE-QUOTE(01) ~SIL(01) THAT(01) CROW(01) BROTHERS(01) MISMANAGED(01) ,COMMA(01) BUT(02) WAS(01) NOT(01) FOR(02) THE(01) PURPOSE(01) OF(01) THE(01) TINY(01) MARYLAND(01) POCKETS(01) ~SIL(01) ,COMMA(01) ~SIL(01) "DOUBLE-QUOTE(01) ~SIL(01) HE(01) SAYS(01) ~SIL(01) .PERIOD(01) </s>(01)
+-1.007732 logprob/frame (10535 frames).
+0.18 xRT (0.0% front end; 27.0% GMM; 73.0% search)
+Loading web/control file ...
+
+Processing cell 1 (id w0o01103#0001) ...
+  13 ref words, 13 corr, 0 del, 0 ins, 0 sub
+  (cum: 13 wds, 13 C, 0 D, 0 I, 0 S, 0.00% wer)
+
+Processing cell 2 (id w0o01103#0002) ...
+  26 ref words, 22 corr, 0 del, 0 ins, 4 sub
+  (cum: 39 wds, 35 C, 0 D, 0 I, 4 S, 10.26% wer)
+
+Processing cell 3 (id w0o01103#0003) ...
+  12 ref words, 12 corr, 0 del, 0 ins, 0 sub
+  (cum: 51 wds, 47 C, 0 D, 0 I, 4 S, 7.84% wer)
+
+Processing cell 4 (id w0o01103#0004) ...
+  25 ref words, 23 corr, 0 del, 0 ins, 2 sub
+  (cum: 76 wds, 70 C, 0 D, 0 I, 6 S, 7.89% wer)
+
+Processing cell 5 (id w0o01103#0005) ...
+  29 ref words, 24 corr, 1 del, 0 ins, 4 sub
+  (cum: 105 wds, 94 C, 1 D, 0 I, 10 S, 10.48% wer)
+
+Processing cell 6 (id w0o01103#0006) ...
+  24 ref words, 23 corr, 0 del, 0 ins, 1 sub
+  (cum: 129 wds, 117 C, 1 D, 0 I, 11 S, 9.30% wer)
+
+Processing cell 7 (id w0o01103#0007) ...
+  23 ref words, 19 corr, 1 del, 0 ins, 3 sub
+  (cum: 152 wds, 136 C, 2 D, 0 I, 14 S, 10.53% wer)
+
+Processing cell 8 (id w0o01103#0008) ...
+  8 ref words, 7 corr, 0 del, 0 ins, 1 sub
+  (cum: 160 wds, 143 C, 2 D, 0 I, 15 S, 10.62% wer)
+
+Processing cell 9 (id w0o01103#0009) ...
+  9 ref words, 9 corr, 0 del, 1 ins, 0 sub
+  (cum: 169 wds, 152 C, 2 D, 1 I, 15 S, 10.65% wer)
+
+Processing cell 10 (id w0o01103#0010) ...
+  23 ref words, 17 corr, 1 del, 0 ins, 5 sub
+  (cum: 192 wds, 169 C, 3 D, 1 I, 20 S, 12.50% wer)
+
+OK cell(s) 10/10
+
+192 ref words.
+88.02% corr (169/192 wds)
+1.56% del (3/192 wds)
+0.52% ins (1/192 wds)
+10.42% sub (20/192 wds)
+12.50% WER (24/192 wds)
+Elapsed time: 0 sec
+
+======================================================================
+Isolated digit recognition.
+======================================================================
+
+Processing utterance ID: es:1
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:2
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:3
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:4
+  Output: ~SIL FOUR ~SIL
+Processing utterance ID: es:5
+  Output: ~SIL FIVE ~SIL
+Processing utterance ID: es:6
+  Output: ~SIL TWO ~SIL
+Processing utterance ID: es:7
+  Output: ~SIL FIVE ~SIL
+Processing utterance ID: es:8
+  Output: ~SIL EIGHT ~SIL
+Processing utterance ID: es:9
+  Output: ~SIL NINE ~SIL
+Processing utterance ID: es:o
+  Output: ~SIL TWO ~SIL
+-1.749160 logprob/frame (956 frames).
+0.01 xRT (42.3% front end; 56.3% GMM; 0.0% search)
