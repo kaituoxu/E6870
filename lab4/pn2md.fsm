@@ -1,6 +1,3 @@
-# states: 36
-# input-voc: /dynamic/
-# output-voc: /dynamic/
 1	2	|	<epsilon>
 2	3	AY	<epsilon>
 2	4	B	B:75_76_78
