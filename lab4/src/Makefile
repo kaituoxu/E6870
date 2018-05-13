@@ -37,7 +37,7 @@ main.o : main.C
 
 lab4_vit.o : lab4_vit.C lab4_vit.H util.H front_end.H
 
-lab4_vit : lab4_vit.o util.o front_end.o gmm_set_attila.o main.o libattila.so /usr/lib64/libpthread.so
+lab4_vit : lab4_vit.o util.o front_end.o gmm_set_attila.o main.o libattila.so #/usr/lib64/libpthread.so
 
 Lab4Vit :
 	$(JAVAC) Lab4Vit.java
