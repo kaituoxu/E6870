@@ -265,7 +265,7 @@ double Timer::stop() {
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-extern GmmScorer* new_gmm_set_attila(const string& fileBase);
+// extern GmmScorer* new_gmm_set_attila(const string& fileBase);
 
 static GmmScorer* new_gmm_scorer(const map<string, string>& params) {
   string gmmFile = get_string_param(params, "gmm");
@@ -277,7 +277,8 @@ static GmmScorer* new_gmm_scorer(const map<string, string>& params) {
   if (!gmmFile.empty())
     return new GmmSet(gmmFile);
   else
-    return new_gmm_set_attila(attilaGmmFile);
+    return new GmmSet(gmmFile);
+  // return new_gmm_set_attila(attilaGmmFile);
 }
 
 Lab4VitMain::Lab4VitMain(const map<string, string>& params)
