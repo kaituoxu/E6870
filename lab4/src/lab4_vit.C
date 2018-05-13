@@ -173,6 +173,67 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
   //  The code for calculating the final probability and
   //  the best path is provided for you below.
 
+  //  Init logprob and traceback for start state at frame 0.
+  FrameCell& startCell = curFrame.insert_cell(graph.get_start_state());
+  startCell.assign(0.0, wordTree.get_root_node());
+
+  //  Iterate over frames.
+  for (int frmIdx = 0; frmIdx < frmCnt; ++frmIdx) {
+    //  Active cells for frame "frmIdx" are held in "curFrame".
+    //  Active cells for frame "frmIdx+1" are held in "nextFrame".
+
+    //  Initialize "nextFrame" to be empty.
+    nextFrame.clear();
+
+    //  Compute pruning threshold here, if desired.
+
+    //  Loop through active states in numeric order;
+    //  assumes graph has been topologically sorted w.r.t.
+    //  epsilon arcs.
+    curFrame.reset_iteration();
+    int curState;
+    while (((curState = curFrame.get_next_state())) >= 0) {
+      //  Find cell corresponding to "curState".
+      //  Make copy here, because cells in FrameData object
+      //  can move in memory if new cells are inserted.
+      FrameCell curCell(curFrame.get_cell_by_state(curState));
+
+      //  Pruning.
+      //  if (curCell.get_log_prob() < threshLogProb)
+      //      continue;
+
+      //  Loop through arcs exiting current state.
+      int arcCnt = graph.get_arc_count(curState);
+      int arcId = graph.get_first_arc_id(curState);
+      for (int arcIdx = 0; arcIdx < arcCnt; ++arcIdx) {
+        Arc arc;
+        arcId = graph.get_arc(arcId, arc);
+        bool hasGmm = (arc.get_gmm() >= 0);
+        int dstState = arc.get_dst_state();
+
+        //  Fill in update of destination cell here.
+        double transitionProb = arc.get_log_prob();
+        double logProb = curCell.get_log_prob() +  // Viterbi prob at t-1
+                         transitionProb +          // a_ij
+                         acousWgt * gmmProbs(frmIdx, arc.get_gmm());  // bj(ot)
+        FrameCell& dstCell = nextFrame.insert_cell(dstState);
+        if (logProb > dstCell.get_log_prob()) {
+          dstCell.assign(logProb,
+                         0);  // set node index to 0 here for part3
+        }
+      }
+    }  // end while(curState)
+
+    if (frmIdx < frmCnt) {
+      //  Keep these lines; these copy info into a chart object
+      //  so that it can be output for debugging purposes.
+      if (chart.size1()) copy_frame_to_chart(curFrame, frmIdx, chart);
+
+      //  Swap last and cur frame data structures.
+      curFrame.swap(nextFrame);
+    }
+  }  // end for(frmIdx)
+
   //
   //  END_LAB
   //
