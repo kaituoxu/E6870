@@ -213,10 +213,13 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
 
         //  Fill in update of destination cell here.
         double transitionProb = arc.get_log_prob();
-        double logProb = curCell.get_log_prob() +  // Viterbi prob at t-1
-                         transitionProb +          // a_ij
-                         acousWgt * gmmProbs(frmIdx, arc.get_gmm());  // bj(ot)
-        FrameCell& dstCell = nextFrame.insert_cell(dstState);
+        double obervationProb =
+            (hasGmm ? gmmProbs(frmIdx, arc.get_gmm()) : 0.0);
+        double logProb = curCell.get_log_prob() +    // Viterbi prob at t-1
+                         transitionProb +            // a_ij
+                         acousWgt * obervationProb;  // b_j(ot)
+        FrameCell& dstCell = (hasGmm ? nextFrame.insert_cell(dstState)
+                                     : curFrame.insert_cell(dstState));
         if (logProb > dstCell.get_log_prob()) {
           dstCell.assign(logProb,
                          0);  // set node index to 0 here for part3
@@ -233,6 +236,44 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
       curFrame.swap(nextFrame);
     }
   }  // end for(frmIdx)
+
+  // Process skip arcs for frmCnt-th frame
+  // curFrame holds info of frmCnt-th frame
+  curFrame.reset_iteration();
+  int curState;
+  while (((curState = curFrame.get_next_state())) >= 0) {
+    //  Find cell corresponding to "curState".
+    //  Make copy here, because cells in FrameData object
+    //  can move in memory if new cells are inserted.
+    FrameCell curCell(curFrame.get_cell_by_state(curState));
+
+    //  Pruning.
+    //  if (curCell.get_log_prob() < threshLogProb)
+    //      continue;
+
+    //  Loop through arcs exiting current state.
+    int arcCnt = graph.get_arc_count(curState);
+    int arcId = graph.get_first_arc_id(curState);
+    for (int arcIdx = 0; arcIdx < arcCnt; ++arcIdx) {
+      Arc arc;
+      arcId = graph.get_arc(arcId, arc);
+      bool hasGmm = (arc.get_gmm() >= 0);
+      if (hasGmm) continue;
+      int dstState = arc.get_dst_state();
+
+      //  Fill in update of destination cell here.
+      double transitionProb = arc.get_log_prob();
+      double obervationProb = 0.0;
+      double logProb = curCell.get_log_prob() +    // Viterbi prob at t-1
+                       transitionProb +            // a_ij
+                       acousWgt * obervationProb;  // b_j(ot)
+      FrameCell& dstCell = curFrame.insert_cell(dstState);
+      if (logProb > dstCell.get_log_prob()) {
+        dstCell.assign(logProb,
+                       0);  // set node index to 0 here for part3
+      }
+    }
+  }  // end while(curState)
 
   //
   //  END_LAB
