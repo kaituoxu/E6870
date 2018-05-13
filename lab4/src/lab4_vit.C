@@ -177,7 +177,6 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
   FrameCell& startCell = curFrame.insert_cell(graph.get_start_state());
   startCell.assign(0.0, wordTree.get_root_node());
   double maxLogProb = g_zeroLogProb;
-  double threshLogProb = g_zeroLogProb;
 
   //  Iterate over frames.
   for (int frmIdx = 0; frmIdx <= frmCnt; ++frmIdx) {
@@ -188,8 +187,23 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
     nextFrame.clear();
 
     //  Compute pruning threshold here, if desired.
-    threshLogProb = maxLogProb - beamLogProb;
+    //  Beam pruning threshold
+    double beamThreshold = maxLogProb - beamLogProb;
     maxLogProb = g_zeroLogProb;
+    //  Rank pruning threshold
+    //  TODO: Maybe use heap-sort to speed up this process
+    double rankThreshold = g_zeroLogProb;
+    if (beamStateCnt > 0 && curFrame.size() > beamStateCnt) {
+      vector<double> logProbs;
+      for (int cellIdx = 0; cellIdx < curFrame.size(); ++cellIdx) {
+        const FrameCell& curCell = curFrame.get_cell_by_index(cellIdx);
+        logProbs.push_back(curCell.get_log_prob());
+      }
+      std::sort(logProbs.begin(), logProbs.end(), greater<double>());
+      rankThreshold = logProbs[beamStateCnt - 1];
+    }
+    // Rank pruning END
+    double pruneThreshold = max(beamThreshold, rankThreshold);
 
     //  Loop through active states in numeric order;
     //  assumes graph has been topologically sorted w.r.t.
@@ -204,7 +218,7 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
       unsigned srcWordTreeIdx = curCell.get_node_index();
 
       //  Pruning.
-      if (curCell.get_log_prob() < threshLogProb) continue;
+      if (curCell.get_log_prob() < pruneThreshold) continue;
 
       //  Loop through arcs exiting current state.
       int arcCnt = graph.get_arc_count(curState);
@@ -227,20 +241,19 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
         FrameCell* dstCell = NULL;
         if (hasGmm) {
           if (frmIdx == frmCnt) continue;
-          obervationProb = gmmProbs(frmIdx, arc.get_gmm());
+          obervationProb = acousWgt * gmmProbs(frmIdx, arc.get_gmm());
           dstCell = &nextFrame.insert_cell(dstState);
         } else {
           dstCell = &curFrame.insert_cell(dstState);
         }
-        double logProb = curCell.get_log_prob() +    // Viterbi prob at t-1
-                         transitionProb +            // a_ij
-                         acousWgt * obervationProb;  // b_j(ot)
+        double logProb = curCell.get_log_prob() +  // Viterbi prob at t-1
+                         transitionProb +          // a_ij
+                         obervationProb;           // b_j(ot)
         if (logProb > dstCell->get_log_prob()) {
-          dstCell->assign(
-              logProb,
-              dstWordTreeIdx);  // set node index to 0 here for part3
+          dstCell->assign(logProb, dstWordTreeIdx);
         }
-        if (logProb > maxLogProb) maxLogProb = logProb;
+        // update beam pruning threshold
+        if (hasGmm && logProb > maxLogProb) maxLogProb = logProb;
       }
     }  // end while(curState)
 
