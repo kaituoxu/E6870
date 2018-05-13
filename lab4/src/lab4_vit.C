@@ -176,9 +176,11 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
   //  Init logprob and traceback for start state at frame 0.
   FrameCell& startCell = curFrame.insert_cell(graph.get_start_state());
   startCell.assign(0.0, wordTree.get_root_node());
+  double maxLogProb = g_zeroLogProb;
+  double threshLogProb = g_zeroLogProb;
 
   //  Iterate over frames.
-  for (int frmIdx = 0; frmIdx < frmCnt; ++frmIdx) {
+  for (int frmIdx = 0; frmIdx <= frmCnt; ++frmIdx) {
     //  Active cells for frame "frmIdx" are held in "curFrame".
     //  Active cells for frame "frmIdx+1" are held in "nextFrame".
 
@@ -186,6 +188,8 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
     nextFrame.clear();
 
     //  Compute pruning threshold here, if desired.
+    threshLogProb = maxLogProb - beamLogProb;
+    maxLogProb = g_zeroLogProb;
 
     //  Loop through active states in numeric order;
     //  assumes graph has been topologically sorted w.r.t.
@@ -200,8 +204,7 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
       unsigned srcWordTreeIdx = curCell.get_node_index();
 
       //  Pruning.
-      //  if (curCell.get_log_prob() < threshLogProb)
-      //      continue;
+      if (curCell.get_log_prob() < threshLogProb) continue;
 
       //  Loop through arcs exiting current state.
       int arcCnt = graph.get_arc_count(curState);
@@ -220,17 +223,24 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
                           : wordTree.insert_node(srcWordTreeIdx, wordIdx));
         //  Process Viterbi log prob
         double transitionProb = arc.get_log_prob();
-        double obervationProb =
-            (hasGmm ? gmmProbs(frmIdx, arc.get_gmm()) : 0.0);
+        double obervationProb = 0.0;
+        FrameCell* dstCell = NULL;
+        if (hasGmm) {
+          if (frmIdx == frmCnt) continue;
+          obervationProb = gmmProbs(frmIdx, arc.get_gmm());
+          dstCell = &nextFrame.insert_cell(dstState);
+        } else {
+          dstCell = &curFrame.insert_cell(dstState);
+        }
         double logProb = curCell.get_log_prob() +    // Viterbi prob at t-1
                          transitionProb +            // a_ij
                          acousWgt * obervationProb;  // b_j(ot)
-        FrameCell& dstCell = (hasGmm ? nextFrame.insert_cell(dstState)
-                                     : curFrame.insert_cell(dstState));
-        if (logProb > dstCell.get_log_prob()) {
-          dstCell.assign(logProb,
-                         dstWordTreeIdx);  // set node index to 0 here for part3
+        if (logProb > dstCell->get_log_prob()) {
+          dstCell->assign(
+              logProb,
+              dstWordTreeIdx);  // set node index to 0 here for part3
         }
+        if (logProb > maxLogProb) maxLogProb = logProb;
       }
     }  // end while(curState)
 
@@ -243,51 +253,6 @@ double do_viterbi(const Graph& graph, const matrix<double>& gmmProbs,
       curFrame.swap(nextFrame);
     }
   }  // end for(frmIdx)
-
-  // Process skip arcs for frmCnt-th frame
-  // curFrame holds info of frmCnt-th frame
-  curFrame.reset_iteration();
-  int curState;
-  while (((curState = curFrame.get_next_state())) >= 0) {
-    //  Find cell corresponding to "curState".
-    //  Make copy here, because cells in FrameData object
-    //  can move in memory if new cells are inserted.
-    FrameCell curCell(curFrame.get_cell_by_state(curState));
-    unsigned srcWordTreeIdx = curCell.get_node_index();
-
-    //  Pruning.
-    //  if (curCell.get_log_prob() < threshLogProb)
-    //      continue;
-
-    //  Loop through arcs exiting current state.
-    int arcCnt = graph.get_arc_count(curState);
-    int arcId = graph.get_first_arc_id(curState);
-    for (int arcIdx = 0; arcIdx < arcCnt; ++arcIdx) {
-      Arc arc;
-      arcId = graph.get_arc(arcId, arc);
-      bool hasGmm = (arc.get_gmm() >= 0);
-      if (hasGmm) continue;
-      int dstState = arc.get_dst_state();
-
-      //  Fill in update of destination cell here.
-      //  Process word sequence (Token Passing)
-      unsigned wordIdx = arc.get_word();
-      int dstWordTreeIdx =
-          (wordIdx == 0 ? srcWordTreeIdx
-                        : wordTree.insert_node(srcWordTreeIdx, wordIdx));
-      //  Process Viterbi log prob
-      double transitionProb = arc.get_log_prob();
-      double obervationProb = 0.0;
-      double logProb = curCell.get_log_prob() +    // Viterbi prob at t-1
-                       transitionProb +            // a_ij
-                       acousWgt * obervationProb;  // b_j(ot)
-      FrameCell& dstCell = curFrame.insert_cell(dstState);
-      if (logProb > dstCell.get_log_prob()) {
-        dstCell.assign(logProb,
-                       dstWordTreeIdx);  // set node index to 0 here for part3
-      }
-    }
-  }  // end while(curState)
 
   //
   //  END_LAB

@@ -10,8 +10,8 @@ while [[ ( $# -gt 0 ) && ( "$1" == -?* ) ]] ; do
     esac
 done
 
-if [[ -e lab4_vit ]] ; then
-    binStr="lab4_vit"
+if [[ -e ./src/lab4_vit ]] ; then
+    binStr="./src/lab4_vit"
 elif [[ -e Lab4Vit.class ]] ; then
     binStr="java Lab4Vit"
 else
